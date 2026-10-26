@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "mods/cad-world-type-lock-1.0.0.jar",
+      "sizeBytes": 18407,
+      "sha256": "53068fe81266ad9a0679a7499d2e36f3f21f25b6fe3a832b16772c815b64efa4",
+      "modIds": [
+        "cad_world_type_lock"
+      ],
+      "websiteUrl": "https://github.com/MarkZamore/Caves-and-Dungeons"
+    }
+  ]
+}

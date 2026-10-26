@@ -1,0 +1,7 @@
+[
+  {
+    "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+    "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+    "reason": "Private dedicated QA only: Oculus shader renderer constructs net.minecraft.client.gui.screens.Screen on DEDICATED_SERVER and fails mod construction. The ordinary client distribution retains this original JAR."
+  }
+]

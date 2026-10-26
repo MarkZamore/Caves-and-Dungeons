@@ -1,0 +1,1485 @@
+{
+  "schemaVersion": 1,
+  "packId": "caves-and-dungeons",
+  "upstreamArchiveSha256": "b7d41eea56ebf42c7eb115b00cfc2840cda28f1d222ca9edc853b3aeec09df5e",
+  "files": [
+    {
+      "projectId": 60089,
+      "fileId": 5338457,
+      "fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "sizeBytes": 76237,
+      "sourceUrl": "https://edge.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "title": "Mouse Tweaks (by YaLTeR)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/60089/files/5338457",
+      "included": true,
+      "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
+    },
+    {
+      "projectId": 228525,
+      "fileId": 5423987,
+      "fileName": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+      "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
+      "sizeBytes": 343962,
+      "sourceUrl": "https://edge.forgecdn.net/files/5423/987/Bookshelf-Forge-1.20.1-20.2.13.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+      "title": "Bookshelf (by DarkhaxDev)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/228525/files/5423987",
+      "included": true,
+      "sha256": "c31fed2c1a1c0d72d3ef996bb84521b7d6a8fbd3115c89c001f13a7ffd56f64b"
+    },
+    {
+      "projectId": 238222,
+      "fileId": 6075247,
+      "fileName": "jei-1.20.1-forge-15.20.0.106.jar",
+      "path": "mods/jei-1.20.1-forge-15.20.0.106.jar",
+      "sizeBytes": 1379220,
+      "sourceUrl": "https://edge.forgecdn.net/files/6075/247/jei-1.20.1-forge-15.20.0.106.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "title": "Just Enough Items (JEI) (by mezz)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/238222/files/6075247",
+      "included": true,
+      "sha256": "e3d8f2c4028fa431368d42bde25b92b2210bddd2e1fb59a932d0c2cc62dd3587"
+    },
+    {
+      "projectId": 238551,
+      "fileId": 5794082,
+      "fileName": "gravestone-forge-1.20.1-1.0.24.jar",
+      "path": "mods/gravestone-forge-1.20.1-1.0.24.jar",
+      "sizeBytes": 316050,
+      "sourceUrl": "https://edge.forgecdn.net/files/5794/082/gravestone-forge-1.20.1-1.0.24.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/gravestone-mod",
+      "title": "GraveStone Mod (by henkelmax)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/238551/files/5794082",
+      "included": true,
+      "sha256": "f4dfc92a9be4147155817229dbab0d46d5f4ce612b382693b65874afda83d758"
+    },
+    {
+      "projectId": 239197,
+      "fileId": 6156588,
+      "fileName": "CraftTweaker-forge-1.20.1-14.0.55.jar",
+      "path": "mods/CraftTweaker-forge-1.20.1-14.0.55.jar",
+      "sizeBytes": 3263745,
+      "sourceUrl": "https://edge.forgecdn.net/files/6156/588/CraftTweaker-forge-1.20.1-14.0.55.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker",
+      "title": "CraftTweaker (by Jaredlll08)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/239197/files/6156588",
+      "included": true,
+      "sha256": "2ec6bd8660d55ac1174dbd8c05176d7a04f2ccefd211c3a2d233346faf75c2e5"
+    },
+    {
+      "projectId": 243121,
+      "fileId": 5594847,
+      "fileName": "Quark-4.0-460.jar",
+      "path": "mods/Quark-4.0-460.jar",
+      "sizeBytes": 14818038,
+      "sourceUrl": "https://edge.forgecdn.net/files/5594/847/Quark-4.0-460.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/quark",
+      "title": "Quark (by Vazkii)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/243121/files/5594847",
+      "included": true,
+      "sha256": "cf3f30dbd1a84dcacf59085f772617d97d6748eb58967b9871c17f83d6bec825"
+    },
+    {
+      "projectId": 243190,
+      "fileId": 6131011,
+      "fileName": "ShoulderSurfing-Forge-1.20.1-4.9.1.jar",
+      "path": "mods/ShoulderSurfing-Forge-1.20.1-4.9.1.jar",
+      "sizeBytes": 255978,
+      "sourceUrl": "https://edge.forgecdn.net/files/6131/011/ShoulderSurfing-Forge-1.20.1-4.9.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded",
+      "title": "Shoulder Surfing Reloaded (by _ForgeUser21552638)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/243190/files/6131011",
+      "included": true,
+      "sha256": "99392996ca40455629b0833d9e98786f113e7780ceaf0389c863270bfcbcffc7"
+    },
+    {
+      "projectId": 245755,
+      "fileId": 6156671,
+      "fileName": "waystones-forge-1.20.1-14.1.9.jar",
+      "path": "mods/waystones-forge-1.20.1-14.1.9.jar",
+      "sizeBytes": 484625,
+      "sourceUrl": "https://edge.forgecdn.net/files/6156/671/waystones-forge-1.20.1-14.1.9.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+      "title": "Waystones (by BlayTheNinth)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/245755/files/6156671",
+      "included": true,
+      "sha256": "cc7f59162a8e57b71a9f3161eb3fee8df95aa435efef716e0801be8b5734e0d7"
+    },
+    {
+      "projectId": 248787,
+      "fileId": 4770828,
+      "fileName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sizeBytes": 47428,
+      "sourceUrl": "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "title": "AppleSkin (by squeek502)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/248787/files/4770828",
+      "included": true,
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+    },
+    {
+      "projectId": 252848,
+      "fileId": 4712189,
+      "fileName": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "path": "mods/NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "sizeBytes": 215119,
+      "sourceUrl": "https://edge.forgecdn.net/files/4712/189/NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
+      "title": "Nature's Compass (by Chaosyr)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/252848/files/4712189",
+      "included": true,
+      "sha256": "28e05589c9e4021d9504c9eea387ed4e80adcdcd0626a9623a53754cfa69f7bf"
+    },
+    {
+      "projectId": 308989,
+      "fileId": 5281700,
+      "fileName": "caelus-forge-3.2.0+1.20.1.jar",
+      "path": "mods/caelus-forge-3.2.0+1.20.1.jar",
+      "sizeBytes": 40125,
+      "sourceUrl": "https://edge.forgecdn.net/files/5281/700/caelus-forge-3.2.0%2B1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/caelus",
+      "title": "Caelus API (Forge/NeoForge) (by TheIllusiveC4)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/308989/files/5281700",
+      "included": true,
+      "sha256": "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368"
+    },
+    {
+      "projectId": 309927,
+      "fileId": 6058834,
+      "fileName": "curios-forge-5.11.1+1.20.1.jar",
+      "path": "mods/curios-forge-5.11.1+1.20.1.jar",
+      "sizeBytes": 390918,
+      "sourceUrl": "https://edge.forgecdn.net/files/6058/834/curios-forge-5.11.1%2B1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/curios",
+      "title": "Curios API (Forge/NeoForge) (by TheIllusiveC4)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/309927/files/6058834",
+      "included": true,
+      "sha256": "6ab1eb98d412bd505933abb3cdbc625035ce1256d290d9fdc36ed535d267011b"
+    },
+    {
+      "projectId": 312353,
+      "fileId": 5693342,
+      "fileName": "artifacts-forge-9.5.13.jar",
+      "path": "mods/artifacts-forge-9.5.13.jar",
+      "sizeBytes": 843867,
+      "sourceUrl": "https://edge.forgecdn.net/files/5693/342/artifacts-forge-9.5.13.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/artifacts",
+      "title": "Artifacts (by ochotonida)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/312353/files/5693342",
+      "included": true,
+      "sha256": "1fe815b1dbd12782ae56080bf7d777922f5a9a4ec45c132dff46ebaa157d9a70",
+      "modPages": {
+        "expandability": "https://www.curseforge.com/minecraft/mc-mods/expandability",
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jars/expandability-forge-9.0.4.jar",
+          "modId": "expandability",
+          "version": "9.0.4",
+          "authors": "Florens",
+          "sizeBytes": 80765,
+          "sha256": "c1f7c3ba5873bb4797d2124c57bab3189acdb62d02f63217db1456d232dac20f",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/expandability"
+        },
+        {
+          "path": "META-INF/jars/mixinextras-forge-0.3.5.jar",
+          "modId": "mixinextras",
+          "version": "0.3.5",
+          "authors": "LlamaLad7",
+          "sizeBytes": 159534,
+          "sha256": "edf39b18f803e6201abc7a7c583dd0c9aebb1c638f4e64170505b4837fac8967",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 317780,
+      "fileId": 9067273,
+      "fileName": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "path": "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "sizeBytes": 1429424,
+      "sourceUrl": "https://edge.forgecdn.net/files/9067/273/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+      "title": "Xaero's World Map (by xaero96)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/317780/files/9067273",
+      "included": true,
+      "sha256": "88c6d844163c95a94d92bc6d87d9011cc840bd6207c3099a81b113d4450a3f6b",
+      "modPages": {
+        "xaerolib": "https://www.curseforge.com/minecraft/mc-mods/xaerolib"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jarjar/xaerolib-forge-1.20.1-1.7.3.jar",
+          "modId": "xaerolib",
+          "version": "1.7.3",
+          "authors": "xaero96",
+          "sizeBytes": 573154,
+          "sha256": "99fa706a2b8d6a1cc27390639a09fe366c084e34b5614a4b96992522ca425a96",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaerolib"
+        }
+      ]
+    },
+    {
+      "projectId": 324973,
+      "fileId": 6047153,
+      "fileName": "Dungeon Crawl-1.20.1-2.3.15.jar",
+      "path": "mods/Dungeon Crawl-1.20.1-2.3.15.jar",
+      "sizeBytes": 758123,
+      "sourceUrl": "https://edge.forgecdn.net/files/6047/153/Dungeon%20Crawl-1.20.1-2.3.15.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl",
+      "title": "Dungeon Crawl (by xiroc_)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/324973/files/6047153",
+      "included": true,
+      "sha256": "71e1b8ceaf20c3102ae42ef2761ca47f30fe4cbd20ecbb687df2ce75d1785514"
+    },
+    {
+      "projectId": 326652,
+      "fileId": 5470032,
+      "fileName": "cupboard-1.20.1-2.7.jar",
+      "path": "mods/cupboard-1.20.1-2.7.jar",
+      "sizeBytes": 25983,
+      "sourceUrl": "https://edge.forgecdn.net/files/5470/032/cupboard-1.20.1-2.7.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cupboard",
+      "title": "Cupboard (by someaddon)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/326652/files/5470032",
+      "included": true,
+      "sha256": "63a1b6e8e9cffd53f283fae04f64b8d63dcaaa99fe0e383bb664f23ec87d395f"
+    },
+    {
+      "projectId": 331936,
+      "fileId": 6002521,
+      "fileName": "citadel-2.6.1-1.20.1.jar",
+      "path": "mods/citadel-2.6.1-1.20.1.jar",
+      "sizeBytes": 3173637,
+      "sourceUrl": "https://edge.forgecdn.net/files/6002/521/citadel-2.6.1-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/citadel",
+      "title": "Citadel (by sbom_xela)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/331936/files/6002521",
+      "included": true,
+      "sha256": "8ceb5eb471c6feb899c02a9d560917dcc460cd0cb0d6b77d3237889cffb7e1d9"
+    },
+    {
+      "projectId": 342584,
+      "fileId": 5840216,
+      "fileName": "collective-1.20.1-7.87.jar",
+      "path": "mods/collective-1.20.1-7.87.jar",
+      "sizeBytes": 648876,
+      "sourceUrl": "https://edge.forgecdn.net/files/5840/216/collective-1.20.1-7.87.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/collective",
+      "title": "Collective (by Serilum)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/342584/files/5840216",
+      "included": true,
+      "sha256": "57022326808f31ce7bab1e4c169dbbfec320815c9ac10d0aca40f174b5a699f3"
+    },
+    {
+      "projectId": 348521,
+      "fileId": 5729105,
+      "fileName": "cloth-config-11.1.136-forge.jar",
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "sizeBytes": 1181413,
+      "sourceUrl": "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "title": "Cloth Config API (Fabric/Forge/NeoForge) (by shedaniel)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/348521/files/5729105",
+      "included": true,
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+    },
+    {
+      "projectId": 349630,
+      "fileId": 4770975,
+      "fileName": "WI-Zoom-1.5-MC1.20.1-Forge.jar",
+      "path": "mods/WI-Zoom-1.5-MC1.20.1-Forge.jar",
+      "sizeBytes": 141897,
+      "sourceUrl": "https://edge.forgecdn.net/files/4770/975/WI-Zoom-1.5-MC1.20.1-Forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/wi-zoom",
+      "title": "WI Zoom (by alexander9892)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/349630/files/4770975",
+      "included": true,
+      "sha256": "76a7b8e701d0ef27b1836a300ebd65b48193d211c0032511c943472fa653d883"
+    },
+    {
+      "projectId": 353928,
+      "fileId": 6002825,
+      "fileName": "BotanyPots-Forge-1.20.1-13.0.40.jar",
+      "path": "mods/BotanyPots-Forge-1.20.1-13.0.40.jar",
+      "sizeBytes": 1056976,
+      "sourceUrl": "https://edge.forgecdn.net/files/6002/825/BotanyPots-Forge-1.20.1-13.0.40.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/botany-pots",
+      "title": "Botany Pots (by DarkhaxDev)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/353928/files/6002825",
+      "included": true,
+      "sha256": "066c14217b3ca016ec5ff0dfb2aae6128ca4fffe4e1dd10f7fdbf9ba36f597e8"
+    },
+    {
+      "projectId": 363703,
+      "fileId": 4802505,
+      "fileName": "goblintraders-forge-1.20.1-1.9.3.jar",
+      "path": "mods/goblintraders-forge-1.20.1-1.9.3.jar",
+      "sizeBytes": 320235,
+      "sourceUrl": "https://edge.forgecdn.net/files/4802/505/goblintraders-forge-1.20.1-1.9.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/goblin-traders",
+      "title": "Goblin Traders (by MrCrayfish)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/363703/files/4802505",
+      "included": true,
+      "sha256": "ff114b109d4db541178f3ea0bb87f7709799fe6565e5c709267c836b50d7b1db"
+    },
+    {
+      "projectId": 368293,
+      "fileId": 5331403,
+      "fileName": "repurposed_structures-7.1.15+1.20.1-forge.jar",
+      "path": "mods/repurposed_structures-7.1.15+1.20.1-forge.jar",
+      "sizeBytes": 8131546,
+      "sourceUrl": "https://edge.forgecdn.net/files/5331/403/repurposed_structures-7.1.15%2B1.20.1-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/repurposed-structures",
+      "title": "Repurposed Structures (Neoforge/Forge) (by telepathicgrunt)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/368293/files/5331403",
+      "included": true,
+      "sha256": "3340892a8b122c2c211e29fb8b7edc8b673a18a6016f122324f31f6eb594ab02",
+      "modPages": {
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jars/mixinextras-forge-0.2.0-beta.7.jar",
+          "modId": "mixinextras",
+          "version": "0.2.0-beta.7",
+          "authors": "LlamaLad7",
+          "sizeBytes": 96545,
+          "sha256": "fc1e9f0fe6d2f9059afe0d38408939c3410ac55c5c6afba3889b6e3b8a387de4",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 378802,
+      "fileId": 5278429,
+      "fileName": "structure_gel-1.20.1-2.16.2.jar",
+      "path": "mods/structure_gel-1.20.1-2.16.2.jar",
+      "sizeBytes": 966028,
+      "sourceUrl": "https://edge.forgecdn.net/files/5278/429/structure_gel-1.20.1-2.16.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/structure-gel-api",
+      "title": "Structure Gel API (by ModdingLegacy)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/378802/files/5278429",
+      "included": true,
+      "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+    },
+    {
+      "projectId": 382216,
+      "fileId": 6143229,
+      "fileName": "blueprint-1.20.1-7.1.1.jar",
+      "path": "mods/blueprint-1.20.1-7.1.1.jar",
+      "sizeBytes": 1136146,
+      "sourceUrl": "https://edge.forgecdn.net/files/6143/229/blueprint-1.20.1-7.1.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/blueprint",
+      "title": "Blueprint (by TeamAbnormals)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/382216/files/6143229",
+      "included": true,
+      "sha256": "eb060e0b699df83ef6c922e464a13ae0b6c5b585e5e01b257d44fb400ab6af46"
+    },
+    {
+      "projectId": 388172,
+      "fileId": 6027567,
+      "fileName": "geckolib-forge-1.20.1-4.7.jar",
+      "path": "mods/geckolib-forge-1.20.1-4.7.jar",
+      "sizeBytes": 1004042,
+      "sourceUrl": "https://edge.forgecdn.net/files/6027/567/geckolib-forge-1.20.1-4.7.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+      "title": "GeckoLib (by Gecko)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/388172/files/6027567",
+      "included": true,
+      "sha256": "34c87687f80d6bc098a9a63fb1dc94c288554c8d7e4903143d8ff1742a4b6261"
+    },
+    {
+      "projectId": 389665,
+      "fileId": 4769063,
+      "fileName": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "sizeBytes": 492998,
+      "sourceUrl": "https://edge.forgecdn.net/files/4769/063/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge",
+      "title": "YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/389665/files/4769063",
+      "included": true,
+      "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+    },
+    {
+      "projectId": 401648,
+      "fileId": 4863626,
+      "fileName": "BetterF3-7.0.2-Forge-1.20.1.jar",
+      "path": "mods/BetterF3-7.0.2-Forge-1.20.1.jar",
+      "sizeBytes": 468517,
+      "sourceUrl": "https://edge.forgecdn.net/files/4863/626/BetterF3-7.0.2-Forge-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/betterf3",
+      "title": "BetterF3 (by cominixo)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/401648/files/4863626",
+      "included": true,
+      "sha256": "e46ced73bdf78a59573a7188cfbe7256353f21a67eef752dc39b5e5816fc61c0"
+    },
+    {
+      "projectId": 411357,
+      "fileId": 6002883,
+      "fileName": "BotanyTrees-Forge-1.20.1-9.0.18.jar",
+      "path": "mods/BotanyTrees-Forge-1.20.1-9.0.18.jar",
+      "sizeBytes": 256540,
+      "sourceUrl": "https://edge.forgecdn.net/files/6002/883/BotanyTrees-Forge-1.20.1-9.0.18.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/botany-trees",
+      "title": "Botany Trees (by DarkhaxDev)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/411357/files/6002883",
+      "included": true,
+      "sha256": "c546e93634d107e500c1f362cae616e1373ed68438840835f210daeb6327c99c"
+    },
+    {
+      "projectId": 419699,
+      "fileId": 5137938,
+      "fileName": "architectury-9.2.14-forge.jar",
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "sizeBytes": 580602,
+      "sourceUrl": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+      "title": "Architectury API (by shedaniel)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/419699/files/5137938",
+      "included": true,
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+    },
+    {
+      "projectId": 421850,
+      "fileId": 5769971,
+      "fileName": "YungsApi-1.20-Forge-4.0.6.jar",
+      "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+      "sizeBytes": 370524,
+      "sourceUrl": "https://edge.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
+      "title": "YUNG's API (Forge) (by YUNGNICKYOUNG)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/421850/files/5769971",
+      "included": true,
+      "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+    },
+    {
+      "projectId": 422301,
+      "fileId": 6161305,
+      "fileName": "sophisticatedbackpacks-1.20.1-3.23.4.1193.jar",
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.23.4.1193.jar",
+      "sizeBytes": 896616,
+      "sourceUrl": "https://edge.forgecdn.net/files/6161/305/sophisticatedbackpacks-1.20.1-3.23.4.1193.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+      "title": "Sophisticated Backpacks (by P3pp3rF1y)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/422301/files/6161305",
+      "included": true,
+      "sha256": "34316422d5180fd752d10db5c30c08b056366459120c0ee30e2f9f72230de3dd"
+    },
+    {
+      "projectId": 426558,
+      "fileId": 5698791,
+      "fileName": "alexsmobs-1.22.9.jar",
+      "path": "mods/alexsmobs-1.22.9.jar",
+      "sizeBytes": 26350793,
+      "sourceUrl": "https://edge.forgecdn.net/files/5698/791/alexsmobs-1.22.9.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs",
+      "title": "Alex's Mobs (by sbom_xela)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/426558/files/5698791",
+      "included": true,
+      "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+    },
+    {
+      "projectId": 444699,
+      "fileId": 5840405,
+      "fileName": "configuration-forge-1.20.1-3.1.0.jar",
+      "path": "mods/configuration-forge-1.20.1-3.1.0.jar",
+      "sizeBytes": 439661,
+      "sourceUrl": "https://edge.forgecdn.net/files/5840/405/configuration-forge-1.20.1-3.1.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/configuration",
+      "title": "Configuration (by Toma)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/444699/files/5840405",
+      "included": true,
+      "sha256": "179ca1a9928920a5d89d73d308e0e78f59083e4e44d869d5cf23a9087fd52c3d"
+    },
+    {
+      "projectId": 448233,
+      "fileId": 5968677,
+      "fileName": "entityculling-forge-1.7.2-mc1.20.1.jar",
+      "path": "mods/entityculling-forge-1.7.2-mc1.20.1.jar",
+      "sizeBytes": 73584,
+      "sourceUrl": "https://edge.forgecdn.net/files/5968/677/entityculling-forge-1.7.2-mc1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
+      "title": "Entity Culling Fabric/Forge (by tr7zw)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/448233/files/5968677",
+      "included": true,
+      "sha256": "3b051b3e6a6229b05ecd04eb15c4f1f3080e3981203d89884221a0b9d396d080"
+    },
+    {
+      "projectId": 455982,
+      "fileId": 6112954,
+      "fileName": "wthit-forge-8.16.1.jar",
+      "path": "mods/wthit-forge-8.16.1.jar",
+      "sizeBytes": 769977,
+      "sourceUrl": "https://edge.forgecdn.net/files/6112/954/wthit-forge-8.16.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/wthit-forge",
+      "title": "WTHIT Forge Edition (by badasintended)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/455982/files/6112954",
+      "included": true,
+      "sha256": "320c3b5b412e2ea5f251be4a761a7c233fdc8d0c4197483d5e2dea27048480e1"
+    },
+    {
+      "projectId": 476662,
+      "fileId": 5546306,
+      "fileName": "more_undrground_structures_1.20.1_8.1.jar",
+      "path": "mods/more_undrground_structures_1.20.1_8.1.jar",
+      "sizeBytes": 297180,
+      "sourceUrl": "https://edge.forgecdn.net/files/5546/306/more_undrground_structures_1.20.1_8.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/more-underground-structures",
+      "title": "more underground structures (by tombkingsts)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/476662/files/5546306",
+      "included": true,
+      "sha256": "35a55a01b5e01f66b13491e90875b7ceb2418184a65bb5754757cf7fc6757a5a"
+    },
+    {
+      "projectId": 480715,
+      "fileId": 5893371,
+      "fileName": "dungeons_enhanced-1.20.1-5.3.0.jar",
+      "path": "mods/dungeons_enhanced-1.20.1-5.3.0.jar",
+      "sizeBytes": 1395850,
+      "sourceUrl": "https://edge.forgecdn.net/files/5893/371/dungeons_enhanced-1.20.1-5.3.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dungeonsenhanced",
+      "title": "Dungeons Enhanced (by Valarauko9)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/480715/files/5893371",
+      "included": true,
+      "sha256": "96d36b78369957196a3e42c6955f2939ab5e1609d3beb2d157c61f00473f43c5"
+    },
+    {
+      "projectId": 484967,
+      "fileId": 5605622,
+      "fileName": "Kobolds-2.12.0.jar",
+      "path": "mods/Kobolds-2.12.0.jar",
+      "sizeBytes": 2435938,
+      "sourceUrl": "https://edge.forgecdn.net/files/5605/622/Kobolds-2.12.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kobolds",
+      "title": "Kobolds! (by Jusey1z)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/484967/files/5605622",
+      "included": true,
+      "sha256": "f5f5dd31ab42e3bda1a1148b91ae62c07daafb9e52905d263c0bbcfbdf9cbabe"
+    },
+    {
+      "projectId": 491794,
+      "fileId": 4712194,
+      "fileName": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
+      "path": "mods/ExplorersCompass-1.20.1-1.3.3-forge.jar",
+      "sizeBytes": 155257,
+      "sourceUrl": "https://edge.forgecdn.net/files/4712/194/ExplorersCompass-1.20.1-1.3.3-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/explorers-compass",
+      "title": "Explorer's Compass (by Chaosyr)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/491794/files/4712194",
+      "included": true,
+      "sha256": "1bc2ee02e3fafd90255a76c90b097008dc563e863118d202adcbd5cdc7e54c21"
+    },
+    {
+      "projectId": 499980,
+      "fileId": 6142466,
+      "fileName": "moonlight-1.20-2.13.58-forge.jar",
+      "path": "mods/moonlight-1.20-2.13.58-forge.jar",
+      "sizeBytes": 1225091,
+      "sourceUrl": "https://edge.forgecdn.net/files/6142/466/moonlight-1.20-2.13.58-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/selene",
+      "title": "Moonlight Lib (by MehVahdJukaar)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/499980/files/6142466",
+      "included": true,
+      "sha256": "3a43f89965f355e5edbedbf1dfd0eb3fc3068ad5f755977091ff14b38461547a",
+      "modPages": {
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jars/mixinextras-forge-0.3.6.jar",
+          "modId": "mixinextras",
+          "version": "0.3.6",
+          "authors": "LlamaLad7",
+          "sizeBytes": 159556,
+          "sha256": "66eeeea6d1751c9f8f3abd32938fe5ee8113ae1a2730a9a29489300ffe02dd0f",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 510089,
+      "fileId": 5271360,
+      "fileName": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "sizeBytes": 792381,
+      "sourceUrl": "https://edge.forgecdn.net/files/5271/360/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
+      "title": "YUNG's Better Dungeons (Forge) (by YUNGNICKYOUNG)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/510089/files/5271360",
+      "included": true,
+      "sha256": "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5"
+    },
+    {
+      "projectId": 526854,
+      "fileId": 4631193,
+      "fileName": "starlight-1.1.2+forge.1cda73c.jar",
+      "path": "mods/starlight-1.1.2+forge.1cda73c.jar",
+      "sizeBytes": 110583,
+      "sourceUrl": "https://edge.forgecdn.net/files/4631/193/starlight-1.1.2%2Bforge.1cda73c.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/starlight-forge",
+      "title": "Starlight (Forge) (by Spottedleaf)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/526854/files/4631193",
+      "included": true,
+      "sha256": "e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500"
+    },
+    {
+      "projectId": 531761,
+      "fileId": 6077684,
+      "fileName": "balm-forge-1.20.1-7.3.11-all.jar",
+      "path": "mods/balm-forge-1.20.1-7.3.11-all.jar",
+      "sizeBytes": 373787,
+      "sourceUrl": "https://edge.forgecdn.net/files/6077/684/balm-forge-1.20.1-7.3.11-all.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/balm",
+      "title": "Balm (by BlayTheNinth)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/531761/files/6077684",
+      "included": true,
+      "sha256": "3fcafab1ee0b5aa2788a723c8bd7c939660e6ee67669659cea79be9fa9ef5d4a",
+      "modPages": {
+        "kuma_api": "https://github.com/TwelveIterations/KumaAPI"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jarjar/kuma-api-forge-20.1.9-SNAPSHOT.jar",
+          "modId": "kuma_api",
+          "version": "20.1.9-SNAPSHOT",
+          "authors": "BlayTheNinth",
+          "sizeBytes": 33055,
+          "sha256": "bd33f08166be9ad8fb7279c0e06e7047f0f3a48b057afecd130d0866bee3ee43",
+          "websiteUrl": "https://github.com/TwelveIterations/KumaAPI"
+        }
+      ]
+    },
+    {
+      "projectId": 547635,
+      "fileId": 4584771,
+      "fileName": "sculkybits-1.0.1-1.20.1.jar",
+      "path": "mods/sculkybits-1.0.1-1.20.1.jar",
+      "sizeBytes": 272190,
+      "sourceUrl": "https://edge.forgecdn.net/files/4584/771/sculkybits-1.0.1-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sculky-bits",
+      "title": "Sculky Bits (by KaboomRoads)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/547635/files/4584771",
+      "included": true,
+      "sha256": "1f4975fd0f09bced4eceeb41ea8024d9021e2d8f47a9af746b156e67ecb33e50"
+    },
+    {
+      "projectId": 549225,
+      "fileId": 5911986,
+      "fileName": "framework-forge-1.20.1-0.7.12.jar",
+      "path": "mods/framework-forge-1.20.1-0.7.12.jar",
+      "sizeBytes": 308420,
+      "sourceUrl": "https://edge.forgecdn.net/files/5911/986/framework-forge-1.20.1-0.7.12.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "title": "Framework (by MrCrayfish)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/549225/files/5911986",
+      "included": true,
+      "sha256": "28ade2da0795ca36de2925e14cb5fe6b4e51ae84c149352fd9690951fe1baf87"
+    },
+    {
+      "projectId": 551520,
+      "fileId": 5723247,
+      "fileName": "betterfpsdist-1.20.1-6.0.jar",
+      "path": "mods/betterfpsdist-1.20.1-6.0.jar",
+      "sizeBytes": 19917,
+      "sourceUrl": "https://edge.forgecdn.net/files/5723/247/betterfpsdist-1.20.1-6.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance",
+      "title": "Better Fps - Render Distance[Forge] (by someaddon)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/551520/files/5723247",
+      "included": true,
+      "sha256": "0fa8855bcdc67962f109a096381107f58917faa64c61dd99b32ae0e738aae4f7"
+    },
+    {
+      "projectId": 563928,
+      "fileId": 5378180,
+      "fileName": "TerraBlender-forge-1.20.1-3.0.1.7.jar",
+      "path": "mods/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+      "sizeBytes": 107534,
+      "sourceUrl": "https://edge.forgecdn.net/files/5378/180/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/terrablender",
+      "title": "TerraBlender (Forge) (by TheAdubbz)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/563928/files/5378180",
+      "included": true,
+      "sha256": "8f00e766f5a75aa52809cf9825817e874ac4b21b5d3f52fb02d40a19ec0b759b"
+    },
+    {
+      "projectId": 570017,
+      "fileId": 5706069,
+      "fileName": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "path": "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "sizeBytes": 713454,
+      "sourceUrl": "https://edge.forgecdn.net/files/5706/069/radium-mc1.20.1-0.12.4%2Bgit.26c9d8e.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/radium-reforged",
+      "title": "Radium Reforged (by Asek3)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/570017/files/5706069",
+      "included": true,
+      "sha256": "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0"
+    },
+    {
+      "projectId": 570073,
+      "fileId": 5659871,
+      "fileName": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "sizeBytes": 432753,
+      "sourceUrl": "https://edge.forgecdn.net/files/5659/871/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib",
+      "title": "Resourceful Lib (by ThatGravyBoat)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/570073/files/5659871",
+      "included": true,
+      "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+    },
+    {
+      "projectId": 574409,
+      "fileId": 5019620,
+      "fileName": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
+      "path": "mods/endermanoverhaul-forge-1.20.1-1.0.4.jar",
+      "sizeBytes": 1208062,
+      "sourceUrl": "https://edge.forgecdn.net/files/5019/620/endermanoverhaul-forge-1.20.1-1.0.4.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul",
+      "title": "Enderman Overhaul (by joosh_7889)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/574409/files/5019620",
+      "included": true,
+      "sha256": "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+    },
+    {
+      "projectId": 581495,
+      "fileId": 6020952,
+      "fileName": "oculus-mc1.20.1-1.8.0.jar",
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "sizeBytes": 2851119,
+      "sourceUrl": "https://edge.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/oculus",
+      "title": "Oculus (by Asek3)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/581495/files/6020952",
+      "included": true,
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+    },
+    {
+      "projectId": 602059,
+      "fileId": 6104454,
+      "fileName": "friendsandfoes-forge-mc1.20.1-3.0.7.jar",
+      "path": "mods/friendsandfoes-forge-mc1.20.1-3.0.7.jar",
+      "sizeBytes": 3626825,
+      "sourceUrl": "https://edge.forgecdn.net/files/6104/454/friendsandfoes-forge-mc1.20.1-3.0.7.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/friends-and-foes-forge",
+      "title": "Friends&Foes (Forge/NeoForge) (Copper Golem,Glare,Crab,Moobloom,Iceologer,Rascal,Tuff Golem,Wildfire,Illusioner) (by Faboslav)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/602059/files/6104454",
+      "included": true,
+      "sha256": "d60c0a1940cee0af9991013b48ffd0c93b9bed160f89e1831221649af55cced0",
+      "modPages": {
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jars/mixinextras-forge-0.3.6.jar",
+          "modId": "mixinextras",
+          "version": "0.3.6",
+          "authors": "LlamaLad7",
+          "sizeBytes": 160005,
+          "sha256": "f130bc467b8356c6f16df54535c778d2770424c7db8efc2377e4e8a3f396cf3a",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 606989,
+      "fileId": 4954861,
+      "fileName": "UndergroundVillages-forge-1.20.1-2.1.0.jar",
+      "path": "mods/UndergroundVillages-forge-1.20.1-2.1.0.jar",
+      "sizeBytes": 282271,
+      "sourceUrl": "https://edge.forgecdn.net/files/4954/861/UndergroundVillages-forge-1.20.1-2.1.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/underground-villages",
+      "title": "Underground Villages (by Mrbysco)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/606989/files/4954861",
+      "included": true,
+      "sha256": "7b02799a380aa2d28f19c68197ac3bc9686e6bb25813f5984bdcfa9265de39f4"
+    },
+    {
+      "projectId": 615134,
+      "fileId": 4784395,
+      "fileName": "badpackets-forge-0.4.3.jar",
+      "path": "mods/badpackets-forge-0.4.3.jar",
+      "sizeBytes": 27919,
+      "sourceUrl": "https://edge.forgecdn.net/files/4784/395/badpackets-forge-0.4.3.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/badpackets",
+      "title": "bad packets (by badasintended)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/615134/files/4784395",
+      "included": true,
+      "sha256": "b621a8e31727324a6010adbfb84fd4dbb78b3c7d87e5a9aebfb4e3223448f1e3"
+    },
+    {
+      "projectId": 618298,
+      "fileId": 6160814,
+      "fileName": "sophisticatedcore-1.20.1-1.2.6.858.jar",
+      "path": "mods/sophisticatedcore-1.20.1-1.2.6.858.jar",
+      "sizeBytes": 1152022,
+      "sourceUrl": "https://edge.forgecdn.net/files/6160/814/sophisticatedcore-1.20.1-1.2.6.858.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
+      "title": "Sophisticated Core (by P3pp3rF1y)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/618298/files/6160814",
+      "included": true,
+      "sha256": "c15575876d57c8a12b1466ff3e29a5f246c8fcf4087456a6476558ed51156fe3"
+    },
+    {
+      "projectId": 628560,
+      "fileId": 4806699,
+      "fileName": "bunker-down 1-1-6 - 1-20-1.jar",
+      "path": "mods/bunker-down 1-1-6 - 1-20-1.jar",
+      "sizeBytes": 852390,
+      "sourceUrl": "https://edge.forgecdn.net/files/4806/699/bunker-down%201-1-6%20-%201-20-1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bunker-down",
+      "title": "Bunker Down (by JAK_the_Cyborg)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/628560/files/4806699",
+      "included": true,
+      "sha256": "109d5e0f09edc39364bd59fdd816f3a8861762392ba159dbcd2baf26e8be6d6e"
+    },
+    {
+      "projectId": 628663,
+      "fileId": 4654671,
+      "fileName": "nonetherportal-1.20.1-1.0.jar",
+      "path": "mods/nonetherportal-1.20.1-1.0.jar",
+      "sizeBytes": 3066,
+      "sourceUrl": "https://edge.forgecdn.net/files/4654/671/nonetherportal-1.20.1-1.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nonetherportal",
+      "title": "No Nether Portal (by CweLTH)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/628663/files/4654671",
+      "included": true,
+      "sha256": "fc4cb139f4adf4576aaee458042d339fec66d23eeada0219d57ffa5550f4cee1"
+    },
+    {
+      "projectId": 631098,
+      "fileId": 4983871,
+      "fileName": "Galosphere-1.20.1-1.4.1-Forge.jar",
+      "path": "mods/Galosphere-1.20.1-1.4.1-Forge.jar",
+      "sizeBytes": 34909449,
+      "sourceUrl": "https://edge.forgecdn.net/files/4983/871/Galosphere-1.20.1-1.4.1-Forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/galosphere",
+      "title": "Galosphere (by orcinus73)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/631098/files/4983871",
+      "included": true,
+      "sha256": "f21385ca7512ba15bd66ac345e60d85916cba9686061892f8f89548aaaeadb96"
+    },
+    {
+      "projectId": 633412,
+      "fileId": 5016280,
+      "fileName": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+      "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+      "sizeBytes": 41044,
+      "sourceUrl": "https://edge.forgecdn.net/files/5016/280/smoothboot%28reloaded%29-mc1.20.1-0.0.4.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/smooth-boot-reloaded",
+      "title": "Smooth Boot (Reloaded) (by AbdElAziz333)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/633412/files/5016280",
+      "included": true,
+      "sha256": "5a0d2682493ffa7b140a7b81f0d1e70c7536c97969397cf9e718e31391b5b9d5"
+    },
+    {
+      "projectId": 667299,
+      "fileId": 5963252,
+      "fileName": "YetAnotherConfigLib-3.6.2+1.20.1-forge.jar",
+      "path": "mods/YetAnotherConfigLib-3.6.2+1.20.1-forge.jar",
+      "sizeBytes": 1111897,
+      "sourceUrl": "https://edge.forgecdn.net/files/5963/252/YetAnotherConfigLib-3.6.2%2B1.20.1-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yacl",
+      "title": "YetAnotherConfigLib (by isXander)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/667299/files/5963252",
+      "included": true,
+      "sha256": "3d2b42a1a2cd48c80e083867fa07969b4cae14246e1723a8d8c7008e80239ff1"
+    },
+    {
+      "projectId": 714059,
+      "fileId": 5020441,
+      "fileName": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "path": "mods/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "sizeBytes": 136630,
+      "sourceUrl": "https://edge.forgecdn.net/files/5020/441/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-config",
+      "title": "Resourceful Config (by ThatGravyBoat)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/714059/files/5020441",
+      "included": true,
+      "sha256": "c4aef41d50e5bb8be8609f1f89919f9caca8363365998688fb6aabac03abf428"
+    },
+    {
+      "projectId": 769203,
+      "fileId": 5890510,
+      "fileName": "Oreganized 1.20.1-3.1.2.jar",
+      "path": "mods/Oreganized 1.20.1-3.1.2.jar",
+      "sizeBytes": 6674089,
+      "sourceUrl": "https://edge.forgecdn.net/files/5890/510/Oreganized%201.20.1-3.1.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/oreganized",
+      "title": "Oreganized (by Binome)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/769203/files/5890510",
+      "included": true,
+      "sha256": "ec2344bb1ee0b95306951bada900582b6870d1ee575aa74a22a593ef040af73c",
+      "modPages": {
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jarjar/mixinextras-forge-0.4.1.jar",
+          "modId": "mixinextras",
+          "version": "0.4.1",
+          "authors": "LlamaLad7",
+          "sizeBytes": 183573,
+          "sha256": "9d48cb0a40299d283248fdad8b02c6d175c45b27f9bec48ef63d7ee8a4ee3066",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 790530,
+      "fileId": 6122072,
+      "fileName": "spelunkery-1.20.1-0.3.16-forge.jar",
+      "path": "mods/spelunkery-1.20.1-0.3.16-forge.jar",
+      "sizeBytes": 2754568,
+      "sourceUrl": "https://edge.forgecdn.net/files/6122/072/spelunkery-1.20.1-0.3.16-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spelunkery",
+      "title": "Spelunkery (by OrdanaryMods)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/790530/files/6122072",
+      "included": true,
+      "sha256": "453bcccc18e64c6fb43130ae2b8317aa289204f75477db5dddfb6db6175f8975"
+    },
+    {
+      "projectId": 818324,
+      "fileId": 4721801,
+      "fileName": "Illuminative-mc1.20.1-1.2.0.jar",
+      "path": "mods/Illuminative-mc1.20.1-1.2.0.jar",
+      "sizeBytes": 262664,
+      "sourceUrl": "https://edge.forgecdn.net/files/4721/801/Illuminative-mc1.20.1-1.2.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/illuminative",
+      "title": "Illuminative (by MCModder)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/818324/files/4721801",
+      "included": true,
+      "sha256": "6c2ebc5b55d1f1b3320855ad05475d3f5e227858d740768cbe613e6696f19223",
+      "metadataException": "Withdrawn API metadata; exact original file retained on official CurseForge CDN and pinned by SHA-256"
+    },
+    {
+      "projectId": 822831,
+      "fileId": 4706474,
+      "fileName": "Difficult Caves 1.0.0 - 1.20.1.jar",
+      "path": "mods/Difficult Caves 1.0.0 - 1.20.1.jar",
+      "sizeBytes": 9866,
+      "sourceUrl": "https://edge.forgecdn.net/files/4706/474/Difficult%20Caves%201.0.0%20-%201.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/difficult-caves",
+      "title": "Difficult Caves (by InfernalEclipse)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/822831/files/4706474",
+      "included": true,
+      "sha256": "12de80d4f895d576c3cc772107dfa10ba0aa1ea865253f8ff83ef2b73ff15fa9"
+    },
+    {
+      "projectId": 832882,
+      "fileId": 6132077,
+      "fileName": "structureessentials-1.20.1-4.2.jar",
+      "path": "mods/structureessentials-1.20.1-4.2.jar",
+      "sizeBytes": 50834,
+      "sourceUrl": "https://edge.forgecdn.net/files/6132/077/structureessentials-1.20.1-4.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/structure-essentials-forge-fabric",
+      "title": "Structure Essentials[Forge/Fabric] (by someaddon)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/832882/files/6132077",
+      "included": true,
+      "sha256": "1b508084c833554f5df33f9a6991b659afbe7073576bf99a31f3b8de065fa57f"
+    },
+    {
+      "projectId": 853794,
+      "fileId": 5206484,
+      "fileName": "dungeons-and-taverns-3.0.3.f[Forge].jar",
+      "path": "mods/dungeons-and-taverns-3.0.3.f[Forge].jar",
+      "sizeBytes": 13161907,
+      "sourceUrl": "https://edge.forgecdn.net/files/5206/484/dungeons-and-taverns-3.0.3.f%5BForge%5D.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dungeon-and-taverns",
+      "title": "Dungeons and Taverns (by Nova_Wostra)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/853794/files/5206484",
+      "included": true,
+      "sha256": "251b531ff2882c61a4c2eba3bd7b1683aa22b6c2d459e27bfde04a2948c99e1e"
+    },
+    {
+      "projectId": 867868,
+      "fileId": 4685249,
+      "fileName": "Copperative 1.20.1--1.1.0.jar",
+      "path": "mods/Copperative 1.20.1--1.1.0.jar",
+      "sizeBytes": 737791,
+      "sourceUrl": "https://edge.forgecdn.net/files/4685/249/Copperative%201.20.1--1.1.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/copperative",
+      "title": "Copperative (by Binome)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/867868/files/4685249",
+      "included": true,
+      "sha256": "7d010e86e2aa2a34a531c54a629b385b831473080d8a08f98585f62bb710e3bb"
+    },
+    {
+      "projectId": 871755,
+      "fileId": 5751145,
+      "fileName": "exposure-1.20.1-1.7.7-forge.jar",
+      "path": "mods/exposure-1.20.1-1.7.7-forge.jar",
+      "sizeBytes": 1326106,
+      "sourceUrl": "https://edge.forgecdn.net/files/5751/145/exposure-1.20.1-1.7.7-forge.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/exposure",
+      "title": "Exposure (by mortuusars)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/871755/files/5751145",
+      "included": true,
+      "sha256": "34fadeb21c2777ab0f13bb0632b3260512fff331ba48d446a8ca782e0cdac9b9"
+    },
+    {
+      "projectId": 882911,
+      "fileId": 5157225,
+      "fileName": "DeeperCaves-1.20.1-1.2.7.jar",
+      "path": "mods/DeeperCaves-1.20.1-1.2.7.jar",
+      "sizeBytes": 2006489,
+      "sourceUrl": "https://edge.forgecdn.net/files/5157/225/DeeperCaves-1.20.1-1.2.7.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/deeper-caves",
+      "title": "Deeper Caves (by Truly)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/882911/files/5157225",
+      "included": true,
+      "sha256": "16d615ed9542962bb89e038a599c8c15e5172aaa6707f7694f9df216bf1bc191"
+    },
+    {
+      "projectId": 901344,
+      "fileId": 5193815,
+      "fileName": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+      "path": "mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+      "sizeBytes": 387111,
+      "sourceUrl": "https://edge.forgecdn.net/files/5193/815/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island",
+      "title": "YUNG's Better End Island (Forge) (by YUNGNICKYOUNG)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/901344/files/5193815",
+      "included": true,
+      "sha256": "05c2f43a67116f0bbca32d903b55ce1655b9319ed6554080de02bd1d0c232a83"
+    },
+    {
+      "projectId": 908231,
+      "fileId": 6048555,
+      "fileName": "Lampcrafting1.0.7_forge_minecraft1.20.1.jar",
+      "path": "mods/Lampcrafting1.0.7_forge_minecraft1.20.1.jar",
+      "sizeBytes": 1948224,
+      "sourceUrl": "https://edge.forgecdn.net/files/6048/555/Lampcrafting1.0.7_forge_minecraft1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/lampcrafting",
+      "title": "Lampcrafting (by Live)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/908231/files/6048555",
+      "included": true,
+      "sha256": "448a57d9debdcfed326a8de441e395437baa96cd4608499b0dd2b448c279d05e"
+    },
+    {
+      "projectId": 908741,
+      "fileId": 5681725,
+      "fileName": "embeddium-0.3.31+mc1.20.1.jar",
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "sizeBytes": 1320675,
+      "sourceUrl": "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31%2Bmc1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+      "title": "Embeddium (by FiniteReality)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/908741/files/5681725",
+      "included": true,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "modPages": {
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jarjar/mixinextras-forge-0.3.5.jar",
+          "modId": "mixinextras",
+          "version": "0.3.5",
+          "authors": "LlamaLad7",
+          "sizeBytes": 159534,
+          "sha256": "edf39b18f803e6201abc7a7c583dd0c9aebb1c638f4e64170505b4837fac8967",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 918314,
+      "fileId": 5268282,
+      "fileName": "underground-jungle-forge-20.1.2.jar",
+      "path": "mods/underground-jungle-forge-20.1.2.jar",
+      "sizeBytes": 361255,
+      "sourceUrl": "https://edge.forgecdn.net/files/5268/282/underground-jungle-forge-20.1.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/underground-jungle",
+      "title": "Underground Jungle (by HexagonNico)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/918314/files/5268282",
+      "included": true,
+      "sha256": "14251a371ba32611baa6616c08ae14eabedd2cb41fe07becf71410cd9b7bf000"
+    },
+    {
+      "projectId": 920416,
+      "fileId": 4785955,
+      "fileName": "dungeons-and-taverns-stronghold-rework-1 [Forge].jar",
+      "path": "mods/dungeons-and-taverns-stronghold-rework-1 [Forge].jar",
+      "sizeBytes": 3461111,
+      "sourceUrl": "https://edge.forgecdn.net/files/4785/955/dungeons-and-taverns-stronghold-rework-1%20%5BForge%5D.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dnt-stronghold-overhaul",
+      "title": "DnT Stronghold Overhaul (by Nova_Wostra)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/920416/files/4785955",
+      "included": true,
+      "sha256": "6ceed00d078b1b6b465c2f7f638a01621fb01752bd0f6094b7ff56f5b9ffc864"
+    },
+    {
+      "projectId": 924854,
+      "fileId": 5848216,
+      "fileName": "alexscaves-2.0.2.jar",
+      "path": "mods/alexscaves-2.0.2.jar",
+      "sizeBytes": 74871657,
+      "sourceUrl": "https://edge.forgecdn.net/files/5848/216/alexscaves-2.0.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
+      "title": "Alex's Caves (by sbom_xela)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/924854/files/5848216",
+      "included": true,
+      "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+    },
+    {
+      "projectId": 949567,
+      "fileId": 4956087,
+      "fileName": "ForgottenPots-1.1.4-FORGE-1.20.1.jar",
+      "path": "mods/ForgottenPots-1.1.4-FORGE-1.20.1.jar",
+      "sizeBytes": 9091749,
+      "sourceUrl": "https://edge.forgecdn.net/files/4956/087/ForgottenPots-1.1.4-FORGE-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgotten-pots-forge",
+      "title": "Forgotten Pots [FORGE] (by Hallowed103)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/949567/files/4956087",
+      "included": true,
+      "sha256": "bd3216b0b23d9c3b82e958387127cdaf0a9f01b8cabc5577a64b2b27943f0a9c"
+    },
+    {
+      "projectId": 953793,
+      "fileId": 5118044,
+      "fileName": "Arda's Sculks 1.3.2 [FORGE] [1.20.1].jar",
+      "path": "mods/Arda's Sculks 1.3.2 [FORGE] [1.20.1].jar",
+      "sizeBytes": 966277,
+      "sourceUrl": "https://edge.forgecdn.net/files/5118/044/Arda%27s%20Sculks%201.3.2%20%5BFORGE%5D%20%5B1.20.1%5D.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ardas-sculks",
+      "title": "Arda's Sculks (by Ixra)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/953793/files/5118044",
+      "included": true,
+      "sha256": "1ffa52a1e018320fc2caebecffc428ca28206504685c602b65bbbb13da0578b6"
+    },
+    {
+      "projectId": 958545,
+      "fileId": 5050183,
+      "fileName": "library-forge-20.1.5.jar",
+      "path": "mods/library-forge-20.1.5.jar",
+      "sizeBytes": 141982,
+      "sourceUrl": "https://edge.forgecdn.net/files/5050/183/library-forge-20.1.5.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/phantom-loader",
+      "title": "Phantom Loader (by HexagonNico)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/958545/files/5050183",
+      "included": true,
+      "sha256": "b9f80c727c43e1c12714ced468f62850439717cf18557c75b30766cc51c89992"
+    },
+    {
+      "projectId": 968868,
+      "fileId": 5597406,
+      "fileName": "Zeta-1.0-24.jar",
+      "path": "mods/Zeta-1.0-24.jar",
+      "sizeBytes": 991472,
+      "sourceUrl": "https://edge.forgecdn.net/files/5597/406/Zeta-1.0-24.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/zeta",
+      "title": "Zeta (by Vazkii)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/968868/files/5597406",
+      "included": true,
+      "sha256": "d840069f98288cc73bd57e5cb49b5646b8a91603b364d503da38626ea5dd36a9",
+      "modPages": {
+        "mixinextras": "https://github.com/LlamaLad7/MixinExtras"
+      },
+      "reviewedNested": [
+        {
+          "path": "META-INF/jarjar/mixinextras-forge-0.3.2.jar",
+          "modId": "mixinextras",
+          "version": "0.3.2",
+          "authors": "LlamaLad7",
+          "sizeBytes": 154383,
+          "sha256": "cb078c47017c2caed5f9a3a6dbcbaa7879d4814430c6581ad8acbe82ad174998",
+          "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+        }
+      ]
+    },
+    {
+      "projectId": 978419,
+      "fileId": 6095209,
+      "fileName": "alexscavestrimmed-2.0.0.jar",
+      "path": "mods/alexscavestrimmed-2.0.0.jar",
+      "sizeBytes": 22000,
+      "sourceUrl": "https://edge.forgecdn.net/files/6095/209/alexscavestrimmed-2.0.0.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves-trimmed",
+      "title": "Alex's Caves: Trimmed! (by danimodder_)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/978419/files/6095209",
+      "included": true,
+      "sha256": "426d06cc2bfd033a9e2ef7d3d53169c56850638cff4c425a2680b4b1308964b3"
+    },
+    {
+      "projectId": 984918,
+      "fileId": 5169755,
+      "fileName": "spec-for-caves-and-dungeons-1.2.2-forge-1.20.1.jar",
+      "path": "mods/spec-for-caves-and-dungeons-1.2.2-forge-1.20.1.jar",
+      "sizeBytes": 58207,
+      "sourceUrl": "https://edge.forgecdn.net/files/5169/755/spec-for-caves-and-dungeons-1.2.2-forge-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spec-for-cad",
+      "title": "Spec for CaD (by TerragasT)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/984918/files/5169755",
+      "included": true,
+      "sha256": "8ad851decc3055bacc3a35e7719ea3f6f04f84e04603fd594f3b80a26bac9e09"
+    },
+    {
+      "projectId": 990013,
+      "fileId": 5223196,
+      "fileName": "alexscaves_torpedoes-1.0.2.jar",
+      "path": "mods/alexscaves_torpedoes-1.0.2.jar",
+      "sizeBytes": 1173231,
+      "sourceUrl": "https://edge.forgecdn.net/files/5223/196/alexscaves_torpedoes-1.0.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves-torpedoes",
+      "title": "Alex's Caves: Stuff & Torpedoes (by Furti_Two)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/990013/files/5223196",
+      "included": true,
+      "sha256": "500ec5500aa7ea4b978ee3e043635db17c54c9130b69415acb7e8a0ac28f2260"
+    },
+    {
+      "projectId": 998604,
+      "fileId": 5961126,
+      "fileName": "glowroot1.0.8.5.jar",
+      "path": "mods/glowroot1.0.8.5.jar",
+      "sizeBytes": 16909507,
+      "sourceUrl": "https://edge.forgecdn.net/files/5961/126/glowroot1.0.8.5.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/glowroot",
+      "title": "Glowroot Caves (by pexuls)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/998604/files/5961126",
+      "included": true,
+      "sha256": "f59d44828cbe10d46cf74511f8c5b9088080db1a61b26f9dace9c2e9d0687a78"
+    },
+    {
+      "projectId": 1013639,
+      "fileId": 5410193,
+      "fileName": "dungeons_plus-1.3.0-forge-1.20.1.jar",
+      "path": "mods/dungeons_plus-1.3.0-forge-1.20.1.jar",
+      "sizeBytes": 2517431,
+      "sourceUrl": "https://edge.forgecdn.net/files/5410/193/dungeons_plus-1.3.0-forge-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dungeon-expansion",
+      "title": "Dungeons + (by Eyuuan)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1013639/files/5410193",
+      "included": true,
+      "sha256": "b5ec16dc4fdb135423ac2b38ae96d3083c7ca0caf1ed592fb47ba8c09591515f"
+    },
+    {
+      "projectId": 1024362,
+      "fileId": 6127382,
+      "fileName": "magicamillion-1.0.0-1.20.1.jar",
+      "path": "mods/magicamillion-1.0.0-1.20.1.jar",
+      "sizeBytes": 123848,
+      "sourceUrl": "https://edge.forgecdn.net/files/6127/382/magicamillion-1.0.0-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/magic-a-million",
+      "title": "Magic A Million (by SilverfishStone)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1024362/files/6127382",
+      "included": true,
+      "sha256": "666cc6011928c47f7975d22dba1dbc4b2f642b436b2088b2ac0480dcf85188c8"
+    },
+    {
+      "projectId": 1028736,
+      "fileId": 5485846,
+      "fileName": "burrowers-1.3-1.20.1.jar",
+      "path": "mods/burrowers-1.3-1.20.1.jar",
+      "sizeBytes": 3188629,
+      "sourceUrl": "https://edge.forgecdn.net/files/5485/846/burrowers-1.3-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/burrowers",
+      "title": "Burrowers (by jocosero)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1028736/files/5485846",
+      "included": true,
+      "sha256": "2b5b25dd6e5bac83d2ed9074e0ded85cd1704ba210d86e414884a51c40f4800f"
+    },
+    {
+      "projectId": 1030130,
+      "fileId": 5690008,
+      "fileName": "Resource Ghouls V1.8 - Forge 1.20.1.jar",
+      "path": "mods/Resource Ghouls V1.8 - Forge 1.20.1.jar",
+      "sizeBytes": 1184482,
+      "sourceUrl": "https://edge.forgecdn.net/files/5690/008/Resource%20Ghouls%20V1.8%20-%20Forge%201.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resource-ghouls",
+      "title": "Resource Ghouls (by Seanmium)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1030130/files/5690008",
+      "included": true,
+      "sha256": "02339b8e925734dc1e8bd7221a91056224a1801fab7bd4d9e4334bffff9dbd26"
+    },
+    {
+      "projectId": 1061129,
+      "fileId": 6138888,
+      "fileName": "just_in_cave-1.2.1-forge-1.20.1.jar",
+      "path": "mods/just_in_cave-1.2.1-forge-1.20.1.jar",
+      "sizeBytes": 346954,
+      "sourceUrl": "https://edge.forgecdn.net/files/6138/888/just_in_cave-1.2.1-forge-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/just-in-cave",
+      "title": "Just-In CAVE (by justinoway)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1061129/files/6138888",
+      "included": true,
+      "sha256": "925ed6877ff5bf66a9dc8fcb119b8418283381c4a7b4d8ec0eb6b0d54e1745bf"
+    },
+    {
+      "projectId": 1066090,
+      "fileId": 6125612,
+      "fileName": "Luminous Monsters V1.2.62- Forge 1.20.1.jar",
+      "path": "mods/Luminous Monsters V1.2.62- Forge 1.20.1.jar",
+      "sizeBytes": 636171,
+      "sourceUrl": "https://edge.forgecdn.net/files/6125/612/Luminous%20Monsters%20V1.2.62-%20Forge%201.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/luminous-monsters",
+      "title": "LUMINOUS: MONSTERS (by RipleysMods)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1066090/files/6125612",
+      "included": true,
+      "sha256": "4888b02336129f2559d682f2026e769bfc943dbc9af55c95949d57ed91958819"
+    },
+    {
+      "projectId": 1111586,
+      "fileId": 5780491,
+      "fileName": "YungsCaveBiomes-1.20.1-Forge-2.0.1.jar",
+      "path": "mods/YungsCaveBiomes-1.20.1-Forge-2.0.1.jar",
+      "sizeBytes": 12935483,
+      "sourceUrl": "https://edge.forgecdn.net/files/5780/491/YungsCaveBiomes-1.20.1-Forge-2.0.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yungs-cave-biomes",
+      "title": "YUNG's Cave Biomes (Forge) (by YUNGNICKYOUNG)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1111586/files/5780491",
+      "included": true,
+      "sha256": "e0912998231c17c13f81a2d016e0b8e838570d1bbd507c3d67fe91aa1d23bb01"
+    },
+    {
+      "projectId": 1145142,
+      "fileId": 5925873,
+      "fileName": "immersive_adventrures-1.0.0-forge-1.20.1.jar",
+      "path": "mods/immersive_adventrures-1.0.0-forge-1.20.1.jar",
+      "sizeBytes": 180667,
+      "sourceUrl": "https://edge.forgecdn.net/files/5925/873/immersive_adventrures-1.0.0-forge-1.20.1.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/immersive-adventures",
+      "title": "Immersive Adventures (by Peperoni26)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1145142/files/5925873",
+      "included": true,
+      "sha256": "09b1bc05f25f0d0cbf7bd250142fb75444e2737fd7194d1dfcf956c12a43218e"
+    }
+  ],
+  "overrides": [
+    {
+      "path": "resourcepacks/Quark Programmer Art.zip",
+      "sizeBytes": 266434,
+      "sha256": "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
+    },
+    {
+      "path": "resourcepacks/VanillaTweaks(For-CaD).zip",
+      "sizeBytes": 6664208,
+      "sha256": "c16e807170312be378f1dfc9ace13d6c01efbb6db4af7d75af265a1148955794"
+    },
+    {
+      "path": "scripts/recipes_for_CaD.zs",
+      "sizeBytes": 4490,
+      "sha256": "9455096211b29bc57e1966424216e02d1dcfa65bb1afb0cc5e4c436c5e7d5bb3"
+    }
+  ],
+  "client": {
+    "path": "minecraft-1.20.1-client.jar",
+    "sizeBytes": 23028853,
+    "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
+    "sha256": "56b71336d2b4fdffd197f56595b0da93e32a946f78f382a299b8f4b92758bb0f",
+    "sourceUrl": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar"
+  },
+  "supportFiles": [
+    {
+      "path": ".github/workflows/publish.yml",
+      "sizeBytes": 5328,
+      "sha256": "f34a5e494eeeec9c49fc2a193288342ea7694772b3cabb43b87b810490d73488"
+    },
+    {
+      "path": "AGENTS.md",
+      "sizeBytes": 3483,
+      "sha256": "f0a19db5bf7d50d4611535a9553cff48d82ac8c13c08fb2606c37e2160c5f7f1"
+    },
+    {
+      "path": "README.md",
+      "sizeBytes": 5597,
+      "sha256": "5a03401b982ad380fbda6affa86fefa0f7f114e1b85e91a2d0ea2afeca20e482"
+    },
+    {
+      "path": "TESTING-STATUS.md",
+      "sizeBytes": 9917,
+      "sha256": "46dc0293879c563e22e78cea336290a9ab4e7b7146b6ac4b06204e41f611ee1b"
+    },
+    {
+      "path": "library/README.md",
+      "sizeBytes": 7245,
+      "sha256": "0ec920b71bf724e9abf8b4f8dce3ab5fbce7f92826db5ceaf7dc41c7c35c24d4"
+    },
+    {
+      "path": "library/content.json",
+      "sizeBytes": 1490,
+      "sha256": "8b720eace0a9749758fa241e3d7a2d634a82f915f8cc5d5f15119589480d77c2"
+    },
+    {
+      "path": "library/mod-pages.json",
+      "sizeBytes": 8064,
+      "sha256": "6b9ac74c34a14147d34b0d9553a1b1106199ffa80962d15c93836cdef7cd21a1"
+    },
+    {
+      "path": "library/preview-source.json",
+      "sizeBytes": 485,
+      "sha256": "a525f6d0787f2fb33f1993a5e00e0caecc2d397018550b957be50f44435b1cbc"
+    },
+    {
+      "path": "library/preview.jpg",
+      "sizeBytes": 590649,
+      "sha256": "b8773c1bef92cb089a33a9ac319f81cf47fa4c739e350e2a7f4e2c72def0e4b5"
+    },
+    {
+      "path": "mods/cad-world-type-lock-1.0.0.jar",
+      "sizeBytes": 18407,
+      "sha256": "53068fe81266ad9a0679a7499d2e36f3f21f25b6fe3a832b16772c815b64efa4"
+    },
+    {
+      "path": "portable-pack.json",
+      "sizeBytes": 167,
+      "sha256": "d07b3977ccf3413b660064d5739789dfab019626ad8a445a1debb57822eb6ce3"
+    },
+    {
+      "path": "tools/UPDATE-NOTES.md",
+      "sizeBytes": 3814,
+      "sha256": "b9182fe7251f3e2d9da5433a62d570c3838ab726831339e02a8d285989d4745b"
+    },
+    {
+      "path": "tools/local-mods.json",
+      "sizeBytes": 345,
+      "sha256": "c76bef9fb2817b864be77f773e0498e7762468c131f209f9f9d8a40e45da290f"
+    },
+    {
+      "path": "tools/upstream-lock.json",
+      "sizeBytes": 59731,
+      "sha256": "e661f480fa419f875d4cbbb91b97090af11ab23f11837dedab6375ae577e89a6"
+    }
+  ],
+  "replacements": [
+    {
+      "from": {
+        "projectId": 317780,
+        "fileId": 5987149,
+        "fileName": "XaerosWorldMap_1.39.2_Forge_1.20.jar",
+        "path": "mods/XaerosWorldMap_1.39.2_Forge_1.20.jar",
+        "sizeBytes": 931860,
+        "sourceUrl": "https://edge.forgecdn.net/files/5987/149/XaerosWorldMap_1.39.2_Forge_1.20.jar",
+        "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+        "title": "Xaero's World Map (by xaero96)",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/317780/files/5987149",
+        "included": true,
+        "sha256": "207895a2f0d04e128b952d959855dfb9582eb2176bd840045a74b2f9debf35ee"
+      },
+      "to": {
+        "projectId": 317780,
+        "fileId": 9067273,
+        "fileName": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+        "path": "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+        "sizeBytes": 1429424,
+        "sourceUrl": "https://edge.forgecdn.net/files/9067/273/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+        "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+        "title": "Xaero's World Map (by xaero96)",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/317780/files/9067273",
+        "included": true,
+        "sha256": "88c6d844163c95a94d92bc6d87d9011cc840bd6207c3099a81b113d4450a3f6b",
+        "modPages": {
+          "xaerolib": "https://www.curseforge.com/minecraft/mc-mods/xaerolib"
+        }
+      },
+      "reason": "User-requested Xaero World Map update from 1.39.2 to the latest stable Forge 1.20.1 release 1.47.0; bundled XaeroLib 1.7.3 is NEW.",
+      "registryCompatibility": "No terrain/item/block registry IDs added or removed by this map update; old map folders preserved. Runtime world check required.",
+      "safetyReview": "See tools/UPDATE-NOTES.md for exact bytecode boundaries and native permission caveat."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "caves-and-dungeons",
+  "name": "Caves and Dungeons",
+  "relativePath": "Caves and Dungeons",
+  "summary": "Выживание в пещерах, опасное солнце и путь к Энду.",
+  "description": "Начни выживание в подземном бункере и исследуй пещеры с необычными биомами, существами и сокровищами. Alex’s Caves, Galosphere, Quark и YUNG’s Cave Biomes разнообразят подземный мир, а новые подземелья дадут повод идти дальше. На поверхности смертельно опасное солнце, и путь в Незер закрыт: развивай снаряжение и ищи выход в Энд. Версия для лаунчера создаёт новые миры только с пресетом «Шахты с Модами». Этот пресет подготовлен для лаунчера и сохраняет авторскую генерацию, бункер и солнечный урон.",
+  "libraryIds": [
+    "blueprint",
+    "cad_world_type_lock",
+    "configuration",
+    "expandability",
+    "kuma_api",
+    "mixinextras",
+    "phantom",
+    "xaerolib"
+  ],
+  "parents": {
+    "botanytrees": "botanypots",
+    "alexscaves_torpedoes": "alexscaves",
+    "alexscaves_trimmed": "alexscaves",
+    "mr_dungeons_andtavernsstrongholdrework": "mr_dungeons_andtaverns"
+  }
+}

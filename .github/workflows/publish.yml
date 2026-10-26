@@ -1,0 +1,144 @@
+name: Publish Caves and Dungeons pack
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: caves-and-dungeons-pack-latest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Restore and verify the active distribution
+        run: python tools/restore_distribution.py --pack .
+
+      - name: Set up the pinned helper compiler
+        uses: actions/setup-java@v5
+        with:
+          distribution: microsoft
+          java-version: "25.0.2"
+
+      - name: Verify the reproducible helper build
+        run: python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock --verify-installed mods/cad-world-type-lock-1.0.0.jar
+
+      # A committed helper is additionally checked against tools/local-mods.json
+      # by build_mod_pages.py; unreviewed or missing JARs stop publication.
+      - name: Generate manifest and stage assets
+        run: |
+          python tools/build_mod_pages.py --verify-only
+          python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
+
+      - name: Self-check staged assets
+        run: |
+          python -m unittest discover -s tools -p "test_*.py"
+          python tools/restore_distribution.py --pack . --verify-only
+          python tools/generate_manifest.py --pack . --out dist --verify-only
+
+      - name: Publish pack-latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          # Keep the previous manifest and its assets intact until every new
+          # payload has uploaded. Publish the manifest last.
+
+          retry() {
+            local what="$1"
+            shift
+            local attempt
+            for attempt in 1 2 3 4 5; do
+              if "$@"; then
+                return 0
+              fi
+              echo "$what failed (attempt $attempt/5)" >&2
+              sleep $((attempt * 10))
+            done
+            echo "$what failed after 5 attempts" >&2
+            return 1
+          }
+
+          # The tag follows this commit; the release keeps its name and every
+          # asset already on it. A tag that will not move is not worth failing a
+          # publish over - it is the assets a launcher reads, not the tag.
+          git tag -f pack-latest "$GITHUB_SHA"
+          git push -f origin refs/tags/pack-latest ||
+            echo "pack-latest tag could not be moved; the release still carries this run's assets" >&2
+
+          if gh release view pack-latest >/dev/null 2>&1; then
+            retry "Release edit" gh release edit pack-latest \
+              --title "Caves and Dungeons pack" \
+              --notes "Rolling Caves and Dungeons pack release. Revision: $GITHUB_SHA"
+          else
+            retry "Release create" gh release create pack-latest \
+              --target "$GITHUB_SHA" \
+              --title "Caves and Dungeons pack" \
+              --notes "Rolling Caves and Dungeons pack release. Revision: $GITHUB_SHA"
+          fi
+
+          # Every asset is named <kind>-<the first twelve of its sha256>-<file>,
+          # so a name already on the release, whole and the same size, is the
+          # same bytes and does not need sending again. The pack is gigabytes
+          # and an ordinary day changes a few megabytes of it.
+          gh release view pack-latest --json assets \
+            --jq '.assets[] | select(.state == "uploaded") | "\(.name)|\(.size)"' | sort > on-release.txt
+
+          upload_batch() {
+            retry "Upload batch" gh release upload pack-latest "$@" --clobber
+          }
+
+          kept=0
+          sent=0
+          batch=()
+          : > wanted.txt
+          for f in dist/assets/*; do
+            name="$(basename "$f")"
+            echo "$name" >> wanted.txt
+            if grep -qxF "$name|$(stat -c %s "$f")" on-release.txt; then
+              kept=$((kept + 1))
+              continue
+            fi
+            batch+=("$f")
+            sent=$((sent + 1))
+            if [ "${#batch[@]}" -eq 40 ]; then
+              upload_batch "${batch[@]}"
+              batch=()
+            fi
+          done
+          if [ "${#batch[@]}" -gt 0 ]; then
+            upload_batch "${batch[@]}"
+          fi
+
+          # The manifest goes up last and always: it is what the launcher reads
+          # to know what the pack is, and until it changes the release still
+          # describes, completely, the pack that was there before.
+          echo "pack-manifest.json" >> wanted.txt
+          upload_batch dist/pack-manifest.json
+
+          # Only now, with the new manifest live and everything it names beside
+          # it, do the files nothing names any more come off.
+          cut -d'|' -f1 on-release.txt | sort > had.txt
+          sort -o wanted.txt wanted.txt
+          gone=0
+          while IFS= read -r name; do
+            [ -n "$name" ] || continue
+            retry "Asset delete" gh release delete-asset pack-latest "$name" --yes
+            gone=$((gone + 1))
+          done < <(comm -23 had.txt wanted.txt)
+          echo "$kept asset(s) already published, $sent uploaded, $gone removed"

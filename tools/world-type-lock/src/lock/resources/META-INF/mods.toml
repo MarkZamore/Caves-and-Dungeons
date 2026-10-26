@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="cad_world_type_lock"
+version="1.0.0"
+displayName="Caves and Dungeons World Type"
+description='''Adds the Modded Mines preset using the original pack generation and restricts creation to it.'''
+authors="LANMinecraft"
+
+[[dependencies.cad_world_type_lock]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cad_world_type_lock]]
+modId="forge"
+mandatory=true
+versionRange="[47.3.7,47.3.8)"
+ordering="NONE"
+side="BOTH"

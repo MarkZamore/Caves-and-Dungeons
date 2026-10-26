@@ -1,0 +1,6 @@
+{
+  "generator.caves_and_dungeons.modded_mines": "Шахты с Модами",
+  "cad_world_type_lock.unavailable": "Шахты с Модами (недоступно)",
+  "cad_world_type_lock.error.title": "Невозможно создать мир",
+  "cad_world_type_lock.error.body": "Обязательный тип мира «Шахты с Модами» недоступен. Восстановите файлы сборки через лаунчер и перезапустите игру. Мир другого типа создан не будет."
+}

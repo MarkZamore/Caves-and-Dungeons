@@ -1,0 +1,6 @@
+{
+  "generator.caves_and_dungeons.modded_mines": "Modded Mines",
+  "cad_world_type_lock.unavailable": "Modded Mines (unavailable)",
+  "cad_world_type_lock.error.title": "Cannot create world",
+  "cad_world_type_lock.error.body": "The required Modded Mines world type is unavailable. Restore the pack files with the launcher and restart the game. A different world type will not be created."
+}

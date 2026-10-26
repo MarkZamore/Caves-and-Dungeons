@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "compile": [
+    {
+      "fileName": "javafmllanguage-1.20.1-47.3.7.jar",
+      "path": "net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar",
+      "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar",
+      "sha256": "94d37a1b2acdc294d8236b0ca11d8c0cf983e9394eedf82f821225082b6497ed"
+    },
+    {
+      "fileName": "mixin-0.8.5.jar",
+      "path": "org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+      "url": "https://maven.minecraftforge.net/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+      "sha256": "ca15a907e4d1f6b38cefed51d7df96a83347dcfb0bc8ced53111519e991d887d"
+    }
+  ]
+}

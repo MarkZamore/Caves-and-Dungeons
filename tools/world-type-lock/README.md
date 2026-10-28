@@ -2,13 +2,25 @@
 
 Согласованный пользователем новый настоящий preset имеет ID `caves_and_dungeons:modded_mines`, русское название «Шахты с Модами» и английское `Modded Mines`. Это наше дополнение к публичной сборке, а не восстановленный неизвестный генератор из ролика. Все три dimensions описаны так же, как в native `minecraft:normal`: сохраняются авторские пещеры, стартовый бункер и опасная поверхность, добавленные исходными модами. Helper не меняет рецепты, геометрию пещер, biome-generation настройки и правила этих модов.
 
-`cad_world_type_lock` версии `1.0.0` рассчитан на Minecraft 1.20.1, Forge 47.3.7 и Java 17. Общий entrypoint не содержит client imports. Preset и data tags загружаются также на dedicated server; обязательные mixin перечислены только в секции `client`.
+`cad_world_type_lock` версии `1.1.0` рассчитан на Minecraft 1.20.1, Forge 47.3.7 и Java 17. Общий entrypoint не содержит client imports. Preset и data tags загружаются также на dedicated server; обязательные mixin перечислены только в секции `client`.
 
 После каждого штатного обновления `WorldCreationUiState` оба списка типов мира, включая альтернативный с Shift, состоят из одного preset. При первоначальном конструировании dimensions применяются только в обязательном constructor-RETURN hook, когда seed, генерация строений и бонусный сундук уже инициализированы; раннее обновление списков их не переписывает. Перед `CreateWorldScreen.onCreate` helper повторно применяет preset до native bake и записи мира. Seed и прочие независимые опции сохраняются. Это распространяется на пересоздание и reload datapack. Открытие существующих и импортированных сохранений не проходит через эти точки и не ограничивается.
 
 Если preset отсутствует, оба списка получают единственный незаполненный placeholder с подписью «Шахты с Модами (недоступно)». Он нужен, чтобы штатный `CycleButton` не получил пустой список. Создание отменяется до записи сохранения с локализованным сообщением о восстановлении файлов сборки. Другой генератор не применяется как запасной вариант. Отключение или удаление обязательного helper вручную не является поддерживаемой конфигурацией сборки.
 
 Проверка Safety: helper добавляет выбор начального world preset и ограничение экрана создания. Он не вводит способности, владельцев, отложенные действия, runtime-запись блоков/chunk/palette или очистку инвентаря. Начальная генерация остаётся native normal с исходными базовыми модами; перенос Safety из другой сборки не требуется.
+
+## Перевод display достижений
+
+В версии 1.1.0 common entrypoint регистрирует `RussianDisplayPack` на mod event bus. Reflection использует точные Forge 47.3.7 API: `FMLJavaModLoadingContext.get().getModEventBus()` и `IEventBus.addListener(EventPriority.NORMAL, false, AddPackFindersEvent.class, Consumer)`. Обработчик реагирует только на `SERVER_DATA`; клиентские классы не загружаются. Через `ModList.getModFileById("cad_world_type_lock").getFile().findResource("builtin", "russian-advancements")` он читает только собственные ресурсы JAR.
+
+Стабильный отдельный pack ID `cad-russian-display` создаётся настоящим `Pack.m_245429_` (`readMetaAndCreate`) с `required=true`, `Pack.Position.TOP` и builtin source. `Pack.ResourcesSupplier.m_247679_` открывает `PathPackResources(String, boolean, Path)`; `RepositorySource.m_7686_` передаёт этот pack штатному repository. Это отдельный обязательный pack, а не перестановка записей `mod:*` в чужом мире. Если его нет в сохранённом Enabled, native `PackRepository` вставляет обязательный TOP pack поверх выбранных packs; поэтому старый порядок исходного helper и Dungeons and Taverns не блокирует перевод. Личные файлы `level.dat` и списки packs инструмент подготовки не переписывает.
+
+Внутри `builtin/russian-advancements` находятся `pack.mcmeta` с format 15 и единственный override `nova_structures:adventure/tavern_quest`. Он заменяет только literal title/description на переводимые компоненты. Условия, критерии, parent, rewards, toast/chat flags и остальные поля совпадают с исходным JSON. Обычного root override этого достижения больше нет. Переводы `ru_ru` и английский fallback находятся в обычных helper assets; зависимости `BEFORE` сохраняют их нужный порядок при Forge language merge.
+
+Отсутствие собственного pack.mcmeta или этого единственного JSON, неизвестный reflection API и `null` от native metadata reader вызывают явную ошибку. Исключения не подавляются и исходный английский literal не принимается как успешный результат восстановления. Native serializer и реальная загрузка repository проверяются отдельно; офлайн успешная компиляция не объявляется полным игровым PASS.
+
+Дополнение Safety для версии 1.1.0: данный data pack меняет только display-компоненты существующего достижения. Он не добавляет registry ID, предметы, награды, условия получения, terrain/inventory writes, caster/owner или отложенные игровые действия. Поэтому адресные модули Safety для этого изменения не нужны. Административные и сторонние механики FTB рассмотрены отдельно в `tools/quests/FTB-REVIEW.md`.
 
 ## Сборка и native-проверки
 
@@ -18,7 +30,7 @@
 python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock
 ```
 
-CI использует `actions/setup-java` с `distribution: microsoft`, `java-version: 25.0.2`, затем ту же команду с `--verify-installed mods/cad-world-type-lock-1.0.0.jar`. Сборка не устанавливает и не публикует JAR. Canonical ZIP_STORED, фиксированные timestamps и платформа ZIP, отсортированные записи и LF ресурсов делают результат одинаковым на Windows и Linux. Выход: `artifacts/world-type-lock/cad-world-type-lock-1.0.0.jar`.
+CI использует `actions/setup-java` с `distribution: microsoft`, `java-version: 25.0.2`, затем ту же команду с `--verify-installed mods/cad-world-type-lock-1.1.0.jar`. Сборка не устанавливает и не публикует JAR. Canonical ZIP_STORED, фиксированные timestamps и платформа ZIP, отсортированные записи и LF ресурсов делают результат одинаковым на Windows и Linux. Выход: `artifacts/world-type-lock/cad-world-type-lock-1.1.0.jar`.
 
 Локальные native-проверки используют подготовленные точные Minecraft 1.20.1/Forge 47.3.7 библиотеки и Java 17. Выполнять из корня сборки:
 
@@ -49,3 +61,7 @@ $observerOutput = Join-Path $observerRoot 'presets.jsonl'
 После подключения открыть штатный экран создания мира. `registryIds`, `selected`, `normal` и `alternative` дают фактические ID и локализованные названия. Для остановки только observer создать файл `<observerOutput>.stop`; игра продолжает работать. Этот QA JAR не помещать в `mods` и не включать в поставку.
 
 Исходный запуск до добавления helper подтвердил только шесть ванильных preset и отсутствие отдельного «Ультра Пещеры». После согласования геометрии пользователь выбрал описанный выше новый preset «Шахты с Модами». Observer сохраняется как независимый инструмент проверки исходного и итогового клиентов.
+
+## Русские достижения в 1.1.0
+
+Helper также содержит недостающие русские языковые строки достижений и один display-only override `nova_structures:adventure/tavern_quest`. Условия, награды, родитель и значок этого достижения сохранены. Английские строки сохранены для обратной смены языка. Optional `ordering=BEFORE` привязывает приоритет к конкретным исходным mod ID; отсутствие необязательного мода не блокирует helper. Это изменение ресурсов и порядка загрузки явно меняет runtime-содержимое прежнего helper, но не добавляет записи блоков, сущностей, инвентаря или новые registry ID. Подробнее: `tools/russian-advancements/README.md`.

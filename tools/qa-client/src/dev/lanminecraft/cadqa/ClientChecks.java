@@ -36,12 +36,20 @@ public final class ClientChecks {
     private static Object previousSettings;
     private static boolean initialStructures = true, initialBonus;
     private static long begun;
+    private static Properties configuration;
+    private static List<?> contentAdvancements;
+    private static boolean languagePrepared;
+    private static boolean lanPublished;
+    private static volatile java.util.concurrent.CompletableFuture<?> contentReload;
+    private static volatile Throwable contentReloadFailure;
+    private static boolean contentReloadRequested, contentReloadDone;
 
     public static void agentmain(String argument, Instrumentation instrumentation) throws Exception {
         if (!STARTED.compareAndSet(false, true)) throw new IllegalStateException("Checks already attached");
         Path spec = owned(Path.of(argument).toRealPath());
         Properties p = new Properties();
         try (var reader = Files.newBufferedReader(spec, StandardCharsets.UTF_8)) { p.load(reader); }
+        configuration = p;
         root = owned(Path.of(required(p, "gameDirectory")).toRealPath());
         output = owned(Path.of(required(p, "output")).toAbsolutePath().normalize());
         if (Files.exists(output)) throw new IllegalArgumentException("Fresh output label required");
@@ -106,6 +114,20 @@ public final class ClientChecks {
         String screenName = screen == null ? "none" : screen.getClass().getName();
         if (phase == 0) {
             require(player == null && level == null && call(client, "m_91092_") == null, "start without a loaded world");
+            if (screenName.equals("net.minecraft.client.gui.screens.AccessibilityOnboardingScreen")) {
+                call(screen, "m_7379_");
+                emit(Map.of("event", "native-onboarding-done"));
+                return;
+            }
+            if (!languagePrepared && (screenName.equals("net.minecraft.client.gui.screens.TitleScreen") || screenName.equals("net.minecraft.client.gui.screens.worldselection.CreateWorldScreen"))) {
+                String selectedLanguage = configuration.getProperty("language", "ru_ru");
+                require(Set.of("ru_ru", "en_us").contains(selectedLanguage), "reviewed QA language");
+                Object languages = call(client, "m_91102_");
+                invoke(languages, "m_264110_", selectedLanguage);
+                invoke(languages, "m_6213_", call(client, "m_91098_"));
+                languagePrepared = true;
+                emit(Map.of("event", "native-language-loaded", "language", call(languages, "m_264236_")));
+            }
             if (screenName.equals("net.minecraft.client.gui.screens.worldselection.CreateWorldScreen") && !mode.equals("load-existing") && !mode.equals("recreate")) {
                 emit(Map.of("event", "resume-owned-create-screen", "forge", "47.3.7"));
                 phase = 1; return;
@@ -232,6 +254,23 @@ public final class ClientChecks {
         }
         if (phase == 4 && System.nanoTime() - since > 12_000_000_000L) {
             Object server = call(client, "m_91092_");
+            if (Boolean.parseBoolean(configuration.getProperty("reloadBeforeContent", "false")) && !contentReloadDone) {
+                if (!contentReloadRequested) {
+                    contentReloadRequested = true;
+                    ((Executor)server).execute(() -> {
+                        try {
+                            Object packs = call(server, "m_129891_");
+                            Object selected = call(packs, "m_10523_");
+                            emit(Map.of("event", "native-content-reload-started", "selectedPacks", selected));
+                            contentReload = (java.util.concurrent.CompletableFuture<?>)invoke(server, "m_129861_", selected);
+                        } catch (Throwable t) { contentReloadFailure = t; }
+                    });
+                }
+                if (contentReloadFailure != null) throw new IllegalStateException("Native server content reload failed", contentReloadFailure);
+                if (contentReload == null || !contentReload.isDone()) return;
+                contentReload.join(); contentReloadDone = true;
+                emit(Map.of("event", "native-content-reload-completed"));
+            }
             if (!serverObserved) {
                 ((Executor) server).execute(() -> {
                     try { observeServer(server); serverObserved = true; } catch (Throwable failure) { fail(failure); }
@@ -242,10 +281,17 @@ public final class ClientChecks {
         }
         if (phase == 5 && serverObserved) {
             Object server = call(client, "m_91092_");
-            Object gameType = Class.forName("net.minecraft.world.level.GameType", false, client.getClass().getClassLoader()).getEnumConstants()[0];
-            boolean published = (Boolean) invoke(server, "m_7386_", gameType, false, 25587);
-            require(published && (Boolean) call(server, "m_6992_"), "native integrated LAN published");
-            emit(Map.of("event", "integrated-lan-published", "port", call(server, "m_7010_"), "guestJoinTested", false));
+            if (!lanPublished) {
+                Object gameType = Class.forName("net.minecraft.world.level.GameType", false, client.getClass().getClassLoader()).getEnumConstants()[0];
+                boolean published = (Boolean) invoke(server, "m_7386_", gameType, false, 25587);
+                require(published && (Boolean) call(server, "m_6992_"), "native integrated LAN published");
+                emit(Map.of("event", "integrated-lan-published", "port", call(server, "m_7010_"), "guestJoinTested", false));
+                lanPublished = true;
+            }
+            if (configuration.containsKey("contentOutput")) {
+                if (!ContentChecks.ready()) return;
+                ContentChecks.inspectClient(client, contentAdvancements, configuration);
+            }
             phase = 6; since = System.nanoTime(); return;
         }
         if (phase == 6 && System.nanoTime() - since > 8_000_000_000L) {
@@ -282,6 +328,10 @@ public final class ClientChecks {
         emit(Map.of("event", "actual-server-world", "seed", actualSeed, "tickCount", call(server, "m_129921_"),
                 "generator", generator.getClass().getName(), "spawn", String.valueOf(spawn), "playerPosition", position(player),
                 "nearbyBlocks", blocks, "scanRadius", List.of(5, 3, 5), "dimension", String.valueOf(call(level, "m_46472_"))));
+        if (configuration.containsKey("contentOutput")) {
+            contentAdvancements = new ArrayList<>((java.util.Collection<?>) call(call(server, "m_129889_"), "m_136028_"));
+            ContentChecks.inspectServer(server, player, configuration);
+        }
     }
 
     private static Map<String, Object> screenState(Object state) throws Exception {

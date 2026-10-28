@@ -1,0 +1,87 @@
+{
+  "id": "2281ECA4E28BBB2B",
+  "filename": "extra_artifacts",
+  "title": "Артефакты",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 8,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "1B6A0A5299BE262C",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"artifacts.advancements.adventurous_eater.title\"}",
+      "icon": "artifacts:onion_ring",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"artifacts.advancements.adventurous_eater.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"artifacts.advancements.amateur_archaeologist.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "578432E7428613B8",
+          "type": "advancement",
+          "advancement": "artifacts:adventurous_eater",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7B4F9308A55D236F",
+      "x": 0.0,
+      "y": 0.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"artifacts.advancements.amateur_archaeologist.title\"}",
+      "icon": "artifacts:flame_pendant",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"artifacts.advancements.amateur_archaeologist.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2DBE50CEB14AA82C",
+          "type": "advancement",
+          "advancement": "artifacts:amateur_archaeologist",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0EE3F429E38B5FA2",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"artifacts.advancements.chest_slayer.title\"}",
+      "icon": "artifacts:mimic_spawn_egg",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"artifacts.advancements.chest_slayer.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"artifacts.advancements.amateur_archaeologist.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "53099AED5BAE16F9",
+          "type": "advancement",
+          "advancement": "artifacts:chest_slayer",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

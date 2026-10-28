@@ -1,0 +1,194 @@
+{
+  "id": "110E4F8061866777",
+  "filename": "start",
+  "title": "1. Жизнь под землёй",
+  "icon": "minecraft:stone_pickaxe",
+  "group": "78E2EFAD05ED3E05",
+  "order_index": 0,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "0CC842D489482869",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Вы начинаете в подземном бункере. Солнечное излучение делает поверхность опасной, а портал в Незер закрыт. Ваша цель — подготовиться под землёй и добраться до Края.",
+        "Как в TerraFirma Rebirth 2, основные главы дают короткий маршрут, а дополнительные посвящены отдельным занятиям. Здесь нет наград: ни предметов, ни опыта, ни команд.",
+        "Достижения отмечаются автоматически, в том числе полученные раньше. Галочки нужны только для памяток. Предметные задания проверяют инвентарь и ничего не забирают.",
+        "Откройте книгу кнопкой заданий в инвентаре или назначенной в управлении клавишей FTB Quests. Все главы можно читать сразу."
+      ],
+      "title": "Выход только через Край",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "26FD1812E6B02DB5",
+          "type": "checkmark"
+        }
+      ]
+    },
+    {
+      "id": "1872BA929280CBB4",
+      "x": 2.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Осмотрите бункер и добудьте камень для первых инструментов. Берегите стартовые запасы: снаружи предстоит жить в пещерах."
+      ],
+      "title": "{\"translate\":\"advancements.story.mine_stone.title\"}",
+      "icon": "minecraft:wooden_pickaxe",
+      "dependencies": [
+        "0CC842D489482869"
+      ],
+      "tasks": [
+        {
+          "id": "48EDFA139088BAD2",
+          "type": "advancement",
+          "advancement": "minecraft:story/mine_stone",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6811DC3E4260E130",
+      "x": 4.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Каменная кирка откроет доступ к железной руде. Освещайте путь и отмечайте дорогу обратно."
+      ],
+      "title": "{\"translate\":\"advancements.story.upgrade_tools.title\"}",
+      "icon": "minecraft:stone_pickaxe",
+      "dependencies": [
+        "1872BA929280CBB4"
+      ],
+      "tasks": [
+        {
+          "id": "50DDF34A3D6995F6",
+          "type": "advancement",
+          "advancement": "minecraft:story/upgrade_tools",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7453CC34AFEF7345",
+      "x": 6.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Переплавьте железо. Ведро, щит, кирка и броня полезнее рискованной вылазки на поверхность."
+      ],
+      "title": "{\"translate\":\"advancements.story.smelt_iron.title\"}",
+      "icon": "minecraft:iron_ingot",
+      "dependencies": [
+        "6811DC3E4260E130"
+      ],
+      "tasks": [
+        {
+          "id": "6C349EEFA39489A5",
+          "type": "advancement",
+          "advancement": "minecraft:story/smelt_iron",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2ED1366CCE05EDBD",
+      "x": 8.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "С железной киркой можно заняться самоцветами и более редкими подземными ресурсами."
+      ],
+      "title": "{\"translate\":\"advancements.story.iron_tools.title\"}",
+      "icon": "minecraft:iron_pickaxe",
+      "dependencies": [
+        "7453CC34AFEF7345"
+      ],
+      "tasks": [
+        {
+          "id": "1640A09DA2C170CD",
+          "type": "advancement",
+          "advancement": "minecraft:story/iron_tools",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "55DB1972274911EC",
+      "x": 10.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Подготовьте железную броню до встречи с обитателями глубоких пещер."
+      ],
+      "title": "{\"translate\":\"advancements.story.obtain_armor.title\"}",
+      "icon": "minecraft:iron_chestplate",
+      "dependencies": [
+        "7453CC34AFEF7345"
+      ],
+      "tasks": [
+        {
+          "id": "1F3D0760FFA6FEC7",
+          "type": "advancement",
+          "advancement": "minecraft:story/obtain_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6748A5A9C5032F68",
+      "x": 12.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Подземный корень из Bunker Down даёт древесину без выхода на поверхность. Посадите его семена и устройте постоянный источник дерева."
+      ],
+      "title": "{\"translate\":\"advancements.plant_underroot.title\"}",
+      "icon": "bunker_down:underroot",
+      "dependencies": [
+        "0CC842D489482869"
+      ],
+      "tasks": [
+        {
+          "id": "1B04955733533800",
+          "type": "advancement",
+          "advancement": "bunker_down:plant_underroot",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0E62D747D4FF387A",
+      "x": 14.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Часть семян можно приготовить. Сохраните запас для новых посадок."
+      ],
+      "title": "{\"translate\":\"advancements.cook_underroot.title\"}",
+      "icon": "bunker_down:roasted_underroot_seeds",
+      "dependencies": [
+        "6748A5A9C5032F68"
+      ],
+      "tasks": [
+        {
+          "id": "0AD6A2095512B677",
+          "type": "advancement",
+          "advancement": "bunker_down:cook_underroot",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

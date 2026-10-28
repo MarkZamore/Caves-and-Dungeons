@@ -35,7 +35,7 @@ jobs:
           java-version: "25.0.2"
 
       - name: Verify the reproducible helper build
-        run: python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock --verify-installed mods/cad-world-type-lock-1.0.0.jar
+        run: python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock --verify-installed mods/cad-world-type-lock-1.1.0.jar
 
       # A committed helper is additionally checked against tools/local-mods.json
       # by build_mod_pages.py; unreviewed or missing JARs stop publication.
@@ -47,6 +47,8 @@ jobs:
       - name: Self-check staged assets
         run: |
           python -m unittest discover -s tools -p "test_*.py"
+          python -m unittest discover -s tools/quests -p "test_*.py"
+          python tools/quests/generate.py --verify-only
           python tools/restore_distribution.py --pack . --verify-only
           python tools/generate_manifest.py --pack . --out dist --verify-only
 

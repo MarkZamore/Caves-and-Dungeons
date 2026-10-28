@@ -1,0 +1,862 @@
+{
+  "id": "1E786176957CAC27",
+  "filename": "extra_alexscaves_discover_candy_cavity",
+  "title": "Конфетный котлован",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 2,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "29F9E692B84E152A",
+      "x": 10.0,
+      "y": 0.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.candy_cane_hook.title\"}",
+      "icon": "alexscaves:candy_cane_hook",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.candy_cane_hook.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.defeat_caniac.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "51E609D2C88A997D",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/candy_cane_hook",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2F3FAA728F1708CC",
+      "x": 10.0,
+      "y": 8.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.caramel.title\"}",
+      "icon": "alexscaves:caramel",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.caramel.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gelatin.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7667D05AB30205A5",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/caramel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A3DBEAE9810FF26",
+      "x": 12.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.caramel_apple.title\"}",
+      "icon": "alexscaves:caramel_apple",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.caramel_apple.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.caramel.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1847762CE4DDC692",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/caramel_apple",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B34BE47F8521E8A",
+      "x": 7.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.confection_oven.title\"}",
+      "icon": "alexscaves:confection_oven",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.confection_oven.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gingerbread_crumbs.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5A6C3048F0B242AF",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/confection_oven",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1E790CCF04182BBA",
+      "x": 7.5,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.conversion_crucible.title\"}",
+      "icon": "alexscaves:conversion_crucible",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.conversion_crucible.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.radiant_essence.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "212ABE03025F2133",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/conversion_crucible",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0E0F38E02AFF3367",
+      "x": 10.0,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.convert_biome.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.convert_biome.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.conversion_crucible.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "75CC0147CB317DA2",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/convert_biome",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46E7AAAA19CA28DC",
+      "x": 12.5,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.convert_nether_biome.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.convert_nether_biome.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.convert_biome.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "25B496BDDEF8D0A4",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/convert_nether_biome",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "437098F3CFAF6621",
+      "x": 7.5,
+      "y": 1.875,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defeat_caniac.title\"}",
+      "icon": "alexscaves:sharpened_candy_cane",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defeat_caniac.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.eat_candy_cane.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6903C3A5081E5040",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defeat_caniac",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "09A64CF87206D1FA",
+      "x": 15.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defeat_gum_worm.title\"}",
+      "icon": "alexscaves:sweet_tooth",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defeat_gum_worm.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gobthumper.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "78CF2E12A1AF63F9",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defeat_gum_worm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7075310E04B8FB29",
+      "x": 10.0,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defeat_gumbeeper.title\"}",
+      "icon": "alexscaves:gumball_pile",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defeat_gumbeeper.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.defeat_caniac.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5E747A186724A0CA",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defeat_gumbeeper",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "583989D73D99C225",
+      "x": 2.5,
+      "y": 3.1875,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.eat_block_of_chocolate.title\"}",
+      "icon": "alexscaves:block_of_chocolate",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.eat_block_of_chocolate.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.walk_on_rock_candy.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "63543A8E11D96271",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/eat_block_of_chocolate",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5A3F569BD91DBD8C",
+      "x": 5.0,
+      "y": 1.875,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.eat_candy_cane.title\"}",
+      "icon": "alexscaves:candy_cane",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.eat_candy_cane.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.eat_block_of_chocolate.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1ADC205CC791FADC",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/eat_candy_cane",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "27D831567D1989AE",
+      "x": 2.5,
+      "y": 8.4375,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.enter_purple_soda.title\"}",
+      "icon": "alexscaves:purple_soda_bucket",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.enter_purple_soda.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.walk_on_rock_candy.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1769211DED3CAE29",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/enter_purple_soda",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2283D8592B8A5984",
+      "x": 10.0,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.feed_gummy_bear.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.feed_gummy_bear.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gelatin.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "58CE1E6036E4FBAA",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/feed_gummy_bear",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1DA29F3F33F5414A",
+      "x": 5.0,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.frostmint_explosion.title\"}",
+      "icon": "alexscaves:frostmint",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.frostmint_explosion.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.enter_purple_soda.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "16DE043FFED7086E",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/frostmint_explosion",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6D9B6088F8058F1E",
+      "x": 7.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.frostmint_spear.title\"}",
+      "icon": "alexscaves:frostmint_spear",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.frostmint_spear.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.frostmint_explosion.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "78C0C38D8FDD80B8",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/frostmint_spear",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "32F317D48235E2EE",
+      "x": 7.5,
+      "y": 10.875,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.gelatin.title\"}",
+      "icon": "alexscaves:gelatin_green",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.gelatin.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.sweetish_fish_bucket.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5DE39B1E1F90D904",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/gelatin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5804FA40187D527B",
+      "x": 5.0,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.gingerbread_armor.title\"}",
+      "icon": "alexscaves:gingerbread_chestplate",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.gingerbread_armor.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gingerbread_town.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0F5F242A5C4ADF3A",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/gingerbread_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3AF9EFB20BA9E273",
+      "x": 5.0,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.gingerbread_crumbs.title\"}",
+      "icon": "alexscaves:gingerbread_crumbs",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.gingerbread_crumbs.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gingerbread_town.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "05A77FBC063E4AB1",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/gingerbread_crumbs",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2E465E3336189B39",
+      "x": 2.5,
+      "y": 15.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.gingerbread_town.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.gingerbread_town.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.walk_on_rock_candy.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5E1D8CE131B361C6",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/gingerbread_town",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6BE97DC97546BB66",
+      "x": 12.5,
+      "y": 0.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.gobthumper.title\"}",
+      "icon": "alexscaves:gobthumper",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.gobthumper.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.candy_cane_hook.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6C9C01916622B740",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/gobthumper",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "10C02EAA5F2C810F",
+      "x": 10.0,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.gummy_rings.title\"}",
+      "icon": "alexscaves:gummy_ring_blue",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.gummy_rings.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gelatin.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1AAEA688801CF727",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/gummy_rings",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1C3D393369805785",
+      "x": 12.5,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.jelly_bean.title\"}",
+      "icon": "alexscaves:jelly_bean",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.jelly_bean.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.feed_gummy_bear.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "10E8CE0B2958F450",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/jelly_bean",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0CE2AFF441A164ED",
+      "x": 2.5,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.licowitch_tower.title\"}",
+      "icon": "alexscaves:licoroot_sprout",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.licowitch_tower.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.walk_on_rock_candy.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "439D54A54D96817B",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/licowitch_tower",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "22472CA14E5937B0",
+      "x": 5.0,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.radiant_essence.title\"}",
+      "icon": "alexscaves:radiant_essence",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.radiant_essence.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.licowitch_tower.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "749DA43706AD281E",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/radiant_essence",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "558EB11C953EC302",
+      "x": 10.0,
+      "y": 13.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.rainbounce_boots.title\"}",
+      "icon": "alexscaves:rainbounce_boots",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.rainbounce_boots.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gelatin.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "53BEB269BF250F82",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/rainbounce_boots",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1CC736926A9B63D1",
+      "x": 15.0,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.ride_gum_worm.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.ride_gum_worm.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.gobthumper.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "52EE5286543A44AB",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/ride_gum_worm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46B5EE02167EB462",
+      "x": 17.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.sack_of_sating.title\"}",
+      "icon": "alexscaves:sack_of_sating",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.sack_of_sating.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.defeat_gum_worm.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1DE65C6FC34B8245",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/sack_of_sating",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "539A4322729974F7",
+      "x": 12.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.shot_gum.title\"}",
+      "icon": "alexscaves:shot_gum",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.shot_gum.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.defeat_gumbeeper.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "31D0AFE7807D3FFF",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/shot_gum",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "31F28F0950463F2B",
+      "x": 5.0,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.sugar_rush.title\"}",
+      "icon": "citadel:effect_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.sugar_rush.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.eat_block_of_chocolate.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1ADA8968DE88F674",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/sugar_rush",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40AF4AF4A302AC37",
+      "x": 12.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.sundae.title\"}",
+      "icon": "alexscaves:sundae",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.sundae.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.caramel.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2C6451066EB2F9DD",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/sundae",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1D4AFA26FF27C3A2",
+      "x": 5.0,
+      "y": 10.875,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.sweetish_fish_bucket.title\"}",
+      "icon": "alexscaves:sweetish_fish_red_bucket",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.sweetish_fish_bucket.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.enter_purple_soda.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "56DA20DB21C197D8",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/sweetish_fish_bucket",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3F7E9F9032CEFADC",
+      "x": 15.0,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.tame_candicorn.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.tame_candicorn.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.caramel_apple.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7CE8040F83B109A4",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/tame_candicorn",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "27B7CEAE82D27AD1",
+      "x": 0.0,
+      "y": 10.59375,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.walk_on_rock_candy.title\"}",
+      "icon": "alexscaves:rock_candy_yellow",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.walk_on_rock_candy.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_candy_cavity.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5BEDEF58F868B1B7",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/walk_on_rock_candy",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "56253AA153692806",
+  "filename": "end",
+  "title": "4. Дорога в Край",
+  "icon": "minecraft:ender_eye",
+  "group": "78E2EFAD05ED3E05",
+  "order_index": 3,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "745163D7E70E9824",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Авторский рецепт: серная пыль Alex’s Caves + светокаменная пыль = огненный порошок. Светокаменная пыль делается из песка и мерцающей пыли Deeper Caves.",
+        "Мерцающую пыль можно получить из светящихся грибов Spelunkery/Quark, скалкового гриба, светящейся рыбы или биолюминесценции. Все варианты и количества смотрите в JEI.",
+        "Другой путь: янтарит из первобытных пещер даёт три огненных стержня. Из них делается обычный огненный порошок. Посещать обе пещеры не обязательно."
+      ],
+      "title": "Огненный порошок без Незера",
+      "icon": "minecraft:blaze_powder",
+      "tasks": [
+        {
+          "id": "35B4F8A4DC102B4A",
+          "type": "item",
+          "item": "minecraft:blaze_powder",
+          "count": 1,
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "4565C9C575C5B2F7",
+      "x": 2.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Соберите жемчуг Края, например с эндерменов. В сборке стоят Enderman Overhaul и другие моды: проверяйте доступные способы получения в JEI."
+      ],
+      "title": "Жемчуг Края",
+      "icon": "minecraft:ender_pearl",
+      "tasks": [
+        {
+          "id": "2AE7839C9EB8D0AD",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "7FF6C7D1542EF0D7",
+      "x": 4.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Соедините жемчуг с огненным порошком. Подготовьте запас очей для поиска крепости и заполнения рамок портала.",
+        "Три предметных пункта этой главы служат подсказками. Если вы уже потратили ингредиенты или вставили очи в портал, заново собирать их для продолжения книги не нужно."
+      ],
+      "title": "Очи Края",
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "57335688EDFC6C5C",
+          "type": "item",
+          "item": "minecraft:ender_eye",
+          "count": 1,
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "105FA9F99CEF2C0B",
+      "x": 6.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Найдите крепость по очам Края. Мод Stronghold Rework изменяет её устройство, поэтому ищите портал внимательно и отмечайте обратный путь."
+      ],
+      "title": "{\"translate\":\"advancements.story.follow_ender_eye.title\"}",
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "36C063890EB54FDA",
+          "type": "advancement",
+          "advancement": "minecraft:story/follow_ender_eye",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "79F855B4AE2A890D",
+      "x": 8.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Перед прыжком подготовьте оружие, блоки, еду и воду. Заполните пустые рамки портала очами и войдите в Край."
+      ],
+      "title": "{\"translate\":\"advancements.story.enter_the_end.title\"}",
+      "icon": "minecraft:end_stone",
+      "dependencies": [
+        "105FA9F99CEF2C0B"
+      ],
+      "tasks": [
+        {
+          "id": "42E89B89504AEB5E",
+          "type": "advancement",
+          "advancement": "minecraft:story/enter_the_end",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AA89B64D186866C",
+      "x": 10.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Разрушьте кристаллы и победите дракона. Better End Island меняет центральный остров; сохраняйте осторожность у края."
+      ],
+      "title": "{\"translate\":\"advancements.end.kill_dragon.title\"}",
+      "icon": "minecraft:dragon_head",
+      "dependencies": [
+        "79F855B4AE2A890D"
+      ],
+      "tasks": [
+        {
+          "id": "138E6A7622B5BC13",
+          "type": "advancement",
+          "advancement": "minecraft:end/kill_dragon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "694C3AB6080B2F0E",
+      "x": 12.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "После победы используйте врата Края для путешествия к внешним островам."
+      ],
+      "title": "{\"translate\":\"advancements.end.enter_end_gateway.title\"}",
+      "icon": "minecraft:ender_pearl",
+      "dependencies": [
+        "4AA89B64D186866C"
+      ],
+      "tasks": [
+        {
+          "id": "291B9C1438DD0F12",
+          "type": "advancement",
+          "advancement": "minecraft:end/enter_end_gateway",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "460686B29241F11C",
+      "x": 14.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Найдите город Края. Для дальнейших путешествий ищите город с кораблём."
+      ],
+      "title": "{\"translate\":\"advancements.end.find_end_city.title\"}",
+      "icon": "minecraft:purpur_block",
+      "dependencies": [
+        "694C3AB6080B2F0E"
+      ],
+      "tasks": [
+        {
+          "id": "54DF9568D6F2B604",
+          "type": "advancement",
+          "advancement": "minecraft:end/find_end_city",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3FF4BA13FBE8BBAF",
+      "x": 16.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Заберите элитры с корабля. Основной маршрут завершён; дополнительные главы помогут исследовать оставшиеся достижения сборки."
+      ],
+      "title": "{\"translate\":\"advancements.end.elytra.title\"}",
+      "icon": "minecraft:elytra",
+      "dependencies": [
+        "460686B29241F11C"
+      ],
+      "tasks": [
+        {
+          "id": "47AAFBC5D47E8B22",
+          "type": "advancement",
+          "advancement": "minecraft:end/elytra",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# The quest book is maintained by the pack; edited copies are backed up by the launcher.
+config/ftbquests/quests/**

@@ -1,0 +1,337 @@
+{
+  "id": "2188F9CD6919E32C",
+  "filename": "extra_friendsandfoes",
+  "title": "Друзья и недруги",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 14,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "4A0D37DB89EC6792",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.survival.activate_zombie_horse_trap.title\"}",
+      "icon": "minecraft:chainmail_helmet",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.survival.activate_zombie_horse_trap.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "09F33AE8D425FFB9",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/activate_zombie_horse_trap",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5B0B20C9303D19CE",
+      "x": 0.0,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.adventure.complete_hide_and_seek_game.title\"}",
+      "icon": "minecraft:bundle",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.adventure.complete_hide_and_seek_game.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "613C16A5E203267B",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/complete_hide_and_seek_game",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6170FEB246E327D1",
+      "x": 0.0,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.adventure.it_bites.title\"}",
+      "icon": "minecraft:stone_sword",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.adventure.it_bites.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.kill_a_mob.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "113301AE055B7487",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/it_bites",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "11EE57DC9A9563A0",
+      "x": 0.0,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.adventure.kill_iceologer.title\"}",
+      "icon": "minecraft:blue_ice",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.adventure.kill_iceologer.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.voluntary_exile.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5D5150A2518DEC04",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/kill_iceologer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "22ACB5658A781C50",
+      "x": 0.0,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.adventure.kill_illusioner.title\"}",
+      "icon": "minecraft:bow",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.adventure.kill_illusioner.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.voluntary_exile.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2ACFF677C4DBC958",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/kill_illusioner",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7CE2E6D52DC0BFB7",
+      "x": 0.0,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.adventure.summon_copper_golem.title\"}",
+      "icon": "minecraft:copper_block",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.adventure.summon_copper_golem.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1AB0EB2DB96029BC",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/summon_copper_golem",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1CE51757F09624DA",
+      "x": 0.0,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.adventure.the_magicians.title\"}",
+      "icon": "minecraft:emerald",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.adventure.the_magicians.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.voluntary_exile.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "467FF025D15B89ED",
+          "type": "advancement",
+          "advancement": "friendsandfoes:adventure/the_magicians",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "55F6341296DF6141",
+      "x": 0.0,
+      "y": 21.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.husbandry.beehive.title\"}",
+      "icon": "minecraft:beehive",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.husbandry.beehive.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "517E9D0EF1382A49",
+          "type": "advancement",
+          "advancement": "friendsandfoes:husbandry/beehive",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5B428859E7F8822F",
+      "x": 0.0,
+      "y": 24.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.husbandry.shear_a_moobloom.title\"}",
+      "icon": "minecraft:shears",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.husbandry.shear_a_moobloom.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1874E4816201222D",
+          "type": "advancement",
+          "advancement": "friendsandfoes:husbandry/shear_a_moobloom",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "02B6409FE3B4A6C8",
+      "x": 0.0,
+      "y": 27.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.husbandry.tame_a_glare.title\"}",
+      "icon": "minecraft:glow_berries",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.husbandry.tame_a_glare.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "445CE9AAAA2BB2EE",
+          "type": "advancement",
+          "advancement": "friendsandfoes:husbandry/tame_a_glare",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "65DE2A2A1875EF6D",
+      "x": 0.0,
+      "y": 30.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.nether.find_citadel.title\"}",
+      "icon": "minecraft:red_nether_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.nether.find_citadel.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3DF39BAC625D534D",
+          "type": "advancement",
+          "advancement": "friendsandfoes:nether/find_citadel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7A9FC8B382E55B3C",
+      "x": 2.5,
+      "y": 30.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.nether.kill_wildfire.title\"}",
+      "icon": "friendsandfoes:wildfire_crown_fragment",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.nether.kill_wildfire.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.find_citadel.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "092420691480AFF9",
+          "type": "advancement",
+          "advancement": "friendsandfoes:nether/kill_wildfire",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "10A8DF18706648F9",
+      "x": 5.0,
+      "y": 30.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.nether.obtain_wildfire_crown.title\"}",
+      "icon": "friendsandfoes:wildfire_crown",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.nether.obtain_wildfire_crown.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.kill_wildfire.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "039AAE90C5AB9E89",
+          "type": "advancement",
+          "advancement": "friendsandfoes:nether/obtain_wildfire_crown",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

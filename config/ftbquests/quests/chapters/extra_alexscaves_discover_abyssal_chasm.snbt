@@ -1,0 +1,537 @@
+{
+  "id": "70199F9055C50586",
+  "filename": "extra_alexscaves_discover_abyssal_chasm",
+  "title": "Подводная бездна",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 1,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "3D24659BA85DCD18",
+      "x": 0.0,
+      "y": 3.375,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.abyssal_bucket.title\"}",
+      "icon": "alexscaves:gossamer_worm_bucket",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.abyssal_bucket.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_chasm.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4E7BF777EC5DC04C",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/abyssal_bucket",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "530C05F169F2EC0F",
+      "x": 5.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.bioluminescent_torch.title\"}",
+      "icon": "alexscaves:bioluminescent_torch",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.bioluminescent_torch.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.bioluminesscence.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "65425F23C88B44C7",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/bioluminescent_torch",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5BECF4834E2B58CC",
+      "x": 2.5,
+      "y": 0.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.bioluminesscence.title\"}",
+      "icon": "alexscaves:bioluminesscence",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.bioluminesscence.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.abyssal_bucket.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6175AA5E1A89BAA4",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/bioluminesscence",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49976C69F06611B4",
+      "x": 2.5,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.cooked_mussel.title\"}",
+      "icon": "alexscaves:cooked_mussel",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.cooked_mussel.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.mussel.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5F763E4090BBBA37",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/cooked_mussel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "173A4068F435750D",
+      "x": 17.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.deep_one_items.title\"}",
+      "icon": "alexscaves:magic_conch",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.deep_one_items.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.deep_ones_become_helpful.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "00A0DCE4FE1F55D8",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/deep_one_items",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "75FE1EB478923FC6",
+      "x": 15.0,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.deep_ones_become_helpful.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.deep_ones_become_helpful.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.deep_ones_become_neutral.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "261727F7F31F7A05",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/deep_ones_become_helpful",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F7EE79DFEC8DC34",
+      "x": 12.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.deep_ones_become_neutral.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.deep_ones_become_neutral.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.trade_with_deep_one.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "73F192B78C082FB5",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/deep_ones_become_neutral",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "683F4C892715D1E8",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.deep_sea_sushi_roll.title\"}",
+      "icon": "alexscaves:deep_sea_sushi_roll",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.deep_sea_sushi_roll.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.abyssal_bucket.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "693BB3AB61955642",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/deep_sea_sushi_roll",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7B810438E653EC84",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.deepsight.title\"}",
+      "icon": "citadel:effect_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.deepsight.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.abyssal_bucket.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6BF343C0602FDA4F",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/deepsight",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1B98E642F33657BD",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defeat_mine_guardian.title\"}",
+      "icon": "alexscaves:depth_charge",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defeat_mine_guardian.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_ruins.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6F9AE9C7E1B1E9BC",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defeat_mine_guardian",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "491FEB1D83C7EDF8",
+      "x": 0.0,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_abyssal_ruins.title\"}",
+      "icon": "alexscaves:metal_scaffolding",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_ruins.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_chasm.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3E9D5E3AC954F1F5",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_abyssal_ruins",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "730F0E002F67A636",
+      "x": 2.5,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.diving_armor.title\"}",
+      "icon": "alexscaves:diving_helmet",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.diving_armor.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_ruins.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0C2563B675EFD15E",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/diving_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3AA323E21B0CDC35",
+      "x": 5.0,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.floater.title\"}",
+      "icon": "alexscaves:floater",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.floater.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.bioluminesscence.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2A7B18881916CE41",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/floater",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2AF0DBF8B788B789",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.marine_snow.title\"}",
+      "icon": "alexscaves:marine_snow",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.marine_snow.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.abyssal_bucket.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "02CE0A4C2CA5EED6",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/marine_snow",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "291D0A455FC3C2D2",
+      "x": 0.0,
+      "y": 15.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.mussel.title\"}",
+      "icon": "alexscaves:mussel",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.mussel.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_chasm.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "00335864D6FFF111",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/mussel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6DF63113F0D4D0F9",
+      "x": 2.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.pearl.title\"}",
+      "icon": "alexscaves:pearl",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.pearl.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.mussel.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2B45718EB079F840",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/pearl",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42C643C9B5C521CB",
+      "x": 7.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.pearl_on_abyssal_altar.title\"}",
+      "icon": "alexscaves:abyssal_altar",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.pearl_on_abyssal_altar.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.stalked_by_deep_one.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "304CDF87B0913F9B",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/pearl_on_abyssal_altar",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "025B70A27A37D350",
+      "x": 5.0,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.repair_submarine.title\"}",
+      "icon": "minecraft:copper_ingot",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.repair_submarine.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.ride_submarine.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "01DB382C8C428DA4",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/repair_submarine",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2C04EF797B43A71D",
+      "x": 2.5,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.ride_submarine.title\"}",
+      "icon": "alexscaves:submarine",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.ride_submarine.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_abyssal_ruins.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "14A633485883D56C",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/ride_submarine",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1727A605CE5E9BBF",
+      "x": 5.0,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.stalked_by_deep_one.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.stalked_by_deep_one.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.pearl.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6AEA11B40E9F9EB0",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/stalked_by_deep_one",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6ED6B6C7576C7F9D",
+      "x": 10.0,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.trade_with_deep_one.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.trade_with_deep_one.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.pearl_on_abyssal_altar.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "01A203BB73497203",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/trade_with_deep_one",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

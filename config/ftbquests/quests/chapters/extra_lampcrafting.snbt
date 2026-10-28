@@ -1,0 +1,235 @@
+{
+  "id": "2C8AEA7776D55E93",
+  "filename": "extra_lampcrafting",
+  "title": "Лампы и освещение",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 17,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "745D57EFDA0DD8A1",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.back_off_henry_jekyll.title\"}",
+      "icon": "lampcrafting:moon_lamp",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.back_off_henry_jekyll.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "178CA9B4E46775F2",
+          "type": "advancement",
+          "advancement": "lampcrafting:back_off_henry_jekyll",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5A4284080E0E4D63",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.every_light_praises_the_master.title\"}",
+      "icon": "lampcrafting:changer_light",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.every_light_praises_the_master.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "49D65BB36470FF95",
+          "type": "advancement",
+          "advancement": "lampcrafting:every_light_praises_the_master",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7AACD9FB9453B949",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.genie_what_are_you_doing_here.title\"}",
+      "icon": "lampcrafting:soul_redstone_lamp",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.genie_what_are_you_doing_here.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "129DF5722BF77177",
+          "type": "advancement",
+          "advancement": "lampcrafting:genie_what_are_you_doing_here",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "445DB12C048C48D6",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.its_certainly_not_a_las_vegas_sphere_but_its_still_big.title\"}",
+      "icon": "lampcrafting:big_redstone_lamp_achievement",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.its_certainly_not_a_las_vegas_sphere_but_its_still_big.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2E3F94364AD8B168",
+          "type": "advancement",
+          "advancement": "lampcrafting:its_certainly_not_a_las_vegas_sphere_but_its_still_big",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2707DEC409A5D514",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.light_my_little_light_tell_me_do_i_shine_the_brightest_of_all.title\"}",
+      "icon": "lampcrafting:light_reflector",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.light_my_little_light_tell_me_do_i_shine_the_brightest_of_all.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2E3B292A4D1A7907",
+          "type": "advancement",
+          "advancement": "lampcrafting:light_my_little_light_tell_me_do_i_shine_the_brightest_of_all",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "392ED737688614CA",
+      "x": 0.0,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}",
+      "icon": "minecraft:redstone_lamp",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "750841C97DC395B7",
+          "type": "advancement",
+          "advancement": "lampcrafting:live_a_century_shine_a_century",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3BD87978E3AADA30",
+      "x": 2.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.starcreft.title\"}",
+      "icon": "lampcrafting:communication_lamp_off",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.starcreft.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5F46DE92AF425C8E",
+          "type": "advancement",
+          "advancement": "lampcrafting:starcreft",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3F10AAD61C8C2D66",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.stop_mr_hyde.title\"}",
+      "icon": "lampcrafting:sun_lamp",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.stop_mr_hyde.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.live_a_century_shine_a_century.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "75F2CDD0E55C58A7",
+          "type": "advancement",
+          "advancement": "lampcrafting:stop_mr_hyde",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "219457C63D5A6333",
+      "x": 5.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.today_the_swamp_will_empty.title\"}",
+      "icon": "lampcrafting:moon_lamp_5",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.today_the_swamp_will_empty.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.back_off_henry_jekyll.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "71B2E30AEC4D3EFC",
+          "type": "advancement",
+          "advancement": "lampcrafting:today_the_swamp_will_empty",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

@@ -63,3 +63,14 @@ terrain/inventory bypass or practical packet exploitation was not shown.
 Client/world acceptance, LAN, old map-cache migration and adversarial packet
 testing remain separate. The original dedicated Copperative failure is not
 a result for this updated candidate.
+
+
+## Russian advancements and reward-free quests, 2026-10-28
+
+The author JARs and `scripts/recipes_for_CaD.zs` retain their previously pinned bytes. This is a resource/helper change plus three NEW FTB components, not a claim that the derivative only adds unmodified addons. The helper changes from 1.0.0 (SHA256 `53068fe81266ad9a0679a7499d2e36f3f21f25b6fe3a832b16772c815b64efa4`, 18,407 bytes) to 1.1.0. Its exact final identity is in `tools/local-mods.json` and the active distribution lock; the old identity remains historical, outside active files.
+
+Helper 1.1.0 contains missing Russian advancement language resources and a single address-specific display-only replacement for `nova_structures:adventure/tavern_quest`. That replacement is a required built-in TOP server data pack so a saved world's pack ordering cannot silently restore its literal English text. Language resources use the exact Forge 47.3.7 merge order. Native validation checks actual language resolution and a saved-world reload. Existing world-preset behavior and registry IDs are unchanged; this does not introduce a registry migration. The helper performs no terrain, inventory, damage, ownership or delayed world mutation, so no Safety module is required for this change.
+
+FTB Quests 2001.4.22, FTB Library 2001.2.13 and FTB Teams 2001.3.2 are NEW. Exact sizes, SHA256, sources, dependencies, side declarations, native advancement semantics and permission review are in `tools/quests/FTB-REVIEW.md`. Existing Architectury 9.2.14 and all other shared libraries retain their hashes. The authored book has no rewards, emergency items, loot-crate drops or item consumption. Its main progression follows the actual underground recipes, including blaze powder without the Nether. All LAN participants receive the same managed book and dependencies through the published manifest.
+
+Content audit covers all source display definitions including conditionally disabled entries; native tests separately identify actually loaded definitions. Known original resource/log problems and the dedicated Copperative failure remain explicit in `TESTING-STATUS.md`; neither successful static checks nor helper-only dedicated startup replaces full-client acceptance.

@@ -15,7 +15,7 @@ import urllib.request
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 
 
 def sha(path):
@@ -176,7 +176,13 @@ def main():
                          'dev.lanminecraft.cadlock.test.NativeResourcesTest', ROOT/'src/lock/resources'], cwd=build)
         mixins = run([args.native_java, '-Xmx512M', '-cp', execution_cp,
                       'dev.lanminecraft.cadlock.test.MixinTransformTest', build/'native-mixin-proof'], cwd=build)
-        report.update(nativeVerified=True, nativeResourceProof=resources, nativeMixinProof=mixins)
+        display_evidence = build/'native-display-pack-proof'
+        display = run([args.native_java, '-Xmx512M', '-cp', codec_cp,
+                       'dev.lanminecraft.cadlock.test.NativeDisplayPackTest',
+                       ROOT/'src/lock/resources/builtin/russian-advancements', display_evidence], cwd=build)
+        display_report = json.loads((display_evidence/'native-display-pack-proof.json').read_text(encoding='utf-8'))
+        report.update(nativeVerified=True, nativeResourceProof=resources, nativeMixinProof=mixins,
+                      nativeDisplayPackProof=display_report, nativeDisplayPackOutput=display)
     final_snapshot = source_snapshot()
     if snapshot != final_snapshot:
         raise SystemExit('Helper sources changed during build; wait for their owner and rerun')

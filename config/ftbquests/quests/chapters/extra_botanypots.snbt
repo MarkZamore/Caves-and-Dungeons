@@ -1,0 +1,62 @@
+{
+  "id": "21C1E4C52EBD734F",
+  "filename": "extra_botanypots",
+  "title": "Сад в горшках",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 10,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "1D9A565AC1CB81DD",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.botany_pots.get_pot.title\"}",
+      "icon": "botanypots:terracotta_botany_pot",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.botany_pots.get_pot.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.plant_seed.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "35B5784E27A94C45",
+          "type": "advancement",
+          "advancement": "botanypots:husbandry/get_basic_pot",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5121BFD85AD11EC5",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.botany_pots.get_hopper_pot.title\"}",
+      "icon": "botanypots:terracotta_hopper_botany_pot",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.botany_pots.get_hopper_pot.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.botany_pots.get_pot.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7B7301A04A4B2F41",
+          "type": "advancement",
+          "advancement": "botanypots:husbandry/get_hopper_pot",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

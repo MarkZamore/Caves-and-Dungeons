@@ -1,0 +1,37 @@
+{
+  "id": "547DF33E7C02827C",
+  "filename": "extra_resource_ghouls",
+  "title": "Ресурсный гуль",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 22,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "74D56ACC5910D1DB",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.vault_deep.title\"}",
+      "icon": "resource_ghouls:sapper_helmet_helmet",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.vault_deep.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4EA9FD7CE0C67CB3",
+          "type": "advancement",
+          "advancement": "resource_ghouls:vault_deep",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

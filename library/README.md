@@ -54,11 +54,11 @@ checkout; их инструмент не перезаписывает.
 
 После проверки активной поставки CI устанавливает Microsoft JDK 25.0.2 и
 воспроизводит helper из исходников командой
-`python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock --verify-installed mods/cad-world-type-lock-1.0.0.jar`.
+`python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock --verify-installed mods/cad-world-type-lock-1.1.0.jar`.
 Результат пишется только в `artifacts`, а его SHA256 должен совпасть с уже
 проверенным JAR в поставке. Непроверенная пересборка не подменяет активный файл.
 
-Собственный helper создания мира использует официальный источник этого репозитория:
+Собственный helper создания мира и переводов использует официальный источник этого репозитория:
 https://github.com/MarkZamore/Caves-and-Dungeons. Его запись хранится отдельно
 от исходного авторского lock в `tools/local-mods.json` и также включается
 в активные `supportFiles`. Фактический mod ID, размер и SHA256 должны совпасть
@@ -69,7 +69,7 @@ https://github.com/MarkZamore/Caves-and-Dungeons. Его запись храни
   "schemaVersion": 1,
   "files": [
     {
-      "path": "mods/cad-world-type-lock-1.0.0.jar",
+      "path": "mods/cad-world-type-lock-1.1.0.jar",
       "sizeBytes": 0,
       "sha256": "точный SHA256 собранного JAR",
       "modIds": ["cad_world_type_lock"],
@@ -83,3 +83,5 @@ https://github.com/MarkZamore/Caves-and-Dungeons. Его запись храни
 должна содержать проверенные значения. Генератор отклоняет несовпадение
 состава mod ID, размера или хеша и любой неизвестный JAR.
 
+
+Квестбук без наград и его три FTB зависимости добавлены к описанию производной поставки. FTB Library и FTB Teams показаны как вспомогательные компоненты, FTB Quests как игровой мод. Официальные страницы закреплены в активном lock и `mod-pages.json`; исходный авторский lock сохранён.

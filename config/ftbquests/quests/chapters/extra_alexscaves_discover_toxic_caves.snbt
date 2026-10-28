@@ -1,0 +1,662 @@
+{
+  "id": "3FF5543E01CEE42B",
+  "filename": "extra_alexscaves_discover_toxic_caves",
+  "title": "Токсичные пещеры",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 6,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "74552E82A033FEC9",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.acid_create_rust.title\"}",
+      "icon": "alexscaves:rusty_barrel",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.acid_create_rust.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.enter_acid_with_armor.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "42B99AE03B4C8361",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/acid_create_rust",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "583473739DC06D1E",
+      "x": 7.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defeat_brainiac.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defeat_brainiac.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.uranium_rod.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1552A47C7B1E6854",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defeat_brainiac",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "041BD0D90D8600B0",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defeat_nucleeper.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defeat_nucleeper.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.uranium.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1041D4CB067060D3",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defeat_nucleeper",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CDB033B2BD28D3F",
+      "x": 10.0,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.defuse_nuclear_bomb.title\"}",
+      "icon": "minecraft:shears",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.defuse_nuclear_bomb.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.nuclear_bomb.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "27C1E82D97920A88",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/defuse_nuclear_bomb",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6AAFCEC50635CB43",
+      "x": 5.0,
+      "y": 14.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.eat_radiation_foods.title\"}",
+      "icon": "alexscaves:slam",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.eat_radiation_foods.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.sulfur_dust.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2336D36AE74385EC",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/eat_radiation_foods",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1261A2F67F4DFD02",
+      "x": 0.0,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.enter_acid_with_armor.title\"}",
+      "icon": "alexscaves:acid_bucket",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.enter_acid_with_armor.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_toxic_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "76340190D4C530D5",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/enter_acid_with_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "69CB7BEB788DB382",
+      "x": 7.5,
+      "y": 14.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.feed_gammaroach.title\"}",
+      "icon": "alexscaves:spelunkie",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.feed_gammaroach.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.eat_radiation_foods.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0B1B54C53493BE21",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/feed_gammaroach",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6B0AB5A70C4B1E07",
+      "x": 12.5,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.hatch_tremorzilla_egg.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.hatch_tremorzilla_egg.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.tremorzilla_egg.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4971F2F68D2F3CF7",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/hatch_tremorzilla_egg",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "27A1D78ED407DE87",
+      "x": 15.0,
+      "y": 13.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.hazmat_armor.title\"}",
+      "icon": "alexscaves:hazmat_mask",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.hazmat_armor.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.polymer_plate.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "323EB10B257AEE55",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/hazmat_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "069E1D385D0715D0",
+      "x": 7.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.nuclear_bomb.title\"}",
+      "icon": "alexscaves:nuclear_bomb",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.nuclear_bomb.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.uranium_rod.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4EBD195957117D12",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/nuclear_bomb",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "198E5AD3818DAE91",
+      "x": 10.0,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.nuclear_furnace_component.title\"}",
+      "icon": "alexscaves:nuclear_furnace_component",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.nuclear_furnace_component.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.defeat_brainiac.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "044418B9FD865D5B",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/nuclear_furnace_component",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "52613E62F5F34EA9",
+      "x": 12.5,
+      "y": 14.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.polymer_plate.title\"}",
+      "icon": "alexscaves:polymer_plate",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.polymer_plate.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.toxic_paste.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "236609016A9DE524",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/polymer_plate",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2DC30C1AEADB85E9",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.radgill_bucket.title\"}",
+      "icon": "alexscaves:radgill_bucket",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.radgill_bucket.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.enter_acid_with_armor.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "46BE1736496EFFE7",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/radgill_bucket",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3B9DDF08D2111CC1",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.radon_bottle.title\"}",
+      "icon": "alexscaves:radon_bottle",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.radon_bottle.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.enter_acid_with_armor.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "093362BD9BC755E1",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/radon_bottle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5A8A9E9A00F9E759",
+      "x": 7.5,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.raygun.title\"}",
+      "icon": "alexscaves:raygun",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.raygun.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.uranium_rod.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "268A3A7CD6CC9984",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/raygun",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FE28F61B540328B",
+      "x": 15.0,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.remote_detonation.title\"}",
+      "icon": "alexscaves:remote_detonator",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.remote_detonation.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.polymer_plate.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6882FA61D9A06194",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/remote_detonation",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7BC812ECC46D77BD",
+      "x": 10.0,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.ride_nuclear_bomb.title\"}",
+      "icon": "alexscaves:nuclear_bomb",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.ride_nuclear_bomb.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.nuclear_bomb.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "630727EC1645E694",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/ride_nuclear_bomb",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4208EE610531AD98",
+      "x": 12.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.stop_nuclear_furnace_meltdown.title\"}",
+      "icon": "alexscaves:waste_drum",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.stop_nuclear_furnace_meltdown.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.nuclear_furnace_component.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1DEF7609C534AF8B",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/stop_nuclear_furnace_meltdown",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "32EEE6740CCE5174",
+      "x": 2.5,
+      "y": 14.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.sulfur_dust.title\"}",
+      "icon": "alexscaves:sulfur_dust",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.sulfur_dust.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.uranium.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "764A3757900F8728",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/sulfur_dust",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7738C567836A6DDD",
+      "x": 5.0,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.tame_raycat.title\"}",
+      "icon": "alexscaves:radgill",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.tame_raycat.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.radgill_bucket.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3CABDC1EAE8A078C",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/tame_raycat",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "29CC418A206E9ECB",
+      "x": 15.0,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.tame_tremorzilla.title\"}",
+      "icon": "alexscaves:waste_drum",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.tame_tremorzilla.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.hatch_tremorzilla_egg.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1E07C37E87B6A140",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/tame_tremorzilla",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5D94B8BED1679E37",
+      "x": 10.0,
+      "y": 14.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.toxic_paste.title\"}",
+      "icon": "alexscaves:toxic_paste",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.toxic_paste.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.feed_gammaroach.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "69C846F3839437FA",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/toxic_paste",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "092CD7612B6267E8",
+      "x": 10.0,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.tremorzilla_egg.title\"}",
+      "icon": "alexscaves:tremorzilla_egg",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.tremorzilla_egg.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.nuclear_bomb.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "542D1AB7063B19E2",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/tremorzilla_egg",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "616AE2C6A8098750",
+      "x": 17.5,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.tremorzilla_kill_beam.title\"}",
+      "icon": "citadel:icon_item",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.tremorzilla_kill_beam.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.tame_tremorzilla.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6794B380CC46B8D1",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/tremorzilla_kill_beam",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "543E39842EF42107",
+      "x": 0.0,
+      "y": 11.625,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.uranium.title\"}",
+      "icon": "alexscaves:uranium",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.uranium.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.discover_toxic_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "04D45F3F04FCF2D9",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/uranium",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "725C16C369B05E41",
+      "x": 5.0,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.uranium_rod.title\"}",
+      "icon": "alexscaves:uranium_rod",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.uranium_rod.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.alexscaves.defeat_nucleeper.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "59A2A507D8228541",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/uranium_rod",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

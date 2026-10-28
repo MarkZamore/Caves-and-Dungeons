@@ -1348,6 +1348,45 @@
       "metadataUrl": "https://www.curseforge.com/api/v1/mods/1145142/files/5925873",
       "included": true,
       "sha256": "09b1bc05f25f0d0cbf7bd250142fb75444e2737fd7194d1dfcf956c12a43218e"
+    },
+    {
+      "projectId": 289412,
+      "fileId": 8078538,
+      "fileName": "ftb-quests-forge-2001.4.22.jar",
+      "path": "mods/ftb-quests-forge-2001.4.22.jar",
+      "sizeBytes": 1255469,
+      "sourceUrl": "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+      "title": "FTB Quests (by FTB)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/289412/files/8078538",
+      "included": true,
+      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+    },
+    {
+      "projectId": 404465,
+      "fileId": 8226927,
+      "fileName": "ftb-library-forge-2001.2.13.jar",
+      "path": "mods/ftb-library-forge-2001.2.13.jar",
+      "sizeBytes": 780558,
+      "sourceUrl": "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "title": "FTB Library (by FTB)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/404465/files/8226927",
+      "included": true,
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+    },
+    {
+      "projectId": 404468,
+      "fileId": 7499810,
+      "fileName": "ftb-teams-forge-2001.3.2.jar",
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "sizeBytes": 252579,
+      "sourceUrl": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "title": "FTB Teams (by FTB)",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/404468/files/7499810",
+      "included": true,
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
     }
   ],
   "overrides": [
@@ -1377,38 +1416,198 @@
   "supportFiles": [
     {
       "path": ".github/workflows/publish.yml",
-      "sizeBytes": 5328,
-      "sha256": "f34a5e494eeeec9c49fc2a193288342ea7694772b3cabb43b87b810490d73488"
+      "sizeBytes": 5453,
+      "sha256": "9ffec7da5db46a4a81d9764a274d739dca7f32a826cb90e90180b37c0fdc3a2c"
     },
     {
       "path": "AGENTS.md",
-      "sizeBytes": 3483,
-      "sha256": "f0a19db5bf7d50d4611535a9553cff48d82ac8c13c08fb2606c37e2160c5f7f1"
+      "sizeBytes": 4648,
+      "sha256": "4f461aa90e72af6c61b4417173eadaf758e5b6fb2c6f3f1ff9453fda24610da2"
     },
     {
       "path": "README.md",
-      "sizeBytes": 5597,
-      "sha256": "5a03401b982ad380fbda6affa86fefa0f7f114e1b85e91a2d0ea2afeca20e482"
+      "sizeBytes": 8353,
+      "sha256": "8c13082bd2040efb6a49350bd9364c6e2676167f88b0eb5495b71a42bb078a54"
     },
     {
       "path": "TESTING-STATUS.md",
-      "sizeBytes": 9917,
-      "sha256": "46dc0293879c563e22e78cea336290a9ab4e7b7146b6ac4b06204e41f611ee1b"
+      "sizeBytes": 22658,
+      "sha256": "0d91a7c715517e16523d010ad32ae14120c4f656137689c2fc53095d46f8caa9"
+    },
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "sizeBytes": 283,
+      "sha256": "6e01016615ee461e16ffa483816df7345ce8dceccb525e7bf865c9d35588fbd5"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/caves.snbt",
+      "sizeBytes": 8798,
+      "sha256": "c142567d4ad5fb237bc0ed1a861f80ac58f7564b752bb4c516eceb7c66eb5f86"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/end.snbt",
+      "sizeBytes": 7699,
+      "sha256": "675b72e062cb0e5751c1053cf3b9a1e50e28a4efe679c4be9cc3fdc885e93823"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/equipment.snbt",
+      "sizeBytes": 6979,
+      "sha256": "cef473af245caf101f43b0974d7f0dc45c2db1b73b6816fc9494e00f3a5671f6"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves.snbt",
+      "sizeBytes": 1525,
+      "sha256": "504c6936a885277bcd363cc1c622e4e702aa4403fbe4512eb53f4f5801ad51ef"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves_discover_abyssal_chasm.snbt",
+      "sizeBytes": 29633,
+      "sha256": "d5a6a7b51713548bd5cabcad0a56da5ffe53fe1a883cb9c8d5641d21483a47f0"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves_discover_candy_cavity.snbt",
+      "sizeBytes": 47643,
+      "sha256": "8d1cc936c772916e218125eb98dca37a6a1fdf7402670321cf2d96e800406055"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves_discover_forlorn_hollows.snbt",
+      "sizeBytes": 22578,
+      "sha256": "736f9d11c621b09e50439dabf1bd76952537d87869a917d3b0f066675d59144d"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves_discover_magnetic_caves.snbt",
+      "sizeBytes": 19806,
+      "sha256": "fa03ad2efeeb75e6d093ff58f93b958bab007381cebdef7862176bf078263422"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves_discover_primordial_caves.snbt",
+      "sizeBytes": 33959,
+      "sha256": "4ad5fbd0e840b37466deda4486a2ad0ff800496e8d87e3bafc3d37fa410e1cb7"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexscaves_discover_toxic_caves.snbt",
+      "sizeBytes": 36534,
+      "sha256": "78fc676c026a15f9c489119158f7144ccc929cb678e9d21a9cda994d6a7e8500"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_alexsmobs.snbt",
+      "sizeBytes": 146137,
+      "sha256": "fb3efd51d3f4365120b8809bd4b5604365821eb9c3d89c6f0b7b61535520ddba"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_artifacts.snbt",
+      "sizeBytes": 4451,
+      "sha256": "900d93ba92216380cda4ddf7d2ac8bc50dbe65c1ecd9748ff39b944ab833fda5"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_betterdungeons.snbt",
+      "sizeBytes": 9366,
+      "sha256": "ad014d797bd58f8c674d24c1980c18446e87465bd9c393bee85bac473a1393d0"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_botanypots.snbt",
+      "sizeBytes": 3082,
+      "sha256": "de1f0ec1e489eb399c36c5a04a7fcfb0887497096d983dd471674fc8715640b3"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_cavesanddepths.snbt",
+      "sizeBytes": 1679,
+      "sha256": "fd5d47e66f299a4138c8f8af4a6a19c7b1833fffd05739e61757ec119611be04"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_dungeons_enhanced.snbt",
+      "sizeBytes": 19531,
+      "sha256": "bbbc4afe1575a515a13c7888f206fc2db114bff233fabcd8e35c8cb19c37def7"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_exposure.snbt",
+      "sizeBytes": 16898,
+      "sha256": "a390f37aa745f829ad8efd92dc6206ea74ec24f86ca5c849f0959c7bb35a437a"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_friendsandfoes.snbt",
+      "sizeBytes": 18379,
+      "sha256": "3be00ecf5df3ebca3f519ad96df6ab11af4d7a603ec883b570321da4e21cc420"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_galosphere.snbt",
+      "sizeBytes": 15657,
+      "sha256": "225332a624b75bdc9572d0a988623848b3fa9a947509ee0284a8c21b752fb820"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_glowroot.snbt",
+      "sizeBytes": 20316,
+      "sha256": "93888165284475a99149bb5142ce3dce25391c4b826c5d79ec486f6d8e4b01e9"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_lampcrafting.snbt",
+      "sizeBytes": 12874,
+      "sha256": "e758d99dfbf9631812cf8695a0ce99165b1b6fab9b079620113b3e8550a7efff"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_nova_structures.snbt",
+      "sizeBytes": 26979,
+      "sha256": "4a786f8b49b7ec2a4ba68c5cfabe79647ff549c3abc6e51db3e63b6ce7c77576"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_oreganized.snbt",
+      "sizeBytes": 16895,
+      "sha256": "b32045f694d1a79b8603af1013cae4636579ace0b06bdc6a80cf0a149a6500c9"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_quark.snbt",
+      "sizeBytes": 37272,
+      "sha256": "7e9682db07f1d06be545b320b6dde5561e7b8665435c19270883df0a7f2dfb82"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_repurposed_structures.snbt",
+      "sizeBytes": 25168,
+      "sha256": "41b6aa3f94ae67b7326993eda929a129070e9b0e0fb875c443f047b6c3712333"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_resource_ghouls.snbt",
+      "sizeBytes": 1650,
+      "sha256": "54dfbe4df965a2c8b8946e611f1b5167b54301fa0abdeaa0e851c400fe5a19bc"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_spelunkery.snbt",
+      "sizeBytes": 28042,
+      "sha256": "5fa0aab338b1c7fa908b97d0aa0db6621ac0691b44222c7dcf83143d92a799a6"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/extra_yungscavebiomes.snbt",
+      "sizeBytes": 11399,
+      "sha256": "f7716aa42a062aaac64c6a9f10ff012dd478f932addaf0240827d3e40a913bce"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/start.snbt",
+      "sizeBytes": 6918,
+      "sha256": "01f1facd87e7319bc6928cdae7edab5c2ca0b1b66152adb9240fa41ddfe4ef25"
+    },
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "sizeBytes": 452,
+      "sha256": "2569ad8647c7611df3dcb38a5af2d6b6979fd62dc2ccf52ccd26dcbc5afd9058"
+    },
+    {
+      "path": "launcher/pack-owned.txt",
+      "sizeBytes": 116,
+      "sha256": "ceb5ea5e7cc7afab5354a0e6d82589eaa7e3ac2077e0e4a73a86547180d2014c"
     },
     {
       "path": "library/README.md",
-      "sizeBytes": 7245,
-      "sha256": "0ec920b71bf724e9abf8b4f8dce3ab5fbce7f92826db5ceaf7dc41c7c35c24d4"
+      "sizeBytes": 7738,
+      "sha256": "02a0ffa408f92919ae0ca6ff6172d36061cd07481b0d13bb399cf93209b0cccc"
     },
     {
       "path": "library/content.json",
-      "sizeBytes": 1490,
-      "sha256": "8b720eace0a9749758fa241e3d7a2d634a82f915f8cc5d5f15119589480d77c2"
+      "sizeBytes": 1733,
+      "sha256": "a8bd04ca19cac2df265bb3fc62da2ef17dc140079de7828116ca54364fe207f6"
     },
     {
       "path": "library/mod-pages.json",
-      "sizeBytes": 8064,
-      "sha256": "6b9ac74c34a14147d34b0d9553a1b1106199ffa80962d15c93836cdef7cd21a1"
+      "sizeBytes": 8304,
+      "sha256": "93fbbcf5143ac04ce2624b4f0273ad474520dc98a8ee0e277e6c7b08ec644fb1"
     },
     {
       "path": "library/preview-source.json",
@@ -1421,9 +1620,9 @@
       "sha256": "b8773c1bef92cb089a33a9ac319f81cf47fa4c739e350e2a7f4e2c72def0e4b5"
     },
     {
-      "path": "mods/cad-world-type-lock-1.0.0.jar",
-      "sizeBytes": 18407,
-      "sha256": "53068fe81266ad9a0679a7499d2e36f3f21f25b6fe3a832b16772c815b64efa4"
+      "path": "mods/cad-world-type-lock-1.1.0.jar",
+      "sizeBytes": 54660,
+      "sha256": "c3db76c6a78cdc9524759e2195fd99eee628ca1292476f91e0f63b48529a81d5"
     },
     {
       "path": "portable-pack.json",
@@ -1432,13 +1631,33 @@
     },
     {
       "path": "tools/UPDATE-NOTES.md",
-      "sizeBytes": 3814,
-      "sha256": "b9182fe7251f3e2d9da5433a62d570c3838ab726831339e02a8d285989d4745b"
+      "sizeBytes": 6038,
+      "sha256": "f867b1adc4406c0ccb8b109940d7a98cdf55fb190aa4c148bbf674efc063f764"
     },
     {
       "path": "tools/local-mods.json",
       "sizeBytes": 345,
-      "sha256": "c76bef9fb2817b864be77f773e0498e7762468c131f209f9f9d8a40e45da290f"
+      "sha256": "e198eb37a60a55e33adba7dd1b7cf5386ca773522515653dad30f46c50c8d3fb"
+    },
+    {
+      "path": "tools/quests/FTB-REVIEW.md",
+      "sizeBytes": 14281,
+      "sha256": "95486b0bd32fec1cabf4e82e0397d7203838c8d8575bc7ee71cc9ac410265016"
+    },
+    {
+      "path": "tools/quests/README.md",
+      "sizeBytes": 8303,
+      "sha256": "538cd36afe5bdedc7a7cd7946c544819c8fbe43476487e747970eff9825e4c38"
+    },
+    {
+      "path": "tools/quests/runtime-exclusions.json",
+      "sizeBytes": 955,
+      "sha256": "34f413a5245982165a57954e4916ae24d1aed33e023e7c3610d052d8667f16d1"
+    },
+    {
+      "path": "tools/russian-advancements/README.md",
+      "sizeBytes": 4982,
+      "sha256": "9a42e0087a0009d97ef96bd960a3410af63989b3f851e4672167fb9bd583ec89"
     },
     {
       "path": "tools/upstream-lock.json",
@@ -1480,6 +1699,14 @@
       "reason": "User-requested Xaero World Map update from 1.39.2 to the latest stable Forge 1.20.1 release 1.47.0; bundled XaeroLib 1.7.3 is NEW.",
       "registryCompatibility": "No terrain/item/block registry IDs added or removed by this map update; old map folders preserved. Runtime world check required.",
       "safetyReview": "See tools/UPDATE-NOTES.md for exact bytecode boundaries and native permission caveat."
+    }
+  ],
+  "historicalSupportFiles": [
+    {
+      "path": "mods/cad-world-type-lock-1.0.0.jar",
+      "sizeBytes": 18407,
+      "sha256": "53068fe81266ad9a0679a7499d2e36f3f21f25b6fe3a832b16772c815b64efa4",
+      "reason": "Replaced by 1.1.0 Russian advancement resources; same preset and registry IDs."
     }
   ]
 }

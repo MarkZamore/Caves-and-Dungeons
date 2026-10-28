@@ -1,0 +1,35 @@
+{
+  "id": "295FC541EB9843BA",
+  "filename": "extra_alexscaves",
+  "title": "Редкие пещеры: прочие открытия",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 0,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "51E6DA7FAD9CD6A2",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.alexscaves.root.title\"}",
+      "icon": "alexscaves:advancement_tab_icon",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.alexscaves.root.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "39B1DB50C464CDA1",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/root",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "1924F50D624E4B77",
+  "filename": "equipment",
+  "title": "2. Камни и снаряжение",
+  "icon": "minecraft:diamond_pickaxe",
+  "group": "78E2EFAD05ED3E05",
+  "order_index": 1,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "6C95A4E15C227CC8",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Spelunkery меняет добычу самоцветов: сначала вы получаете необработанный камень, который ещё нужно отшлифовать."
+      ],
+      "title": "{\"translate\":\"advancements.spelunkery.rough_gem.title\"}",
+      "icon": "spelunkery:rough_lazurite",
+      "dependencies": [
+        "2ED1366CCE05EDBD"
+      ],
+      "tasks": [
+        {
+          "id": "37A65C927BC1F837",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/rough_gem",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "36AFA7D53904A0C1",
+      "x": 2.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Используйте необработанный самоцвет на точиле. Рецепты и подходящие предметы смотрите в JEI."
+      ],
+      "title": "{\"translate\":\"advancements.spelunkery.grindstone.title\"}",
+      "icon": "minecraft:grindstone",
+      "dependencies": [
+        "6C95A4E15C227CC8"
+      ],
+      "tasks": [
+        {
+          "id": "5748F6240A23907D",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/grindstone",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "72BE6AE306EC083C",
+      "x": 4.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Добудьте необработанный алмаз. В этой сборке обычный алмаз не выпадает из руды сразу."
+      ],
+      "title": "{\"translate\":\"advancements.spelunkery.rough_diamond.title\"}",
+      "icon": "spelunkery:rough_diamond",
+      "dependencies": [
+        "2ED1366CCE05EDBD"
+      ],
+      "tasks": [
+        {
+          "id": "1BEC19965A54F350",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/rough_diamond",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7BA8FB1A074DA550",
+      "x": 6.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Соберите алмазное точило: оно нужно для обработки необработанного алмаза."
+      ],
+      "title": "{\"translate\":\"advancements.spelunkery.diamond_grindstone.title\"}",
+      "icon": "spelunkery:diamond_grindstone",
+      "dependencies": [
+        "72BE6AE306EC083C"
+      ],
+      "tasks": [
+        {
+          "id": "035500AE1534562B",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/diamond_grindstone",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0F388DD55FC30B9D",
+      "x": 8.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Отшлифуйте необработанный алмаз на алмазном точиле. Теперь доступны алмазное снаряжение и стол зачарований."
+      ],
+      "title": "{\"translate\":\"advancements.story.mine_diamond.title\"}",
+      "icon": "minecraft:diamond",
+      "dependencies": [
+        "7BA8FB1A074DA550"
+      ],
+      "tasks": [
+        {
+          "id": "4F708683524D4B5B",
+          "type": "advancement",
+          "advancement": "minecraft:story/mine_diamond",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0FCF76FDC5CAE9AC",
+      "x": 10.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Зачаруйте снаряжение перед долгими экспедициями. Запас еды, воды и света всё ещё необходим."
+      ],
+      "title": "{\"translate\":\"advancements.story.enchant_item.title\"}",
+      "icon": "minecraft:enchanted_book",
+      "dependencies": [
+        "0F388DD55FC30B9D"
+      ],
+      "tasks": [
+        {
+          "id": "41226CF0D19097FF",
+          "type": "advancement",
+          "advancement": "minecraft:story/enchant_item",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "264523D76E7476A1",
+      "x": 12.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Светящиеся палочки помогают в тёмных пещерах. Проверьте их рецепт в JEI."
+      ],
+      "title": "{\"translate\":\"advancements.spelunkery.glowstick.title\"}",
+      "icon": "spelunkery:glowstick",
+      "dependencies": [
+        "2ED1366CCE05EDBD"
+      ],
+      "tasks": [
+        {
+          "id": "063AC4BC207EA936",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/glowstick",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "564115D1D132DB0A",
+      "x": 14.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Глубиномер пригодится для ориентации, а позже войдёт в изменённый рецепт компаса природы."
+      ],
+      "title": "{\"translate\":\"advancements.spelunkery.depth_gauge.title\"}",
+      "icon": "spelunkery:depth_gauge",
+      "dependencies": [
+        "2ED1366CCE05EDBD"
+      ],
+      "tasks": [
+        {
+          "id": "667D7850C1780ECE",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/depth_gauge",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0ACFDAAC8D76BF76",
+      "x": 16.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Серебро пригодится в рецептах Galosphere и компаса исследователя. Его не нужно собирать для каждого следующего шага основного маршрута."
+      ],
+      "title": "{\"translate\":\"advancements.galosphere.silver_ingot.title\"}",
+      "icon": "galosphere:silver_ingot",
+      "dependencies": [
+        "2ED1366CCE05EDBD"
+      ],
+      "tasks": [
+        {
+          "id": "179BFD858F7A35D0",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/silver_ingot",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

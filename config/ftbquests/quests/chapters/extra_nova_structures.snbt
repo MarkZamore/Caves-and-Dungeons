@@ -1,0 +1,512 @@
+{
+  "id": "70734DC2CCEB244C",
+  "filename": "extra_nova_structures",
+  "title": "Подземелья и таверны",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 18,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "1EC9803DB5F07F4A",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Miner Inconvenience\"}",
+      "icon": "minecraft:iron_pickaxe",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Conquer a Badlands Miner Outpost\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7E8AA2573DA9EEF3",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/conquer_miner_outpost",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "56CB5CF0ABD7464D",
+      "x": 0.0,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"The Ill Manored\"}",
+      "icon": "minecraft:dark_oak_log",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Visit all Illager and Witch structures\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.hero_of_the_village.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6E275DEFFAFF539C",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_all_illager_structures",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6C1E02888DD747CF",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Mind Your Manors\"}",
+      "icon": "minecraft:iron_axe",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Locate an Illager Manor\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6D7713803D62B9A0",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_illager_manor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2BBE79F5F24E0578",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Deep in the Dark Woodland\"}",
+      "icon": "minecraft:dark_oak_door",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Enter an Woodland Mansion\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "36D8B4A47E9D3115",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_illager_mansion",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1A2605E136C0DE3A",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Intruder Alert\"}",
+      "icon": "minecraft:crossbow",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Aproach an Pillager Outpost\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3FC51A9B1FA688B8",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_pillager_outpost",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F7C7187B26245A5",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Bewitched\"}",
+      "icon": "minecraft:glass_bottle",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Visit an Swamp Village\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7E2497DE50BCCDCF",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_swamp_village",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "28131D1E7016DD38",
+      "x": 0.0,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Safe Haven\"}",
+      "icon": "minecraft:smoker",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find a Tavern\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6CBA4A8D9973C43F",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_tavern",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "185BE1C9DFB01BCF",
+      "x": 2.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Trouble is Brewing\"}",
+      "icon": "minecraft:cauldron",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find a Witch Villa\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "275819C2649E01EF",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/find_witch_villa",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "06F34F467FBD0F56",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Hide and Seek\"}",
+      "icon": "minecraft:deepslate_emerald_ore",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Relieve an Illager Hideout of its loot\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"The Ill Manored\"}"
+      ],
+      "tasks": [
+        {
+          "id": "47BB77234155CB3D",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/loot_illager_hideout",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "790534B0F227DD2C",
+      "x": 2.5,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"caves_and_dungeons.advancements.tavern_quest.title\"}",
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"caves_and_dungeons.advancements.tavern_quest.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Safe Haven\"}"
+      ],
+      "tasks": [
+        {
+          "id": "698D020DC59DF664",
+          "type": "advancement",
+          "advancement": "nova_structures:adventure/tavern_quest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3A32D26C71454D93",
+      "x": 2.5,
+      "y": 21.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Bastion of Bastions\"}",
+      "icon": "minecraft:chiseled_polished_blackstone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Locate a Piglin Donjon\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Hog Hunt\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3DCCBB10F07FE645",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_donjon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "182DCDC27EB35C5B",
+      "x": 2.5,
+      "y": 22.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"The Learned Piglins\"}",
+      "icon": "minecraft:polished_blackstone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Walk into an Hamlet\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Hog Hunt\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5048FC1626E27F37",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_hamlet",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "03D472C842E1D9F3",
+      "x": 2.5,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Concrete Halls\"}",
+      "icon": "minecraft:chiseled_nether_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Stumble upon a Nether Keep\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Skull Collector\"}"
+      ],
+      "tasks": [
+        {
+          "id": "398A13E5A8BBC156",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_keep",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "61519043678D5BAC",
+      "x": 0.0,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Skull Collector\"}",
+      "icon": "minecraft:skeleton_skull",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Explore all Skeleton Camps, Skeleton Towers, Nether Port, Fortress and Nether keep\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.find_fortress.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "01D08980723765A2",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_nether_skeleton",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0E4508F6F910C832",
+      "x": 2.5,
+      "y": 24.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Vault Breaker\"}",
+      "icon": "minecraft:gilded_blackstone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Break into an Piglin Outstation\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Hog Hunt\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4B714F9FF136F14D",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_piglin_outpost",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0824600B1B3652A3",
+      "x": 0.0,
+      "y": 22.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Hog Hunt\"}",
+      "icon": "minecraft:piglin_head",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Explore a Piglin Camp, Piglin Outstation, Hamlet and Donjon\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.find_bastion.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "37CD4AC30EAE7D7F",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_piglins",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "778F3454E25AD8D3",
+      "x": 2.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Port o Magma\"}",
+      "icon": "minecraft:red_nether_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Aproach an Nether Port\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Skull Collector\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4812ABB139E3E904",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_port",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0C2821269FBCB365",
+      "x": 2.5,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Bone Crusher\"}",
+      "icon": "minecraft:bone_block",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Visit all Nether Skeleton Towers\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Skull Collector\"}"
+      ],
+      "tasks": [
+        {
+          "id": "346C6864A4521FA1",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/find_skeleton_tower",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3EAAF38177678A3D",
+      "x": 5.0,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Cool Off\"}",
+      "icon": "minecraft:powder_snow_bucket",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Bathe in powder snow while in a Nether Keep\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Concrete Halls\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1AB2969E91077AE3",
+          "type": "advancement",
+          "advancement": "nova_structures:nether/powder_snow_keep",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "70EB1528FC3F17A7",
+      "x": 0.0,
+      "y": 27.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Welcome to Dungeons and Taverns\"}",
+      "icon": "minecraft:leather_chestplate",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Made by nova_wostra, loot tables by walls, advancements by badooga\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7F00ADD3ECAFF0F5",
+          "type": "advancement",
+          "advancement": "nova_structures:root",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

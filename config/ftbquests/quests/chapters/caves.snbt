@@ -1,0 +1,243 @@
+{
+  "id": "1F5434EE7BEFC561",
+  "filename": "caves",
+  "title": "3. Карта редких пещер",
+  "icon": "alexscaves:cave_book",
+  "group": "78E2EFAD05ED3E05",
+  "order_index": 2,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "0DF5B3072A055F1A",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Ищите подземные хижины Alex’s Caves и пещерные таблички в них. Табличка — начало исследования одного из редких биомов."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.cave_tablet.title\"}",
+      "icon": "alexscaves:cave_tablet",
+      "dependencies": [
+        "2ED1366CCE05EDBD"
+      ],
+      "tasks": [
+        {
+          "id": "72EF9BF8F632BF33",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/cave_tablet",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "06F65B3E1C825AD1",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Пещерный путеводитель хранит открытые сведения о биомах и их обитателях. Пользуйтесь им вместе с этим маршрутом."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.cave_book.title\"}",
+      "icon": "alexscaves:cave_book",
+      "dependencies": [
+        "0DF5B3072A055F1A"
+      ],
+      "tasks": [
+        {
+          "id": "46E730B6BE5F1EB8",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/cave_book",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7CAE827D3AAABE08",
+      "x": 5.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Расшифруйте табличку на столе спелеолога. Подготовьте бумагу и изучите мини-игру в путеводителе."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.cave_codex.title\"}",
+      "icon": "alexscaves:cave_codex",
+      "dependencies": [
+        "0DF5B3072A055F1A"
+      ],
+      "tasks": [
+        {
+          "id": "006FCF7D067A9D4D",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/cave_codex",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B41E8D027CB2206",
+      "x": 7.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Из расшифрованного манускрипта создайте карту нужного пещерного биома. Шесть следующих веток можно исследовать в любом порядке.",
+        "Компас природы и компас исследователя в сборке имеют сложные авторские рецепты. Они полезны позже, но не обязательны для первых экспедиций."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.cave_map.title\"}",
+      "icon": "alexscaves:cave_map",
+      "dependencies": [
+        "7CAE827D3AAABE08"
+      ],
+      "tasks": [
+        {
+          "id": "696667D96D8BE667",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/cave_map",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7E9196093AD6D582",
+      "x": 10.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Первобытные пещеры дают доступ к динозаврам и янтариту. По авторскому рецепту один янтарит превращается в три огненных стержня: это один из путей к Краю без Незера."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_primordial_caves.title\"}",
+      "icon": "citadel:icon_item",
+      "dependencies": [
+        "4B41E8D027CB2206"
+      ],
+      "tasks": [
+        {
+          "id": "57F23092DD3DBF2A",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_primordial_caves",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "19C1C94C993C6368",
+      "x": 0.0,
+      "y": 2.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Токсичные пещеры опасны радиацией и кислотой. Здесь есть сера для альтернативного рецепта огненного порошка. Не берите уран без подготовки; подробности защиты читайте в пещерном справочнике."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_toxic_caves.title\"}",
+      "icon": "citadel:icon_item",
+      "dependencies": [
+        "4B41E8D027CB2206"
+      ],
+      "tasks": [
+        {
+          "id": "027314414ED0B709",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_toxic_caves",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "040D54680F8FDE69",
+      "x": 2.5,
+      "y": 2.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Здесь начинаются неодимовые сплавы, магниты и магнитная техника. Продолжение собрано в отдельной дополнительной главе."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_magnetic_caves.title\"}",
+      "icon": "citadel:icon_item",
+      "dependencies": [
+        "4B41E8D027CB2206"
+      ],
+      "tasks": [
+        {
+          "id": "4F1383446315FD68",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_magnetic_caves",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "121208D62C795540",
+      "x": 5.0,
+      "y": 2.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Подготовьтесь к темноте и долгому погружению. В Подводной бездне есть морские существа, жемчуг, глубоководные руины и торговля с глубинными жителями."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_abyssal_chasm.title\"}",
+      "icon": "citadel:icon_item",
+      "dependencies": [
+        "4B41E8D027CB2206"
+      ],
+      "tasks": [
+        {
+          "id": "375B6711D31489CD",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_abyssal_chasm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "53F0E175E901C67D",
+      "x": 7.5,
+      "y": 2.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Возьмите надёжный источник света. За местными культами и опасными существами скрываются отдельные цепочки достижений."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_forlorn_hollows.title\"}",
+      "icon": "citadel:icon_item",
+      "dependencies": [
+        "4B41E8D027CB2206"
+      ],
+      "tasks": [
+        {
+          "id": "46D609311B99A342",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_forlorn_hollows",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5C82326323DFE1DF",
+      "x": 10.0,
+      "y": 2.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "description": [
+        "Конфетный котлован — самостоятельная ветка с необычной едой, существами и снаряжением. Для попадания в Край проходить её целиком не требуется."
+      ],
+      "title": "{\"translate\":\"advancements.alexscaves.discover_candy_cavity.title\"}",
+      "icon": "citadel:icon_item",
+      "dependencies": [
+        "4B41E8D027CB2206"
+      ],
+      "tasks": [
+        {
+          "id": "4B20C0FFFFEB327B",
+          "type": "advancement",
+          "advancement": "alexscaves:alexscaves/discover_candy_cavity",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "id": "0060F52FE72E9235",
+  "filename": "extra_spelunkery",
+  "title": "Искусство спелеолога",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 23,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "65B55E5E426DF1F3",
+      "x": 2.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.carved_nephrite.title\"}",
+      "icon": "spelunkery:carved_nephrite",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.carved_nephrite.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.nephrite_chunk.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7F229E0AC29501A8",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/carved_nephrite",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "320BA3B1B042CF3B",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.coal_lump.title\"}",
+      "icon": "spelunkery:coal_lump",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.coal_lump.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.mine_stone.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7B203C5F76688354",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/coal_lump",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "29D37B417FBD975E",
+      "x": 0.0,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.compression_blast_miner.title\"}",
+      "icon": "spelunkery:compression_blast_miner",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.compression_blast_miner.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.obtain_ancient_debris.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "669167EA5D99E532",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/compression_blast_miner",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0D0FF5E8989FF000",
+      "x": 0.0,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.conk_fungus.title\"}",
+      "icon": "spelunkery:conk_fungus",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.conk_fungus.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "18002AB927F65F9A",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/conk_fungus",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "488B40DFC04D99DB",
+      "x": 0.0,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.echo_fork.title\"}",
+      "icon": "spelunkery:echo_fork",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.echo_fork.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.avoid_vibration.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6C98F534EF405867",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/echo_fork",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "630C058F30F9055E",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.every_fungus.title\"}",
+      "icon": "spelunkery:phosphor_fungus",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.every_fungus.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.conk_fungus.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "016306303F1E7677",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/every_fungus",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1A4664BBF32DB33B",
+      "x": 2.5,
+      "y": 25.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.every_ore.title\"}",
+      "icon": "spelunkery:granite_lapis_ore",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.every_ore.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.raw_nuggets.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6732BC3771D92692",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/every_ore",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "71DEBD8D5F0C8A95",
+      "x": 2.5,
+      "y": 34.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.feed_slime.title\"}",
+      "icon": "minecraft:beetroot",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.feed_slime.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.summon_slime.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "37E89E7DAFC14520",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/feed_slime",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AD38FECE873B9F1",
+      "x": 2.5,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.item_magnet.title\"}",
+      "icon": "spelunkery:item_magnet",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.item_magnet.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.magnetite.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "28F735D07BC195EA",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/item_magnet",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "64CCC5FAD7390768",
+      "x": 2.5,
+      "y": 13.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.magnetic_compass.title\"}",
+      "icon": "spelunkery:magnetic_compass",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.magnetic_compass.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.magnetite.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5FA2E1B6122F6BBF",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/magnetic_compass",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1B6A8AB01E145C73",
+      "x": 0.0,
+      "y": 12.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.magnetite.title\"}",
+      "icon": "spelunkery:raw_magnetite",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.magnetite.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.mine_diamond.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6251F7F9DCE4C032",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/magnetite",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5D6D69BCE4604205",
+      "x": 0.0,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.nephrite_chunk.title\"}",
+      "icon": "spelunkery:nephrite_chunk",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.nephrite_chunk.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.iron_tools.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4F570F205B442E7D",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/nephrite_chunk",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0580A550CC1AAB2C",
+      "x": 0.0,
+      "y": 19.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.obsidian_chisel.title\"}",
+      "icon": "spelunkery:obsidian_hammer_and_chisel",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.obsidian_chisel.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.form_obsidian.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "029EB30BBEBBCDF4",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/obsidian_chisel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7F60F9012FE5C06A",
+      "x": 0.0,
+      "y": 22.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.purple_drink.title\"}",
+      "icon": "spelunkery:portal_fluid_bottle",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.purple_drink.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.nether.charge_respawn_anchor.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2B73BCA1D2BD898F",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/purple_drink",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "19AE90DD2549F709",
+      "x": 0.0,
+      "y": 25.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.raw_nuggets.title\"}",
+      "icon": "spelunkery:raw_iron_nugget",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.raw_nuggets.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.iron_tools.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1C9EAF7ED3BEE7C0",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/raw_nuggets",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2C25DACF4E47409B",
+      "x": 0.0,
+      "y": 28.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.rock_salt.title\"}",
+      "icon": "spelunkery:rock_salt",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.rock_salt.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.mine_stone.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "45C9F963FC3BA5B1",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/rock_salt",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "23DBC5EF80BC6A63",
+      "x": 0.0,
+      "y": 31.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.soulbound.title\"}",
+      "icon": "minecraft:recovery_compass",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.soulbound.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.avoid_vibration.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "47E03C4384399943",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/soulbound",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "04410173D0942599",
+      "x": 0.0,
+      "y": 34.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.summon_slime.title\"}",
+      "icon": "minecraft:slime_block",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.summon_slime.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4C51023B46D8548E",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/summon_slime",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5AC08E5584E5F0F7",
+      "x": 5.0,
+      "y": 13.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.true_north.title\"}",
+      "icon": "minecraft:netherite_boots",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.true_north.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.spelunkery.magnetic_compass.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1A5C825C5B99A956",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/true_north",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "25F22208B5DB883D",
+      "x": 0.0,
+      "y": 37.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.spelunkery.wooden_rail.title\"}",
+      "icon": "spelunkery:wooden_rail",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.spelunkery.wooden_rail.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.story.mine_stone.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "16C82869802CFCBC",
+          "type": "advancement",
+          "advancement": "spelunkery:spelunkery/wooden_rail",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

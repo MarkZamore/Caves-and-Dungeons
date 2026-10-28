@@ -1,0 +1,210 @@
+{
+  "id": "52A1D46CCD9EF42D",
+  "filename": "extra_yungscavebiomes",
+  "title": "Пещерные биомы Юнга",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 24,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "5BC67F806561DFDD",
+      "x": 5.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.frost_potion.title\"}",
+      "icon": "yungscavebiomes:frost_lily",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.frost_potion.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.frosted_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "529446FA881EC412",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:frost_potion",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3AFE7D5657094106",
+      "x": 2.5,
+      "y": 0.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.frosted_caves.title\"}",
+      "icon": "yungscavebiomes:icicle",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.frosted_caves.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6D1505923A23583D",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:frosted_caves",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2A1D261E8B45792F",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.lost_caves.title\"}",
+      "icon": "yungscavebiomes:chiseled_ancient_sandstone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.lost_caves.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "11595A98616403D8",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:lost_caves",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5BF9237C27A7936E",
+      "x": 5.0,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.mine_enchanted_ice.title\"}",
+      "icon": "yungscavebiomes:rare_ice",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.mine_enchanted_ice.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.frosted_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3F664238385C6F15",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:mine_enchanted_ice",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1A50823883ACE697",
+      "x": 5.0,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.poke_the_cactus.title\"}",
+      "icon": "yungscavebiomes:prickly_peach_cactus",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.poke_the_cactus.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.lost_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "500AC84FB0460540",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:poke_the_cactus",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6B4458BEA2B48B95",
+      "x": 0.0,
+      "y": 2.625,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.root.title\"}",
+      "icon": "yungscavebiomes:layered_ancient_sandstone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.root.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "7E3D6B2E4F54B8FD",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:root",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "097B81E2DB383192",
+      "x": 5.0,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.sandstorm_end.title\"}",
+      "icon": "yungscavebiomes:ancient_sand",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.sandstorm_end.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.lost_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0A1707675ED45E7F",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:sandstorm_end",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2FE6761F36AFB209",
+      "x": 5.0,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"yungscavebiomes.advancements.the_snack_that_bites_back.title\"}",
+      "icon": "yungscavebiomes:prickly_peach",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"yungscavebiomes.advancements.the_snack_that_bites_back.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"yungscavebiomes.advancements.lost_caves.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0B20A6CB9B957C25",
+          "type": "advancement",
+          "advancement": "yungscavebiomes:the_snack_that_bites_back",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

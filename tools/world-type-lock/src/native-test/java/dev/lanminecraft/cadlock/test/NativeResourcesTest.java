@@ -33,6 +33,17 @@ public final class NativeResourcesTest {
             throw new AssertionError("Minecraft1.20.1 must parse the shared resource/data pack_format as15");
         if (nativeMetadata.m_10373_().getString().isBlank())
             throw new AssertionError("Minecraft metadata description must not be blank");
+        int metadataCount = 0;
+        try (var paths = Files.walk(resources)) {
+            for (Path path : paths.filter(candidate -> candidate.getFileName().toString().equals("pack.mcmeta")).toList()) {
+                var section = new PackMetadataSectionSerializer().m_6322_(read(path).getAsJsonObject().getAsJsonObject("pack"));
+                if (section.m_10374_() != 15 || section.m_10373_().getString().isBlank())
+                    throw new AssertionError("Every helper/builtin pack must have native format15 and description: " + path);
+                metadataCount++;
+            }
+        }
+        if (metadataCount != 2)
+            throw new AssertionError("Expected helper plus mandatory Russian-display builtin pack metadata, found " + metadataCount);
 
         var provider = VanillaRegistries.m_255371_();
         var ops = RegistryOps.m_255058_(JsonOps.INSTANCE, provider);
@@ -61,6 +72,7 @@ public final class NativeResourcesTest {
         report.addProperty("nativeWorldPresetCodec", true);
         report.addProperty("nativePackMetadataSerializer", true);
         report.addProperty("packFormat", nativeMetadata.m_10374_());
+        report.addProperty("nativePackMetadataCount", metadataCount);
         report.addProperty("serializerEnvironment", "unpatched native Minecraft1.20.1");
         report.addProperty("nativeNormalDimensionsEqual", true);
         report.addProperty("dimensionCount", dimensions.size());
@@ -71,7 +83,7 @@ public final class NativeResourcesTest {
             Files.createDirectories(output.toAbsolutePath().getParent());
             Files.writeString(output, report + "\n", StandardCharsets.UTF_8);
         }
-        System.out.println("NativeResourcesTest PASS: actual Minecraft1.20.1 codec matches all native normal dimensions; pack format15; RU/EN labels. Runtime client not asserted.");
+        System.out.println("NativeResourcesTest PASS: actual Minecraft1.20.1 codec matches all native normal dimensions; both pack metadata format15; RU/EN labels. Runtime client not asserted.");
     }
 
     private static void requireLabel(Path root, String language, String expected) throws Exception {

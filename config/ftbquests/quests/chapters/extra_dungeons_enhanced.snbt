@@ -1,0 +1,360 @@
+{
+  "id": "7DB12FDCB5CEA532",
+  "filename": "extra_dungeons_enhanced",
+  "title": "Большие сооружения",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 12,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "2F92FA5E99652A09",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.ahoy\"}",
+      "icon": "minecraft:wither_skeleton_skull",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.ahoy.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "387C82074215AF52",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:ahoy",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0B4247F9A2419225",
+      "x": 5.0,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.ambitious_explorer\"}",
+      "icon": "minecraft:filled_map",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.ambitious_explorer.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.seven_world_wonders\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0006A615ACAD98A5",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:ambitious_explorer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "74D15470EBB085CF",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.ancient_civilizations\"}",
+      "icon": "minecraft:bamboo",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.ancient_civilizations.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "77CBA7E6F3E16309",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:ancient_civilizations",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "071CC86439B21D37",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.chilled_halls\"}",
+      "icon": "minecraft:bone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.chilled_halls.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "288BEDA177310324",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:chilled_halls",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3305C882C06274C3",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.hidden_under_the_roots\"}",
+      "icon": "minecraft:jack_o_lantern",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.hidden_under_the_roots.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4960D96399F9B5D8",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:hidden_under_the_roots",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1536170C12D90030",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.in_the_air\"}",
+      "icon": "minecraft:lantern",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.in_the_air.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "508C62F36F394B7E",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:in_the_air",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "323E012D2EC63EB0",
+      "x": 2.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.rarest_structure\"}",
+      "icon": "minecraft:red_mushroom",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.rarest_structure.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "77317150BD11515D",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:rarest_structure",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "33F29BE30C8FE4A0",
+      "x": 0.0,
+      "y": 8.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.root\"}",
+      "icon": "minecraft:compass",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.root.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "18BE0EAE5ED37069",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:root",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6F70AD77F9E6EE4A",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.seven_world_wonders\"}",
+      "icon": "minecraft:spyglass",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.seven_world_wonders.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "34767BDD7490A99B",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:seven_world_wonders",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "72384CC40E860476",
+      "x": 2.5,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.spooky_scary_citadel\"}",
+      "icon": "minecraft:red_banner",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.spooky_scary_citadel.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "64433B98D64192B7",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:spooky_scary_citadel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3386A3E35B6A8CCC",
+      "x": 2.5,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.sunken_deeps\"}",
+      "icon": "minecraft:nautilus_shell",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.sunken_deeps.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "041649960C97FD2A",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:sunken_deeps",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1FAB3126A5C1F911",
+      "x": 2.5,
+      "y": 13.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.thats_a_dungeon\"}",
+      "icon": "minecraft:skeleton_skull",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.thats_a_dungeon.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5317C3A8521BA687",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:thats_a_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "060B76935A0E4803",
+      "x": 2.5,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.traps_and_curses\"}",
+      "icon": "minecraft:tnt",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.traps_and_curses.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0BDB65F752193207",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:traps_and_curses",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2DA68CAA68C830C9",
+      "x": 2.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.dungeons_enhanced.wars_and_kingdoms\"}",
+      "icon": "minecraft:stone_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.dungeons_enhanced.wars_and_kingdoms.desc\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.dungeons_enhanced.root\"}"
+      ],
+      "tasks": [
+        {
+          "id": "022C8CB705E19CEC",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:wars_and_kingdoms",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

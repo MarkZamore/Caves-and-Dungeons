@@ -1,0 +1,287 @@
+{
+  "id": "0947AB2B421EABF0",
+  "filename": "extra_galosphere",
+  "title": "Кристаллы и серебро",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 15,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "5C5FB62E119FF638",
+      "x": 0.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.activate_pink_salt_chamber.title\"}",
+      "icon": "galosphere:pink_salt_chamber",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.activate_pink_salt_chamber.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "02C1833FA7F740F5",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/activate_pink_salt_chamber",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6A0325B5A3383767",
+      "x": 0.0,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.crystal_lamps.title\"}",
+      "icon": "galosphere:amethyst_lamp",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.crystal_lamps.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "015113511028BC50",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/crystal_lamps",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "215FF62F7B78864E",
+      "x": 0.0,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.find_pink_salt_shrine.title\"}",
+      "icon": "galosphere:pink_salt_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.find_pink_salt_shrine.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5446EBD45DDFB894",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/find_pink_salt_shrine",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4459A456CFB06869",
+      "x": 0.0,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.light_spread.title\"}",
+      "icon": "galosphere:glow_flare",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.light_spread.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "64A393575B5D7250",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/light_spread",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "28FBC07B578EE03A",
+      "x": 0.0,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.silver_bomb.title\"}",
+      "icon": "galosphere:silver_bomb",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.silver_bomb.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.galosphere.silver_ingot.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "7C0F815F224DFA81",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/silver_bomb",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0043F2131FBA702A",
+      "x": 0.0,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.sterling_armor.title\"}",
+      "icon": "galosphere:sterling_helmet",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.sterling_armor.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.galosphere.silver_ingot.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "71976C4EC985B8E2",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/sterling_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5B0D5CF183363C4E",
+      "x": 0.0,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.summon_berserker.title\"}",
+      "icon": "galosphere:preserved_flesh",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.summon_berserker.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0363E44933C2FAF4",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/summon_berserker",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AD4ACDDE0258672",
+      "x": 0.0,
+      "y": 21.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.use_spectre_flare.title\"}",
+      "icon": "galosphere:spectre_flare",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.use_spectre_flare.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0E6570079580DEEC",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/use_spectre_flare",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "542944BB639FBEC1",
+      "x": 0.0,
+      "y": 24.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.use_spectre_spyglass.title\"}",
+      "icon": "galosphere:spectre_bound_spyglass",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.use_spectre_spyglass.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.adventure.root.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "32F5CED7C0FB23C5",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/use_spectre_spyglass",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "21F5B49394811F2E",
+      "x": 0.0,
+      "y": 27.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.warped_teleport.title\"}",
+      "icon": "minecraft:ender_pearl",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.warped_teleport.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.galosphere.silver_ingot.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1EC7B32D89697DCA",
+          "type": "advancement",
+          "advancement": "galosphere:adventure/warped_teleport",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0326E963FF9FCCA7",
+      "x": 0.0,
+      "y": 30.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.galosphere.lumiere_compost.title\"}",
+      "icon": "galosphere:lumiere_shard",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.galosphere.lumiere_compost.description\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.husbandry.plant_seed.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4849F64A6F203EB2",
+          "type": "advancement",
+          "advancement": "galosphere:husbandry/lumiere_compost",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

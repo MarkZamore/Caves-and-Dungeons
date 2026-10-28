@@ -1,0 +1,485 @@
+{
+  "id": "58C84F3F1B92E3F4",
+  "filename": "extra_repurposed_structures",
+  "title": "Необычные сооружения",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 21,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "32991D91C4CDB642",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Civilization from the Beyond\"}",
+      "icon": "minecraft:reinforced_deepslate",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Ancient Cities\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "145B5B55488EA447",
+          "type": "advancement",
+          "advancement": "repurposed_structures:ancient_cities",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "23FF6C895DDAB812",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Bastions, Evil, and Bones...\"}",
+      "icon": "minecraft:bone",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Enter an Underground Bastion\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "15724BC0056EC0B2",
+          "type": "advancement",
+          "advancement": "repurposed_structures:bastion_underground",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "10F321A0DC20E4FF",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Blazing Cities\"}",
+      "icon": "minecraft:red_banner",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Enter a Nether City\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "55B435970BB16D17",
+          "type": "advancement",
+          "advancement": "repurposed_structures:city_nether",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "3C134A1DC7358284",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Skyward Cities\"}",
+      "icon": "minecraft:brown_banner",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Enter an Overworld City\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "086AF6320344766B",
+          "type": "advancement",
+          "advancement": "repurposed_structures:city_overworld",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "777181F4022980F5",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Decaying Glory\"}",
+      "icon": "minecraft:mossy_stone_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Enter a Jungle Fortress\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "283D59CB95CD5E92",
+          "type": "advancement",
+          "advancement": "repurposed_structures:fortress_jungle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "32067A1F7FDDDAEB",
+      "x": 2.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Having a Hobbit Time!\"}",
+      "icon": "minecraft:red_bed",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Igloos!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0643E949D0E2683D",
+          "type": "advancement",
+          "advancement": "repurposed_structures:igloos",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "581DA3F38CA1445A",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Lavish Livings\"}",
+      "icon": "minecraft:totem_of_undying",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Mansions!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "75F93DB31087CFFD",
+          "type": "advancement",
+          "advancement": "repurposed_structures:mansions",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "087CFFE33B4FABD5",
+      "x": 2.5,
+      "y": 10.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Toiling in the Mines\"}",
+      "icon": "minecraft:stone_pickaxe",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Mineshafts!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "09DD8ABE7BDB123F",
+          "type": "advancement",
+          "advancement": "repurposed_structures:mineshafts",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "239FE38A2E45FCE1",
+      "x": 2.5,
+      "y": 12.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Tributes and Sacrifices\"}",
+      "icon": "minecraft:wet_sponge",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Monuments!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4D2B73D6EC6E0622",
+          "type": "advancement",
+          "advancement": "repurposed_structures:monuments",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "232B268370BCBFB9",
+      "x": 2.5,
+      "y": 13.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Territory Control\"}",
+      "icon": "minecraft:crossbow",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Outposts!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0F48F5BFC0F16FAF",
+          "type": "advancement",
+          "advancement": "repurposed_structures:outposts",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "76A9B1445954DF60",
+      "x": 2.5,
+      "y": 15.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Raider of the Tombs\"}",
+      "icon": "minecraft:tnt",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Pyramids!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "72023957FFDFC667",
+          "type": "advancement",
+          "advancement": "repurposed_structures:pyramids",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7DA11EA64E87E861",
+      "x": 0.0,
+      "y": 12.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Repurposed Structures\"}",
+      "icon": "minecraft:filled_map",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Start exploring for structures!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "37DAC0DB8C01AD1A",
+          "type": "advancement",
+          "advancement": "repurposed_structures:root",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5E1D91DF81ED1D30",
+      "x": 2.5,
+      "y": 16.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"The Useless Portal\"}",
+      "icon": "minecraft:crying_obsidian",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find an End themed Ruined Portal!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2AB9440AD83655C1",
+          "type": "advancement",
+          "advancement": "repurposed_structures:ruined_portal_end",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "02D57042160B9E2D",
+      "x": 2.5,
+      "y": 18.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Remains of the Past\"}",
+      "icon": "minecraft:magma_block",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Ruins!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "62CB4D6E6E3814D8",
+          "type": "advancement",
+          "advancement": "repurposed_structures:ruins",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "0FE28514F52142A9",
+      "x": 2.5,
+      "y": 19.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Interdimensional Pirates\"}",
+      "icon": "minecraft:oak_boat",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Shipwrecks!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "4C090449B30A4308",
+          "type": "advancement",
+          "advancement": "repurposed_structures:shipwrecks",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "23767952E7228830",
+      "x": 2.5,
+      "y": 21.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Following the Eyes\"}",
+      "icon": "minecraft:ender_eye",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Strongholds!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "40A5E08B04EB8290",
+          "type": "advancement",
+          "advancement": "repurposed_structures:strongholds",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6334B9AA38E61D0C",
+      "x": 2.5,
+      "y": 22.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Unanswered Prayers\"}",
+      "icon": "minecraft:arrow",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Temples!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5BD7598C1DE542A4",
+          "type": "advancement",
+          "advancement": "repurposed_structures:temples",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "307759AFC86F84A2",
+      "x": 2.5,
+      "y": 24.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Sprawling Civilizations\"}",
+      "icon": "minecraft:emerald",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Villages!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "239FAF245A2CC760",
+          "type": "advancement",
+          "advancement": "repurposed_structures:villages",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2A6E23B2F368BB5B",
+      "x": 2.5,
+      "y": 25.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Hexes and Curses\"}",
+      "icon": "minecraft:cauldron",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find all new Witch Huts!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"Repurposed Structures\"}"
+      ],
+      "tasks": [
+        {
+          "id": "019B8DE603EDEE02",
+          "type": "advancement",
+          "advancement": "repurposed_structures:witch_huts",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

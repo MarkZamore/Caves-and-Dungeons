@@ -1,0 +1,185 @@
+{
+  "id": "73543002BEBD6D08",
+  "filename": "extra_betterdungeons",
+  "title": "Подземелья Юнга",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 9,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "4A9CEC86B4BE8CA1",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Professional Dungeoneer\"}",
+      "icon": "minecraft:diamond_sword",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Explore all of the Better Dungeons!\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"YUNG's Better Dungeons\"}"
+      ],
+      "tasks": [
+        {
+          "id": "2890C4F37560B441",
+          "type": "advancement",
+          "advancement": "betterdungeons:all_dungeons",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "02F72939B6D89279",
+      "x": 0.0,
+      "y": 3.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"YUNG's Better Dungeons\"}",
+      "icon": "minecraft:mossy_stone_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Adventure awaits...\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "6427F0E1A2077367",
+          "type": "advancement",
+          "advancement": "betterdungeons:root",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "59702A8202461CEC",
+      "x": 2.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"A Bone to Pick\"}",
+      "icon": "minecraft:skeleton_skull",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Enter a Fortress of the Undead\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"YUNG's Better Dungeons\"}"
+      ],
+      "tasks": [
+        {
+          "id": "24A6E0155D5F686A",
+          "type": "advancement",
+          "advancement": "betterdungeons:skeleton_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "7ADACC4A9B53D7C6",
+      "x": 2.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Quite the Renovation\"}",
+      "icon": "minecraft:spawner",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find an upgraded Monster Room\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"YUNG's Better Dungeons\"}"
+      ],
+      "tasks": [
+        {
+          "id": "04B564506CD347C1",
+          "type": "advancement",
+          "advancement": "betterdungeons:small_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CB148715BE57043",
+      "x": 2.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"A Special Addition\"}",
+      "icon": "minecraft:red_nether_bricks",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Find a Small Nether Dungeon\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"YUNG's Better Dungeons\"}"
+      ],
+      "tasks": [
+        {
+          "id": "33F7037CDFBAE2EF",
+          "type": "advancement",
+          "advancement": "betterdungeons:small_nether_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "195BDB3776F990B5",
+      "x": 2.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"Cobweb Entanglement\"}",
+      "icon": "minecraft:string",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Discover a Spider Cave\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"YUNG's Better Dungeons\"}"
+      ],
+      "tasks": [
+        {
+          "id": "5CC178E47CDDF1DC",
+          "type": "advancement",
+          "advancement": "betterdungeons:spider_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "68A2F6A7A2BE4F1F",
+      "x": 2.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"When in Rome\"}",
+      "icon": "minecraft:rotten_flesh",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"Set foot in a Catacomb\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"YUNG's Better Dungeons\"}"
+      ],
+      "tasks": [
+        {
+          "id": "503DF8513D0F729B",
+          "type": "advancement",
+          "advancement": "betterdungeons:zombie_dungeon",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

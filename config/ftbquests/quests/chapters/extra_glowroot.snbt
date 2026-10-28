@@ -1,0 +1,385 @@
+{
+  "id": "1B6DA5FDA9B566CD",
+  "filename": "extra_glowroot",
+  "title": "Светокорень",
+  "icon": "minecraft:book",
+  "group": "416E9011870224C7",
+  "order_index": 16,
+  "default_hide_dependency_lines": false,
+  "hide_quest_details_until_startable": false,
+  "quests": [
+    {
+      "id": "09720ACD47A7BFED",
+      "x": 10.0,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.astro_boy.title\"}",
+      "icon": "glowroot:glowroot_jetpack_chestplate",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.astro_boy.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.clearing_5.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "799EE41417B8BF28",
+          "type": "advancement",
+          "advancement": "glowroot:astro_boy",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "56572E946F1C18DD",
+      "x": 5.0,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.better_than_horses.title\"}",
+      "icon": "glowroot:glowroot_drill_head",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.better_than_horses.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.methamphetamine.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "0B3F73E981A8B944",
+          "type": "advancement",
+          "advancement": "glowroot:better_than_horses",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1CD5E4055C7D642B",
+      "x": 2.5,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.bribery.title\"}",
+      "icon": "glowroot:glowroot_hermit_bribery",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.bribery.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.underground_lighting.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "501CE188430F3698",
+          "type": "advancement",
+          "advancement": "glowroot:bribery",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "33820D2BC3025BF5",
+      "x": 12.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.catastrophic.title\"}",
+      "icon": "glowroot:glowroot_jetpack_catastrophic",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.catastrophic.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.astro_boy.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "32BC108849E1AAFC",
+          "type": "advancement",
+          "advancement": "glowroot:catastrophic",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "1400AFC07143274F",
+      "x": 7.5,
+      "y": 1.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.clearing_5.title\"}",
+      "icon": "glowroot:glowroot_core",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.clearing_5.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.light_mending.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "1C86382A3E91A4D8",
+          "type": "advancement",
+          "advancement": "glowroot:clearing_5",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "01ED6D3B0964655B",
+      "x": 7.5,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.fundamentals_of_engineering.title\"}",
+      "icon": "glowroot:glowroot_machine",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.fundamentals_of_engineering.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.power_with_light.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "09C3A355289C2E76",
+          "type": "advancement",
+          "advancement": "glowroot:fundamentals_of_engineering",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "079561C9AA05EDB1",
+      "x": 7.5,
+      "y": 3.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.glow_goggles_advancement.title\"}",
+      "icon": "glowroot:glow_goggles_helmet",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.glow_goggles_advancement.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.light_mending.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "79CD5AB307C396C8",
+          "type": "advancement",
+          "advancement": "glowroot:glow_goggles_advancement",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "6C1F79B9BC20BD1E",
+      "x": 2.5,
+      "y": 3.75,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.greenhouse.title\"}",
+      "icon": "glowroot:chrysoprase_crystal",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.greenhouse.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.underground_lighting.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "6D3DC0738457760C",
+          "type": "advancement",
+          "advancement": "glowroot:greenhouse",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "74CA1234F1236D16",
+      "x": 5.0,
+      "y": 2.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.light_mending.title\"}",
+      "icon": "glowroot:prism",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.light_mending.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.greenhouse.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "47A49A9E18ACED81",
+          "type": "advancement",
+          "advancement": "glowroot:light_mending",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "241F1BACC82AEA6B",
+      "x": 5.0,
+      "y": 0.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.loot_bug.title\"}",
+      "icon": "glowroot:hermit_claw",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.loot_bug.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.bribery.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "54E89137E42B707F",
+          "type": "advancement",
+          "advancement": "glowroot:loot_bug",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "2F305392A1415085",
+      "x": 2.5,
+      "y": 7.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.methamphetamine.title\"}",
+      "icon": "glowroot:glowroot_golem_compound_v",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.methamphetamine.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.underground_lighting.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "31E89C4083DFB726",
+          "type": "advancement",
+          "advancement": "glowroot:methamphetamine",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "53A98254674E7E47",
+      "x": 5.0,
+      "y": 5.25,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.power_with_light.title\"}",
+      "icon": "glowroot:glowing_runes",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.power_with_light.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.greenhouse.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "540317F76C7F92EB",
+          "type": "advancement",
+          "advancement": "glowroot:power_with_light",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "5DB5682DC956D104",
+      "x": 2.5,
+      "y": 9.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.rootifier.title\"}",
+      "icon": "glowroot:rooted_wood",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.rootifier.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.underground_lighting.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "15BD56FADCB57B69",
+          "type": "advancement",
+          "advancement": "glowroot:rootifier",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42A28FFA6526CE27",
+      "x": 7.5,
+      "y": 6.0,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.stunning.title\"}",
+      "icon": "glowroot:glowbang",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.stunning.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут.",
+        "Предыдущее достижение в исходном дереве:",
+        "{\"translate\":\"advancements.power_with_light.title\"}"
+      ],
+      "tasks": [
+        {
+          "id": "3B17E76E6DA56C63",
+          "type": "advancement",
+          "advancement": "glowroot:stunning",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "494045659D91F375",
+      "x": 0.0,
+      "y": 4.5,
+      "hide_details_until_startable": false,
+      "rewards": [],
+      "title": "{\"translate\":\"advancements.underground_lighting.title\"}",
+      "icon": "glowroot:glowrooticon",
+      "optional": true,
+      "description": [
+        "{\"translate\":\"advancements.underground_lighting.descr\"}",
+        "Дополнительная ветка. Расположение повторяет дерево достижений мода, но не закрывает задания: родитель в меню достижений не всегда является условием в игре.",
+        "Поверхность опасна, а Незер закрыт по правилам сборки. Некоторые исходные достижения модов требуют таких мест; они сохранены для справки и не блокируют основной маршрут."
+      ],
+      "tasks": [
+        {
+          "id": "3CE09142E4F1E396",
+          "type": "advancement",
+          "advancement": "glowroot:underground_lighting",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

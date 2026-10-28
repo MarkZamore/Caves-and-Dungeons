@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": {
+    "mods/Quark-4.0-460.jar": "cf3f30dbd1a84dcacf59085f772617d97d6748eb58967b9871c17f83d6bec825"
+  },
+  "evidence": "Full baseline Minecraft 1.20.1 / Forge 47.3.7 client, ServerAdvancementManager: 565 loaded displays against 567 source displays; these two definitions are absent because their Quark advancement_flag conditions are false. This is a native loaded-definition check, not an inference from TOML labels.",
+  "advancements": {
+    "quark:influence": {
+      "conditions": [{ "type": "quark:advancement_flag", "flag": "candle_influencing" }],
+      "reason": "The native candle_influencing flag is false in the agreed pack; no advancement target is registered."
+    },
+    "quark:pat_potato": {
+      "conditions": [{ "type": "quark:advancement_flag", "flag": "tiny_potato" }],
+      "reason": "The native tiny_potato flag is false in the agreed pack; no advancement target is registered."
+    }
+  }
+}

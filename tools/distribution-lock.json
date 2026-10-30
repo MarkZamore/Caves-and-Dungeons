@@ -1416,8 +1416,8 @@
   "supportFiles": [
     {
       "path": ".github/workflows/publish.yml",
-      "sizeBytes": 5453,
-      "sha256": "9ffec7da5db46a4a81d9764a274d739dca7f32a826cb90e90180b37c0fdc3a2c"
+      "sizeBytes": 5501,
+      "sha256": "4180d196f6221b5aa50566df1ae132256bd7702abf4ee6c7d90e46c1ac87cd5a"
     },
     {
       "path": "AGENTS.md",
@@ -1426,8 +1426,8 @@
     },
     {
       "path": "README.md",
-      "sizeBytes": 8353,
-      "sha256": "8c13082bd2040efb6a49350bd9364c6e2676167f88b0eb5495b71a42bb078a54"
+      "sizeBytes": 10033,
+      "sha256": "c6ed32cd675af58b06cfb36f09cd1a76eb5f92f5c8d4e3e080f587ee598050c5"
     },
     {
       "path": "TESTING-STATUS.md",
@@ -1590,6 +1590,16 @@
       "sha256": "2569ad8647c7611df3dcb38a5af2d6b6979fd62dc2ccf52ccd26dcbc5afd9058"
     },
     {
+      "path": "launcher/controls-guide.md",
+      "sha256": "9aed870cde9cc0e1465bd121b7a94d659266a05b7517f4cbf6b9c68e425ed4ad",
+      "sizeBytes": 4473
+    },
+    {
+      "path": "launcher/controls-preset.txt",
+      "sha256": "61fa1076a25ef1f0d6138ce85a61c0bad3e55ace65eff8c815d3f29b6f5f74cd",
+      "sizeBytes": 7730
+    },
+    {
       "path": "launcher/pack-owned.txt",
       "sizeBytes": 116,
       "sha256": "ceb5ea5e7cc7afab5354a0e6d82589eaa7e3ac2077e0e4a73a86547180d2014c"
@@ -1633,6 +1643,21 @@
       "path": "tools/UPDATE-NOTES.md",
       "sizeBytes": 6038,
       "sha256": "f867b1adc4406c0ccb8b109940d7a98cdf55fb190aa4c148bbf674efc063f764"
+    },
+    {
+      "path": "tools/keybinds/check_preset.py",
+      "sha256": "c94300f3e81261c73f43284416cf80db8a566d2b8555279db437fa1600770ed4",
+      "sizeBytes": 3139
+    },
+    {
+      "path": "tools/keybinds/conflict_model.py",
+      "sha256": "cd3b37f73c4c69a228965c72e52184b8fd6f1e12fd8a6876bb76f893317b8696",
+      "sizeBytes": 1221
+    },
+    {
+      "path": "tools/keybinds/stock.json",
+      "sha256": "2d0e1b3794514ec0e4d8f9d4456e43515ea36c10a4a17d0e8ffaa2c1d4a9b076",
+      "sizeBytes": 24338
     },
     {
       "path": "tools/local-mods.json",

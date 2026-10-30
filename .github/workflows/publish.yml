@@ -42,6 +42,7 @@ jobs:
       - name: Generate manifest and stage assets
         run: |
           python tools/build_mod_pages.py --verify-only
+          python tools/keybinds/check_preset.py
           python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
 
       - name: Self-check staged assets

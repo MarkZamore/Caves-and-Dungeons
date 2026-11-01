@@ -1421,13 +1421,13 @@
     },
     {
       "path": "AGENTS.md",
-      "sizeBytes": 4648,
-      "sha256": "4f461aa90e72af6c61b4417173eadaf758e5b6fb2c6f3f1ff9453fda24610da2"
+      "sizeBytes": 6507,
+      "sha256": "6714191f27af12f42d844bb04ee51fbc261f2ab49b276b29c3884eaa0af4fca7"
     },
     {
       "path": "README.md",
-      "sizeBytes": 10033,
-      "sha256": "c6ed32cd675af58b06cfb36f09cd1a76eb5f92f5c8d4e3e080f587ee598050c5"
+      "sizeBytes": 13367,
+      "sha256": "a79f3165f8b671846bbeb2941a9451db6a8c5ac8fd6d0ac7c681b7c68f52ada6"
     },
     {
       "path": "TESTING-STATUS.md",
@@ -1601,8 +1601,8 @@
     },
     {
       "path": "launcher/pack-owned.txt",
-      "sizeBytes": 116,
-      "sha256": "ceb5ea5e7cc7afab5354a0e6d82589eaa7e3ac2077e0e4a73a86547180d2014c"
+      "sizeBytes": 134,
+      "sha256": "24a3f8bb0ed837b8aed93c783c44643503c0a2e5a2dc97c3667fa5540fc69bac"
     },
     {
       "path": "library/README.md",
@@ -1688,6 +1688,16 @@
       "path": "tools/upstream-lock.json",
       "sizeBytes": 59731,
       "sha256": "e661f480fa419f875d4cbbb91b97090af11ab23f11837dedab6375ae577e89a6"
+    },
+    {
+      "path": "config/log4j2.xml",
+      "sizeBytes": 4617,
+      "sha256": "9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89"
+    },
+    {
+      "path": "launcher/jvm-args.txt",
+      "sizeBytes": 44,
+      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
     }
   ],
   "replacements": [

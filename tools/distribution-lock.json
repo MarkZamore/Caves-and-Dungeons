@@ -1611,8 +1611,8 @@
     },
     {
       "path": "library/content.json",
-      "sizeBytes": 1733,
-      "sha256": "a8bd04ca19cac2df265bb3fc62da2ef17dc140079de7828116ca54364fe207f6"
+      "sizeBytes": 1212,
+      "sha256": "002798432e8f71432a3f5b21a7fd36a22b22f35b741b072fc94fade8c88cc926"
     },
     {
       "path": "library/mod-pages.json",

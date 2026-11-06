@@ -80,6 +80,7 @@ class HistoricalRestoreTests(unittest.TestCase):
             self.lock["overrides"].append(self.record(f"config/original-{i}.json", f"config{i}".encode()))
         self.lock["client"] = self.record(importer.CLIENT_NAME, b"Mojang fixture")
         self.lock["client"]["sourceUrl"] = "https://piston-data.mojang.com/v1/objects/test/client.jar"
+        (self.root / importer.CLIENT_NAME).unlink()
         self.save_lock()
 
     def record(self, relative, data):
@@ -109,6 +110,7 @@ class HistoricalRestoreTests(unittest.TestCase):
             importer.restore_locked_files(self.root, self.root / "artifacts/cache")
         download.assert_called_once()
         self.assertEqual(self.payloads[missing["path"]], target.read_bytes())
+        self.assertFalse((self.root / importer.CLIENT_NAME).exists())
 
     def test_a_modified_override_stops_restore_before_any_download(self):
         missing = self.root / self.lock["files"][0]["path"]

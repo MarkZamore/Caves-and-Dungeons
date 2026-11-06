@@ -26,7 +26,7 @@ def component(value) -> str:
 
 def advancements(root: Path) -> dict:
     result = {}
-    sources = [root / "minecraft-1.20.1-client.jar", *sorted((root / "mods").glob("*.jar"))]
+    sources = [root / "artifacts/upstream/minecraft-1.20.1-client.jar", *sorted((root / "mods").glob("*.jar"))]
     for source in sources:
         with zipfile.ZipFile(source) as archive:
             for name in sorted(archive.namelist()):

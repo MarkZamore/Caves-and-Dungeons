@@ -17,7 +17,7 @@ import stat
 import tempfile
 import zipfile
 
-from import_upstream import (CLIENT_ARCHIVE, CLIENT_FILE_ID, CLIENT_NAME,
+from import_upstream import (CLIENT_ARCHIVE, CLIENT_FILE_ID,
                              CLIENT_SHA256, CLIENT_SIZE, download, expected_ok,
                              file_url, official_url)
 from pack_library import read_mods
@@ -67,10 +67,10 @@ def validate_lock(lock: object) -> tuple[list[dict], list[dict], list[dict]]:
         raise ValueError("Unexpected active distribution lock identity")
     active, overrides, support = (lock.get(key) for key in ("files", "overrides", "supportFiles"))
     if (not isinstance(active, list) or not active or not isinstance(overrides, list) or
-            not isinstance(support, list) or not isinstance(lock.get("client"), dict)):
+            not isinstance(support, list) or "client" in lock):
         raise ValueError("Invalid active distribution sections")
     seen = set()
-    for record in [*active, *overrides, lock["client"], *support]:
+    for record in [*active, *overrides, *support]:
         if not isinstance(record, dict):
             raise ValueError("Invalid distribution file record")
         relative = safe_relative(record.get("path"))
@@ -91,9 +91,7 @@ def validate_lock(lock: object) -> tuple[list[dict], list[dict], list[dict]]:
         if (len(parts) != 2 or parts[0] != "mods" or
                 not parts[1].lower().endswith(".jar") or record.get("included") is False):
             raise ValueError("Invalid active mod path: " + record["path"])
-    if lock["client"]["path"] != CLIENT_NAME:
-        raise ValueError("Unexpected Minecraft client path")
-    for record in [*active, lock["client"]]:
+    for record in active:
         if not isinstance(record.get("sourceUrl"), str):
             raise ValueError("Missing active download URL: " + record["path"])
         official_url(record["sourceUrl"])
@@ -159,7 +157,7 @@ def preflight(root: Path, lock: dict, verify_only: bool):
                 if path.is_file() and path.suffix.lower() == ".jar" and relative.casefold() not in known_mods:
                     raise ValueError("Unknown active mod: " + relative)
     missing_downloads, missing_overrides = [], []
-    for record in [*active, lock["client"], *overrides, *support]:
+    for record in [*active, *overrides, *support]:
         path = target_path(root, record["path"])
         if path.exists():
             if not expected_ok(path, record["sizeBytes"], hashes(record)):

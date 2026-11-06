@@ -1406,28 +1406,21 @@
       "sha256": "9455096211b29bc57e1966424216e02d1dcfa65bb1afb0cc5e4c436c5e7d5bb3"
     }
   ],
-  "client": {
-    "path": "minecraft-1.20.1-client.jar",
-    "sizeBytes": 23028853,
-    "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
-    "sha256": "56b71336d2b4fdffd197f56595b0da93e32a946f78f382a299b8f4b92758bb0f",
-    "sourceUrl": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar"
-  },
   "supportFiles": [
     {
       "path": ".github/workflows/publish.yml",
-      "sizeBytes": 5501,
-      "sha256": "4180d196f6221b5aa50566df1ae132256bd7702abf4ee6c7d90e46c1ac87cd5a"
+      "sizeBytes": 5571,
+      "sha256": "c07f2f6406cca7f4e4b90f0239c9c22cb36bba4107166aa087e5d572421a765f"
     },
     {
       "path": "AGENTS.md",
-      "sizeBytes": 6507,
-      "sha256": "6714191f27af12f42d844bb04ee51fbc261f2ab49b276b29c3884eaa0af4fca7"
+      "sizeBytes": 6730,
+      "sha256": "80d610ba083e514f4bcf8e5e790b5eeac598b941fb7f65633ff5ac696eb18f2f"
     },
     {
       "path": "README.md",
-      "sizeBytes": 13367,
-      "sha256": "a79f3165f8b671846bbeb2941a9451db6a8c5ac8fd6d0ac7c681b7c68f52ada6"
+      "sizeBytes": 13686,
+      "sha256": "4a472c7fee60c636a6620e1281e9c9c74e289f5740470351ccc660072a9cd7ed"
     },
     {
       "path": "TESTING-STATUS.md",
@@ -1636,8 +1629,8 @@
     },
     {
       "path": "portable-pack.json",
-      "sizeBytes": 167,
-      "sha256": "d07b3977ccf3413b660064d5739789dfab019626ad8a445a1debb57822eb6ce3"
+      "sizeBytes": 121,
+      "sha256": "ae5e4690f1b26f884e6db4f0e3728d75cf4b9e52bb44072921d16cd01b3a0781"
     },
     {
       "path": "tools/UPDATE-NOTES.md",

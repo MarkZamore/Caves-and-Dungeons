@@ -47,6 +47,7 @@ jobs:
 
       - name: Self-check staged assets
         run: |
+          python tools/import_upstream.py --cache-minecraft-reference
           python -m unittest discover -s tools -p "test_*.py"
           python -m unittest discover -s tools/quests -p "test_*.py"
           python tools/quests/generate.py --verify-only

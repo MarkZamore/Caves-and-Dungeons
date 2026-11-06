@@ -68,13 +68,14 @@ def scan_pack(pack, resources=RESOURCES, vanilla_ru=None, overlay=True):
                 visit(name, archive_file.read(name), source)
 
     jars = sorted((pack / 'mods').glob('*.jar'))
-    files = [pack / 'minecraft-1.20.1-client.jar', *jars,
+    files = [pack / 'artifacts/upstream/minecraft-1.20.1-client.jar', *jars,
              *sorted((pack / 'resourcepacks').glob('*.zip'))]
     for path in files:
         if not path.is_file():
             raise ValueError('Required audit input is missing: ' + path.name)
         data = path.read_bytes()
-        inputs[path.relative_to(pack).as_posix()] = hashlib.sha256(data).hexdigest()
+        source = path.name if path == files[0] else path.relative_to(pack).as_posix()
+        inputs[source] = hashlib.sha256(data).hexdigest()
         # Baseline is the unmodified authors' content. Reading an already built
         # localization helper here would hide the only intentional JSON override
         # from the gameplay-preservation comparison. Its byte identity is checked
@@ -82,7 +83,7 @@ def scan_pack(pack, resources=RESOURCES, vanilla_ru=None, overlay=True):
         if path.name.startswith('cad-world-type-lock-'):
             continue
         with zipfile.ZipFile(io.BytesIO(data)) as opened:
-            archive(opened, path.relative_to(pack).as_posix())
+            archive(opened, source)
     source_advancements.update(advancements)
     if vanilla_ru:
         path = Path(vanilla_ru)

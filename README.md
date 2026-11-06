@@ -36,8 +36,11 @@ JAR, настройки модов, квесты и миры этим измен
 
 Нужны Python 3.12 и JDK для сборки helper. Из корня репозитория:
 
+Игровой клиент Minecraft загружает лаунчер 459 или новее из Mojang в общий кеш. Для проверок квестов используется отдельный файл в кеше инструментов.
+
 ```text
 python tools/restore_distribution.py --pack .
+python tools/import_upstream.py --cache-minecraft-reference
 python tools/build_mod_pages.py --verify-only
 python tools/keybinds/check_preset.py
 python -m unittest discover -s tools -p "test_*.py"

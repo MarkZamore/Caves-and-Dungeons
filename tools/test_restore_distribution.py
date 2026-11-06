@@ -28,10 +28,6 @@ class DistributionRestoreTests(unittest.TestCase):
         self.lock["files"] = [mod]
         for index, path in enumerate(sorted(restore.UPSTREAM_OVERRIDES)):
             self.lock["overrides"].append(self.record(path, f"author override {index}".encode()))
-        client = self.record(restore.CLIENT_NAME, b"Minecraft client")
-        client.update(sourceUrl="https://piston-data.mojang.com/v1/objects/test/client.jar",
-                      sha1=hashlib.sha1(self.payloads[restore.CLIENT_NAME]).hexdigest())
-        self.lock["client"] = client
         self.lock["supportFiles"] = [self.record("library/content.json", b"reviewed description")]
         self.save_lock()
 
@@ -67,6 +63,7 @@ class DistributionRestoreTests(unittest.TestCase):
         self.assertEqual(1, result["restored"])
         self.assertEqual(b"pinned replacement", target.read_bytes())
         self.assertFalse((self.root / "mods/old-map.jar").exists())
+        self.assertFalse((self.root / "minecraft-1.20.1-client.jar").exists())
 
     def test_verify_only_has_no_network_or_cache_writes(self):
         with patch.object(restore, "download") as download:

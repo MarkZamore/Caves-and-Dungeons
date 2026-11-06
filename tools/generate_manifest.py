@@ -10,7 +10,7 @@ Behavior:
       mods/, config/, kubejs/, scripts/, defaultconfigs/, data/, resourcepacks/,
       shaderpacks/, configureddefaults/, packmenu/, launcher/ (recursively, absent roots
       are skipped) plus the root files portable-pack.json and the client jar
-      named by portable-pack.json's "clientJar" field. launcher/ carries data
+      if named by portable-pack.json's "clientJar" field. Otherwise the launcher downloads the client. launcher/ carries data
       the launcher reads (the controls preset), not the game.
     * Stages release assets into <distDir>/assets/:
         - every file under mods/ becomes its own byte-for-byte asset (kind "jar");
@@ -126,9 +126,9 @@ def load_portable_pack(pack: Path) -> dict:
         fail(f"cannot parse {pp_path}: {exc}")
     if not isinstance(data, dict):
         fail("portable-pack.json must contain a JSON object")
-    client_jar = data.get("clientJar")
-    if not isinstance(client_jar, str) or not client_jar:
-        fail("portable-pack.json is missing a non-empty string 'clientJar' field")
+    client_jar = data.get("clientJar", "")
+    if not isinstance(client_jar, str):
+        fail("portable-pack.json's 'clientJar' must name a jar or be empty")
     return data
 
 
@@ -201,9 +201,9 @@ class Staging:
 def generate(pack: Path, out: Path, revision: str) -> None:
     network_logging_policy.verify(pack)
     portable = load_portable_pack(pack)
-    client_jar = portable["clientJar"].replace("\\", "/")
+    client_jar = portable.get("clientJar", "").replace("\\", "/")
     client_path = pack / Path(client_jar)
-    if not client_path.is_file():
+    if client_jar and not client_path.is_file():
         fail(f"client jar '{client_jar}' (from portable-pack.json) not found in {pack}")
 
     per_root: dict[str, list[str]] = {}
@@ -213,7 +213,8 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         if files:
             per_root[root] = files
             shipped.extend(files)
-    for root_file in ("portable-pack.json", client_jar):
+    root_files = ("portable-pack.json", client_jar) if client_jar else ("portable-pack.json",)
+    for root_file in root_files:
         if root_file in shipped:
             fail(f"root file '{root_file}' unexpectedly also found under a scanned root")
         shipped.append(root_file)
@@ -253,7 +254,7 @@ def generate(pack: Path, out: Path, revision: str) -> None:
     for root in ZIP_ROOTS:
         if root in per_root:
             staging.add_zip_root(pack, root, per_root[root])
-    for rel in ("portable-pack.json", client_jar):
+    for rel in root_files:
         sha256, size_bytes = file_meta[rel]
         staging.add_single_file(pack, rel, "c", sha256, size_bytes)
 
@@ -292,6 +293,12 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         ],
         "assets": assets,
     }
+
+    if not client_jar:
+        # Retire only the exact JAR from historical installs without sync state.
+        upstream = json.loads((pack / "tools/upstream-lock.json").read_text(encoding="utf-8-sig"))
+        reference = upstream["client"]
+        manifest["legacyFiles"] = [{key: reference[key] for key in ("path", "sizeBytes", "sha256")}]
 
     if (pack / "library/content.json").is_file():
         manifest["library"] = stage_library(pack, out, revision)

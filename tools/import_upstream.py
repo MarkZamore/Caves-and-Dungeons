@@ -264,7 +264,7 @@ def restore_locked_files(pack: Path, cache: Path):
     """Restore only exact historical binaries, without mutable metadata APIs."""
     lock = json.loads((pack / "tools/upstream-lock.json").read_text(encoding="utf-8-sig"))
     validate_lock(lock)
-    downloads = [*lock["files"], lock["client"]]
+    downloads = lock["files"]
     # Validate the complete existing tree before downloading or writing anything.
     for record in [*downloads, *lock["overrides"]]:
         target = target_path(pack, record["path"])
@@ -355,7 +355,6 @@ def import_pack(pack: Path, cache: Path, workers: int):
     client_download = version["downloads"]["client"]
     client_payload = cache / CLIENT_NAME
     download(client_download["url"], client_payload, client_download["size"], {"sha1": client_download["sha1"]})
-    install(client_payload, target_path(pack, CLIENT_NAME))
     lock = {"schemaVersion": 1,
             "pack": {"projectId": PROJECT_ID, "clientFileId": CLIENT_FILE_ID, "version": PACK_VERSION,
                      "minecraftVersion": MINECRAFT_VERSION, "loader": {"type": "forge", "version": FORGE_VERSION},
@@ -374,7 +373,10 @@ def main():
     parser.add_argument("--pack", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--cache", type=Path)
     parser.add_argument("--workers", type=int, default=8)
-    parser.add_argument("--restore-locked-files", action="store_true")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--restore-locked-files", action="store_true")
+    mode.add_argument("--cache-minecraft-reference", action="store_true",
+                      help="Fetch the locked Mojang jar for authoring tools only")
     args = parser.parse_args()
     if not 1 <= args.workers <= 16:
         parser.error("--workers must be between 1 and 16")
@@ -382,7 +384,13 @@ def main():
     cache = (args.cache or pack / "artifacts/upstream").resolve()
     pack.mkdir(parents=True, exist_ok=True)
     cache.mkdir(parents=True, exist_ok=True)
-    if args.restore_locked_files:
+    if args.cache_minecraft_reference:
+        lock = json.loads((pack / "tools/upstream-lock.json").read_text(encoding="utf-8-sig"))
+        validate_lock(lock)
+        client = lock["client"]
+        download(client["sourceUrl"], cache / CLIENT_NAME, client["sizeBytes"],
+                 {key: client[key] for key in ("sha1", "sha256")})
+    elif args.restore_locked_files:
         restore_locked_files(pack, cache)
     else:
         import_pack(pack, cache, args.workers)

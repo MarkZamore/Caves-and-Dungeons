@@ -54,6 +54,9 @@ jobs:
           python tools/restore_distribution.py --pack . --verify-only
           python tools/generate_manifest.py --pack . --out dist --verify-only
 
+      - name: Require reviewed Steam-only automatic server lists
+        run: python tools/public_server_policy.py --pack . --manifest dist/pack-manifest.json
+
       - name: Publish pack-latest release
         env:
           GH_TOKEN: ${{ github.token }}

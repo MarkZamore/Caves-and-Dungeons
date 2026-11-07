@@ -1,0 +1,12 @@
+{
+  "repository": "Caves-and-Dungeons",
+  "revision": "139283195b7343eb66e71c0297a2d1985aa7e502",
+  "status": "PASS",
+  "policy": "steam-only-automatic-server-list-v1",
+  "reviewedInventorySha256": "62d72708d76b7849e25fcf992d92bf55175e11fd4fc97b1846a66ea02eedbf4a",
+  "files": 137,
+  "textFilesChecked": 35,
+  "personalServerListsModified": false,
+  "checks": "Five common regression tests passed; full reviewed text inventory checked against published SHA; no new gameplay run.",
+  "payloadChanges": []
+}

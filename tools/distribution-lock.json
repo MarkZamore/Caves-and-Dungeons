@@ -1409,13 +1409,13 @@
   "supportFiles": [
     {
       "path": ".github/workflows/publish.yml",
-      "sizeBytes": 5571,
-      "sha256": "c07f2f6406cca7f4e4b90f0239c9c22cb36bba4107166aa087e5d572421a765f"
+      "sizeBytes": 5731,
+      "sha256": "ae5f9468575a891c90cd04a531e5e42c28c6d77a12cf08d53dc2e0b564310ef7"
     },
     {
       "path": "AGENTS.md",
-      "sizeBytes": 6730,
-      "sha256": "80d610ba083e514f4bcf8e5e790b5eeac598b941fb7f65633ff5ac696eb18f2f"
+      "sizeBytes": 8378,
+      "sha256": "8ca0ce4479e78cc647e77569c4e5da8d267a4a8798441a3b6c4af073bb3b0d70"
     },
     {
       "path": "README.md",
@@ -1583,6 +1583,11 @@
       "sha256": "2569ad8647c7611df3dcb38a5af2d6b6979fd62dc2ccf52ccd26dcbc5afd9058"
     },
     {
+      "path": "config/log4j2.xml",
+      "sizeBytes": 4617,
+      "sha256": "9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89"
+    },
+    {
       "path": "launcher/controls-guide.md",
       "sha256": "9aed870cde9cc0e1465bd121b7a94d659266a05b7517f4cbf6b9c68e425ed4ad",
       "sizeBytes": 4473
@@ -1591,6 +1596,11 @@
       "path": "launcher/controls-preset.txt",
       "sha256": "61fa1076a25ef1f0d6138ce85a61c0bad3e55ace65eff8c815d3f29b6f5f74cd",
       "sizeBytes": 7730
+    },
+    {
+      "path": "launcher/jvm-args.txt",
+      "sizeBytes": 44,
+      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
     },
     {
       "path": "launcher/pack-owned.txt",
@@ -1658,6 +1668,21 @@
       "sha256": "e198eb37a60a55e33adba7dd1b7cf5386ca773522515653dad30f46c50c8d3fb"
     },
     {
+      "path": "tools/public-server-policy-proof.json",
+      "sizeBytes": 506,
+      "sha256": "b77bfb498b293fe784e6fea82437157a2a39f99da958a329246c1e07e7118ad2"
+    },
+    {
+      "path": "tools/public-server-policy.json",
+      "sizeBytes": 818,
+      "sha256": "b88f8191abf3c215576b7f8fabbffd13adb83700f645ec6627bf62d1941a4357"
+    },
+    {
+      "path": "tools/public_server_policy.py",
+      "sizeBytes": 3881,
+      "sha256": "59782a6263b2a6bf06a0458a601ad69242b5ebc3247f2cfa0fafe945f6631254"
+    },
+    {
       "path": "tools/quests/FTB-REVIEW.md",
       "sizeBytes": 14281,
       "sha256": "95486b0bd32fec1cabf4e82e0397d7203838c8d8575bc7ee71cc9ac410265016"
@@ -1681,16 +1706,6 @@
       "path": "tools/upstream-lock.json",
       "sizeBytes": 59731,
       "sha256": "e661f480fa419f875d4cbbb91b97090af11ab23f11837dedab6375ae577e89a6"
-    },
-    {
-      "path": "config/log4j2.xml",
-      "sizeBytes": 4617,
-      "sha256": "9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89"
-    },
-    {
-      "path": "launcher/jvm-args.txt",
-      "sizeBytes": 44,
-      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
     }
   ],
   "replacements": [

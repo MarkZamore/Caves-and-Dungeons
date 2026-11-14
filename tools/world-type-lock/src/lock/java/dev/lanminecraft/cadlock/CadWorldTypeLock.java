@@ -7,5 +7,6 @@ import net.minecraftforge.fml.common.Mod;
 public final class CadWorldTypeLock {
     public CadWorldTypeLock() {
         RussianDisplayPack.register();
+        WorldGenerationHooks.register();
     }
 }

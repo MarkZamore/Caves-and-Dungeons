@@ -1410,12 +1410,12 @@
     {
       "path": ".github/workflows/publish.yml",
       "sizeBytes": 5731,
-      "sha256": "ae5f9468575a891c90cd04a531e5e42c28c6d77a12cf08d53dc2e0b564310ef7"
+      "sha256": "d2c652939638760c3c33a8a8ec1f9e211ad84ea1417ae4138016758f6feeaeec"
     },
     {
       "path": "AGENTS.md",
-      "sizeBytes": 8378,
-      "sha256": "8ca0ce4479e78cc647e77569c4e5da8d267a4a8798441a3b6c4af073bb3b0d70"
+      "sizeBytes": 8884,
+      "sha256": "9be5f9713e0784ac12b5d482e458faeaf52b3e56af423394c5996f9fc1a50d8a"
     },
     {
       "path": "README.md",
@@ -1424,8 +1424,8 @@
     },
     {
       "path": "TESTING-STATUS.md",
-      "sizeBytes": 22658,
-      "sha256": "0d91a7c715517e16523d010ad32ae14120c4f656137689c2fc53095d46f8caa9"
+      "sizeBytes": 23749,
+      "sha256": "88921761dd00882fd3be1ac207335a6f3c3fe912331b30a7aa940a43218e93e7"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
@@ -1633,9 +1633,9 @@
       "sha256": "b8773c1bef92cb089a33a9ac319f81cf47fa4c739e350e2a7f4e2c72def0e4b5"
     },
     {
-      "path": "mods/cad-world-type-lock-1.1.0.jar",
-      "sizeBytes": 54660,
-      "sha256": "c3db76c6a78cdc9524759e2195fd99eee628ca1292476f91e0f63b48529a81d5"
+      "path": "mods/cad-world-type-lock-1.2.0.jar",
+      "sizeBytes": 70684,
+      "sha256": "75b6b52fbc5e248ea68a82a0b08e168e2d52616ed8097e741f09e19b50f5b658"
     },
     {
       "path": "portable-pack.json",
@@ -1659,23 +1659,23 @@
     },
     {
       "path": "tools/keybinds/stock.json",
-      "sha256": "2d0e1b3794514ec0e4d8f9d4456e43515ea36c10a4a17d0e8ffaa2c1d4a9b076",
+      "sha256": "7e7dbfc8946504174a5a8f269ad1e05837d67e219a9c638b0d08f471d2e54cb4",
       "sizeBytes": 24338
     },
     {
       "path": "tools/local-mods.json",
       "sizeBytes": 345,
-      "sha256": "e198eb37a60a55e33adba7dd1b7cf5386ca773522515653dad30f46c50c8d3fb"
+      "sha256": "0604aa5bb1ad4f31bfe945776177ce8987c2eb6be49f308c5bd9e13289fd0303"
     },
     {
       "path": "tools/public-server-policy-proof.json",
-      "sizeBytes": 506,
-      "sha256": "b77bfb498b293fe784e6fea82437157a2a39f99da958a329246c1e07e7118ad2"
+      "sizeBytes": 650,
+      "sha256": "3226c57ce2e553cb775563dc5e4e134f4a81faf607686cf879f6a1475764e4ad"
     },
     {
       "path": "tools/public-server-policy.json",
       "sizeBytes": 818,
-      "sha256": "b88f8191abf3c215576b7f8fabbffd13adb83700f645ec6627bf62d1941a4357"
+      "sha256": "85d60d0bb4fd7cdab41f9f946b01cd632da8c3a688102a008f851ee6b736d48c"
     },
     {
       "path": "tools/public_server_policy.py",
@@ -1750,6 +1750,12 @@
       "sizeBytes": 18407,
       "sha256": "53068fe81266ad9a0679a7499d2e36f3f21f25b6fe3a832b16772c815b64efa4",
       "reason": "Replaced by 1.1.0 Russian advancement resources; same preset and registry IDs."
+    },
+    {
+      "path": "mods/cad-world-type-lock-1.1.0.jar",
+      "sizeBytes": 54660,
+      "sha256": "c3db76c6a78cdc9524759e2195fd99eee628ca1292476f91e0f63b48529a81d5",
+      "reason": "Replaced by 1.2.0 world generation lifecycle fixes."
     }
   ]
 }

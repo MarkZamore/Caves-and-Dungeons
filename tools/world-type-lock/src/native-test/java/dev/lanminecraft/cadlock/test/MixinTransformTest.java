@@ -204,8 +204,10 @@ public final class MixinTransformTest {
         if (!value.get("required").getAsBoolean()
                 || value.getAsJsonObject("injectors").get("defaultRequire").getAsInt() != 1)
             throw new AssertionError("Production Mixin injections must be mandatory");
-        if (value.has("mixins") && !value.getAsJsonArray("mixins").isEmpty())
-            throw new AssertionError("Client targets must not be in common/server mixin list");
+        List<String> common = new ArrayList<>();
+        value.getAsJsonArray("mixins").forEach(item -> common.add(item.getAsString()));
+        if (!common.equals(List.of("BunkerWorldLoadMixin", "OldMinerJoinMixin")))
+            throw new AssertionError("Only world-generation hooks belong in the common/server mixin list");
         List<String> names = new ArrayList<>();
         value.getAsJsonArray("client").forEach(item -> names.add(item.getAsString()));
         if (!names.containsAll(List.of("WorldCreationUiStateMixin", "CreateWorldScreenMixin", "WorldTypeEntryMixin"))

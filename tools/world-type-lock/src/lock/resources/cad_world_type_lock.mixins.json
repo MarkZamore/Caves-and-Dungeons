@@ -3,6 +3,7 @@
   "minVersion": "0.8",
   "package": "dev.lanminecraft.cadlock.mixin",
   "compatibilityLevel": "JAVA_17",
+  "mixins": ["BunkerWorldLoadMixin", "OldMinerJoinMixin"],
   "client": [
     "WorldCreationUiStateMixin",
     "CreateWorldScreenMixin",

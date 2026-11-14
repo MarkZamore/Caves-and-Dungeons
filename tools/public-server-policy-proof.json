@@ -1,12 +1,14 @@
 {
   "repository": "Caves-and-Dungeons",
-  "revision": "139283195b7343eb66e71c0297a2d1985aa7e502",
+  "revision": "worldgen-helper-1.2.0",
   "status": "PASS",
   "policy": "steam-only-automatic-server-list-v1",
-  "reviewedInventorySha256": "62d72708d76b7849e25fcf992d92bf55175e11fd4fc97b1846a66ea02eedbf4a",
+  "reviewedInventorySha256": "3093113172569490835635cc5e1b209e765266b2ebf333490878d6ca6de934b4",
   "files": 137,
   "textFilesChecked": 35,
   "personalServerListsModified": false,
-  "checks": "Five common regression tests passed; full reviewed text inventory checked against published SHA; no new gameplay run.",
-  "payloadChanges": []
+  "checks": "Full manifest comparison against 6b1463d found only the helper replacement. The helper changes the Bunker Down world-load and Just-In CAVE entity-join callbacks. Verified all 35 shipped text inputs.",
+  "payloadChanges": [
+    "mods/cad-world-type-lock-1.1.0.jar -> mods/cad-world-type-lock-1.2.0.jar"
+  ]
 }

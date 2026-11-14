@@ -30,7 +30,15 @@
 python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock
 ```
 
-CI использует `actions/setup-java` с `distribution: microsoft`, `java-version: 25.0.2`, затем ту же команду с `--verify-installed mods/cad-world-type-lock-1.1.0.jar`. Сборка не устанавливает и не публикует JAR. Canonical ZIP_STORED, фиксированные timestamps и платформа ZIP, отсортированные записи и LF ресурсов делают результат одинаковым на Windows и Linux. Выход: `artifacts/world-type-lock/cad-world-type-lock-1.1.0.jar`.
+CI использует `actions/setup-java` с `distribution: microsoft`, `java-version: 25.0.2`, затем ту же команду с `--verify-installed mods/cad-world-type-lock-1.2.0.jar`. Сборка не устанавливает и не публикует JAR. Canonical ZIP_STORED, фиксированные timestamps и платформа ZIP, отсортированные записи и LF ресурсов делают результат одинаковым на Windows и Linux. Выход: `artifacts/world-type-lock/cad-world-type-lock-1.2.0.jar`.
+
+## Стартовый бункер и Старый шахтёр
+
+`BunkerWorldLoadMixin` снимает вызов размещения стартового бункера с раннего `LevelEvent.Load`. На `ServerStartedEvent`, после подготовки стартовой области и перед обработкой входа игроков, helper вызывает исходный `StartWorldProcedure.execute` для Overworld. Авторские шаблоны, правила, сохранённый `WorldFirstStart` и перенос игрока на первом тике остаются в Bunker Down.
+
+`OldMinerJoinMixin` ставит вагонетку в очередь на `EntityJoinLevelEvent`, когда чанк ещё может не иметь статус FULL. В конце тика уровня helper выполняет исходный `TheOldMinerSummonProcedure.execute` с исходными координатами, если вагонетка зарегистрирована и нужный чанк доступен без блокирующей загрузки. Не принятые и удалённые вагонетки исключаются, повторное событие до обработки не создаёт второй запрос, очередь выгруженного измерения освобождается.
+
+В выпуске JAR Bunker Down 1.1.6 и Just-In CAVE 1.2.1 сохраняют исходные SHA256 из `tools/distribution-lock.json`. При обновлении любого из них сначала проверить оригинальные события, методы и условие вызова, затем повторить native QA на сидах `6959435403495007415` и `3141592653589793238`, включая вход в бункере, обычную вагонетку, вызов шахтёра, сохранение и повторный вход.
 
 Локальные native-проверки используют подготовленные точные Minecraft 1.20.1/Forge 47.3.7 библиотеки и Java 17. Выполнять из корня сборки:
 

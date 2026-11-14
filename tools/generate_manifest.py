@@ -294,11 +294,16 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         "assets": assets,
     }
 
+    distribution = json.loads((pack / "tools/distribution-lock.json").read_text(encoding="utf-8-sig"))
+    retired = list(distribution.get("historicalSupportFiles", []))
     if not client_jar:
         # Retire only the exact JAR from historical installs without sync state.
         upstream = json.loads((pack / "tools/upstream-lock.json").read_text(encoding="utf-8-sig"))
         reference = upstream["client"]
-        manifest["legacyFiles"] = [{key: reference[key] for key in ("path", "sizeBytes", "sha256")}]
+        retired.append(reference)
+    if retired:
+        manifest["legacyFiles"] = [{key: entry[key] for key in ("path", "sizeBytes", "sha256")}
+                                   for entry in retired]
 
     if (pack / "library/content.json").is_file():
         manifest["library"] = stage_library(pack, out, revision)

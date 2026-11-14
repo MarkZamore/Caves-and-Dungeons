@@ -27,6 +27,11 @@ def main():
         generated.parent.mkdir(exist_ok=True)
         generated.write_text(original.read_text(encoding='utf-8').replace('public final class ClientChecks {', 'public final class ' + agent_class + ' {'), encoding='utf-8')
         sources = [f for f in sources if f != original] + [generated]
+        checks = next(f for f in sources if f.name == 'WorldGenerationCheck.java')
+        generated_checks = generated.parent / checks.name
+        generated_checks.write_text(checks.read_text(encoding='utf-8').replace(
+            'cadqa.ClientChecks.', 'cadqa.' + agent_class + '.'), encoding='utf-8')
+        sources = [f for f in sources if f != checks] + [generated_checks]
     cmd = [str(a.jdk / 'bin/javac.exe' if (a.jdk / 'bin/javac.exe').exists() else a.jdk / 'bin/javac'), '--release', '17', '-encoding', 'UTF-8', '-d', str(classes), *map(str, sources)]
     subprocess.run(cmd, check=True)
     jar = out / ({'checks':'cad-native-client-checks', 'title-stop':'cad-native-title-stop', 'server-stop':'cad-native-server-stop'}[a.agent] + '-1.0.0.jar')

@@ -43,6 +43,8 @@ public final class ClientChecks {
     private static volatile java.util.concurrent.CompletableFuture<?> contentReload;
     private static volatile Throwable contentReloadFailure;
     private static boolean contentReloadRequested, contentReloadDone;
+    private static WorldGenerationCheck generation;
+    private static boolean worldGenerationRun;
 
     public static void agentmain(String argument, Instrumentation instrumentation) throws Exception {
         if (!STARTED.compareAndSet(false, true)) throw new IllegalStateException("Checks already attached");
@@ -57,7 +59,9 @@ public final class ClientChecks {
         worldName = required(p, "world");
         if (!worldName.matches("CAD-QA-[A-Za-z0-9-]{1,48}")) throw new IllegalArgumentException("Owned QA world name required");
         mode = required(p, "mode");
-        if (!Set.of("create-normal", "create-locked", "load-existing", "recreate", "missing-required").contains(mode)) throw new IllegalArgumentException("Unknown QA mode");
+        if (!Set.of("create-normal", "create-locked", "load-existing", "recreate", "missing-required", "world-generation").contains(mode)) throw new IllegalArgumentException("Unknown QA mode");
+        worldGenerationRun = mode.equals("world-generation") || (mode.equals("load-existing")
+                && Boolean.parseBoolean(p.getProperty("verifyStarterBunker", "false")));
         sourceWorld = p.getProperty("sourceWorld", "");
         if (mode.equals("recreate") && !sourceWorld.matches("CAD-QA-[A-Za-z0-9-]{1,48}")) throw new IllegalArgumentException("Owned recreation source required");
         seed = p.getProperty("seed", "3141592653589793238");
@@ -91,7 +95,7 @@ public final class ClientChecks {
         return n;
     }
     private static void watch(Instrumentation instrumentation) {
-        while (!failed && phase < 8) {
+        while (!failed && phase != 8) {
             try {
                 if (System.nanoTime() - begun > 900_000_000_000L) throw new IllegalStateException("Native QA exceeded 15 minutes");
                 if (client == null) {
@@ -185,7 +189,8 @@ public final class ClientChecks {
             invoke(state, "m_267649_", worldName); invoke(state, "m_267759_", seed);
             String gameMode = String.valueOf(call(state, "m_267761_"));
             String difficulty = String.valueOf(call(state, "m_267816_"));
-            if (locked) {
+            if (mode.equals("world-generation")) require("SURVIVAL".equals(gameMode), "native survival mode");
+            if (locked && !mode.equals("world-generation")) {
                 Object flat = registryEntry(state, "minecraft:flat");
                 invoke(state, "m_267770_", false); invoke(state, "m_267666_", true);
                 invoke(state, "m_267576_", flat);
@@ -273,7 +278,11 @@ public final class ClientChecks {
             }
             if (!serverObserved) {
                 ((Executor) server).execute(() -> {
-                    try { observeServer(server); serverObserved = true; } catch (Throwable failure) { fail(failure); }
+                    try {
+                        observeServer(server);
+                        if (mode.equals("world-generation")) generation = WorldGenerationCheck.start(server);
+                        serverObserved = true;
+                    } catch (Throwable failure) { fail(failure); }
                 });
                 phase = 5;
             }
@@ -281,6 +290,11 @@ public final class ClientChecks {
         }
         if (phase == 5 && serverObserved) {
             Object server = call(client, "m_91092_");
+            if (generation != null) {
+                phase = 9; since = System.nanoTime();
+                return;
+            }
+            if (worldGenerationRun) { phase = 6; since = System.nanoTime(); return; }
             if (!lanPublished) {
                 Object gameType = Class.forName("net.minecraft.world.level.GameType", false, client.getClass().getClassLoader()).getEnumConstants()[0];
                 boolean published = (Boolean) invoke(server, "m_7386_", gameType, false, 25587);
@@ -298,11 +312,21 @@ public final class ClientChecks {
             call(level, "m_7462_"); // same disconnect-before-clear ordering as native pause-menu Save and Quit
             call(client, "m_91399_"); phase = 7; since = System.nanoTime(); return;
         }
+        if (phase == 9 && System.nanoTime() - since > 3_000_000_000L) {
+            Object server = call(client, "m_91092_");
+            phase = 10;
+            ((Executor) server).execute(() -> {
+                try {
+                    emit(generation.verify());
+                    phase = 6; since = System.nanoTime() - 8_000_000_000L;
+                } catch (Throwable failure) { fail(failure); }
+            });
+        }
         if (phase == 7 && level == null && call(client, "m_91092_") == null) {
             require(Files.isRegularFile(world.resolve("level.dat")), "world saved to designated QA path");
             emit(Map.of("event", "completed", "mode", mode, "savedWorld", worldName,
                     "levelDatBytes", Files.size(world.resolve("level.dat")), "worldEntered", true,
-                    "integratedLanPublished", true, "guestJoinTested", false, "physicalInput", false));
+                    "integratedLanPublished", lanPublished, "guestJoinTested", false, "physicalInput", false));
             phase = 8; call(client, "m_91395_");
         }
     }
@@ -310,7 +334,8 @@ public final class ClientChecks {
     private static void observeServer(Object server) throws Exception {
         Object level = call(server, "m_129783_"); Object data = call(server, "m_129910_");
         Object options = call(data, "m_246337_"); long actualSeed = ((Number) call(options, "m_245499_")).longValue();
-        if (!mode.equals("load-existing")) require(actualSeed == Long.parseLong(seed), "actual persisted seed matches UI seed");
+        if (!mode.equals("load-existing") || worldGenerationRun)
+            require(actualSeed == Long.parseLong(seed), "actual persisted seed matches expected seed");
         Object chunkCache = call(level, "m_7726_"); Object generator = call(chunkCache, "m_8481_");
         require(generator.getClass().getName().equals(expectedGenerator), "actual Overworld generator matches scenario " + expectedGenerator);
         Object spawn = call(level, "m_220360_");
@@ -324,6 +349,11 @@ public final class ClientChecks {
         for (int dx = -5; dx <= 5; dx++) for (int dy = -3; dy <= 3; dy++) for (int dz = -5; dz <= 5; dz++) {
             Object state = invoke(level, "m_8055_", c.newInstance(x + dx, y + dy, z + dz));
             String b = String.valueOf(call(state, "m_60734_")); blocks.merge(b, 1, Integer::sum);
+        }
+        if (worldGenerationRun) {
+            require(y == 33, "author bunker spawn height");
+            for (String block : List.of("steel_block", "ceiling_lamp", "steel_vent"))
+                require(blocks.containsKey("Block{bunker_down:" + block + "}"), "starter bunker contains " + block);
         }
         emit(Map.of("event", "actual-server-world", "seed", actualSeed, "tickCount", call(server, "m_129921_"),
                 "generator", generator.getClass().getName(), "spawn", String.valueOf(spawn), "playerPosition", position(player),
@@ -428,9 +458,9 @@ public final class ClientChecks {
         try { return Class.forName("org.lwjgl.opengl.GL11", false, client.getClass().getClassLoader()).getMethod("glGetInteger", int.class).invoke(null, 3379); }
         catch (Throwable t) { return "unavailable:" + t.getClass().getSimpleName(); }
     }
-    private static void require(boolean value, String label) { if (!value) throw new IllegalStateException(label); }
-    private static Object call(Object receiver, String name) throws Exception { return method(receiver.getClass(), name).invoke(receiver); }
-    private static Object invoke(Object receiver, String name, Object... args) throws Exception { return find(receiver.getClass(), name, args.length).invoke(receiver, args); }
+    static void require(boolean value, String label) { if (!value) throw new IllegalStateException(label); }
+    static Object call(Object receiver, String name) throws Exception { return method(receiver.getClass(), name).invoke(receiver); }
+    static Object invoke(Object receiver, String name, Object... args) throws Exception { return find(receiver.getClass(), name, args.length).invoke(receiver, args); }
     private static Method method(Class<?> c, String name) throws Exception { return find(c, name, 0); }
     private static Method find(Class<?> c, String name, int n) throws Exception {
         for (Class<?> t = c; t != null; t = t.getSuperclass()) for (Method m : t.getDeclaredMethods()) if (m.getName().equals(name) && m.getParameterCount() == n) { m.setAccessible(true); return m; }

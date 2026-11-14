@@ -22,6 +22,8 @@ mode=create-locked
 seed=2718281828459045235
 ```
 
+Для проверки зависаний использовать `mode=world-generation` и `language=ru_ru`. Проверка создаёт обычный Survival, подтверждает фактический сид, вход на Y=33 у блоков стартового бункера, вызывает авторское условие шахтёра через настоящий `EntityJoinLevelEvent` и сравнивает с контрольной вагонеткой. Затем клиент штатно выходит из мира и проверяет `level.dat`. Для повторного входа запустить новый клиент, выбрать `mode=load-existing`, передать исходный `seed`, `expectedGenerator=net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator` и `verifyStarterBunker=true`. Такой прогон не публикует LAN. Скрипт `Invoke-WorldGenerationCheck.ps1` заполняет эти параметры для подготовленного стенда ForgeRuntimeQa.
+
 При первом старте чистого стенда проверка завершает штатный экран доступности его native `onClose`. Перед экраном создания она явно выбирает `ru_ru` в настоящем `LanguageManager` и загружает языковые ресурсы через его reload listener. `language=en_us` допускается для отдельных сценариев, не требующих русского названия пресета.
 
 ## Русские достижения и FTB Quests

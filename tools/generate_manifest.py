@@ -198,9 +198,35 @@ class Staging:
         }
 
 
+def verify_multiplayer_warning(pack: Path, portable: dict) -> Path:
+    if portable.get("minecraftVersion") != "1.20.1" or portable.get("loader") != {
+        "type": "forge", "version": "47.3.7"
+    }:
+        fail("re-audit the third-party server warning on the new game/loader before publishing")
+    helpers = list((pack / "mods").glob("cad-world-type-lock-*.jar"))
+    if len(helpers) != 1:
+        fail("the pack-owned third-party server warning policy requires one reviewed helper JAR")
+    helper = helpers[0]
+    with zipfile.ZipFile(helper) as archive:
+        try:
+            config = json.loads(archive.read("cad_world_type_lock.mixins.json"))
+            hook = archive.read("dev/lanminecraft/cadlock/mixin/MultiplayerWarningMixin.class")
+            mixin_manifest = archive.read("META-INF/MANIFEST.MF")
+        except KeyError as failure:
+            fail(f"missing third-party server warning policy in {helper.name}: {failure}")
+    if (config.get("required") is not True
+            or config.get("package") != "dev.lanminecraft.cadlock.mixin"
+            or config.get("client", []).count("MultiplayerWarningMixin") != 1
+            or b"MixinConfigs: cad_world_type_lock.mixins.json\r\n" not in mixin_manifest
+            or hashlib.sha256(hook).hexdigest() != "41f4a118a0a21437e4a7af1fb9bdf972a8b828cb0b3addded426309a1dbf0d5a"):
+        fail("the prepared helper lacks the audited skipMultiplayerWarning=true hook")
+    return helper
+
+
 def generate(pack: Path, out: Path, revision: str) -> None:
     network_logging_policy.verify(pack)
     portable = load_portable_pack(pack)
+    verify_multiplayer_warning(pack, portable)
     client_jar = portable.get("clientJar", "").replace("\\", "/")
     client_path = pack / Path(client_jar)
     if client_jar and not client_path.is_file():
@@ -396,6 +422,12 @@ def main() -> None:
 
     if args.verify_only:
         network_logging_policy.verify(pack)
+        helper = verify_multiplayer_warning(pack, load_portable_pack(pack))
+        manifest = json.loads((out / "pack-manifest.json").read_bytes())
+        path = helper.relative_to(pack).as_posix()
+        digest = hashlib.sha256(helper.read_bytes()).hexdigest()
+        if not any(row["path"] == path and row["sha256"] == digest for row in manifest["files"]):
+            fail("the staged manifest must include the reviewed multiplayer warning helper")
         verify_only(out)
         return
 

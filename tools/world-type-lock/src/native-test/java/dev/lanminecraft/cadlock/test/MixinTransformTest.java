@@ -75,10 +75,31 @@ public final class MixinTransformTest {
             Files.write(output.resolve(target.name().substring(target.name().lastIndexOf('.') + 1) + ".class"), transformed);
             report.add(target.name() + " original=" + hash(original) + " transformed=" + hash(transformed));
         }
-        report.add("PASS: real installed Mixin transformed the three exact Forge47.3.7 targets. This is offline hook placement proof, not a client startup/world-entry PASS.");
+        auditMultiplayerWarning(transformer, report);
+        report.add("PASS: real installed Mixin transformed the four exact Forge47.3.7 targets.");
         Files.writeString(output.resolve("mixin-transform-report.txt"), String.join("\n", report) + "\n",
                 StandardCharsets.UTF_8);
         report.forEach(System.out::println);
+    }
+
+    private static void auditMultiplayerWarning(IMixinTransformer transformer, List<String> report) throws Exception {
+        String name = "net.minecraft.client.gui.screens.TitleScreen";
+        byte[] original = bytes(name);
+        String sha = hash(original);
+        if (!sha.equals("2b51141a4c442aa0388cf0d7125090526b0862b599c3218da876eabb2afcccc7"))
+            throw new AssertionError("Unexpected Forge TitleScreen: " + sha);
+        ClassNode after = node(transformer.transformClassBytes(name, name, original));
+        String descriptor = "(Lnet/minecraft/client/gui/components/Button;)V";
+        MethodNode action = method(after, "m_210871_", descriptor);
+        MethodNode redirect = after.methods.stream().filter(m -> m.name.contains("skipThirdPartyServerWarning"))
+                .findFirst().orElseThrow();
+        if (calls(action, after.name, redirect.name) != 1
+                || Arrays.stream(action.instructions.toArray()).anyMatch(i -> i instanceof FieldInsnNode field
+                    && field.name.equals("f_92083_"))
+                || !Arrays.equals(Arrays.stream(redirect.instructions.toArray()).mapToInt(AbstractInsnNode::getOpcode)
+                    .filter(opcode -> opcode >= 0).toArray(), new int[] { Opcodes.ICONST_1, Opcodes.IRETURN }))
+            throw new AssertionError("Warning branch must read true without writing Options");
+        report.add("TitleScreen: only the native Multiplayer action reads an effective skipMultiplayerWarning=true.");
     }
 
     private static void auditConstructorFinish(ClassNode before, ClassNode after, List<String> report) {
@@ -210,9 +231,9 @@ public final class MixinTransformTest {
             throw new AssertionError("Only world-generation hooks belong in the common/server mixin list");
         List<String> names = new ArrayList<>();
         value.getAsJsonArray("client").forEach(item -> names.add(item.getAsString()));
-        if (!names.containsAll(List.of("WorldCreationUiStateMixin", "CreateWorldScreenMixin", "WorldTypeEntryMixin"))
-                || names.size() != 3)
-            throw new AssertionError("Expected exactly three client-only helper mixins");
+        if (!names.equals(List.of("WorldCreationUiStateMixin", "CreateWorldScreenMixin", "WorldTypeEntryMixin",
+                "MultiplayerWarningMixin")))
+            throw new AssertionError("Unexpected client-only helper mixins");
     }
 
     private static int lastReturn(MethodNode method, int opcode) {

@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="cad_world_type_lock"
-version="1.2.0"
+version="1.2.1"
 displayName="Caves and Dungeons Pack Resources"
 description='''Adds the Modded Mines preset, Russian advancement translations and safe world initialization for this pack.'''
 authors="LANMinecraft"

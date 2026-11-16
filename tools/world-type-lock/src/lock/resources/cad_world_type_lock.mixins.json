@@ -7,7 +7,8 @@
   "client": [
     "WorldCreationUiStateMixin",
     "CreateWorldScreenMixin",
-    "WorldTypeEntryMixin"
+    "WorldTypeEntryMixin",
+    "MultiplayerWarningMixin"
   ],
   "injectors": {
     "defaultRequire": 1

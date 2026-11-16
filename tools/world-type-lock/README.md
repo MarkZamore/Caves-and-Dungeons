@@ -30,7 +30,9 @@
 python tools/world-type-lock/build_helper.py --output artifacts/world-type-lock
 ```
 
-CI использует `actions/setup-java` с `distribution: microsoft`, `java-version: 25.0.2`, затем ту же команду с `--verify-installed mods/cad-world-type-lock-1.2.0.jar`. Сборка не устанавливает и не публикует JAR. Canonical ZIP_STORED, фиксированные timestamps и платформа ZIP, отсортированные записи и LF ресурсов делают результат одинаковым на Windows и Linux. Выход: `artifacts/world-type-lock/cad-world-type-lock-1.2.0.jar`.
+CI использует `actions/setup-java` с `distribution: microsoft`, `java-version: 25.0.2`, затем ту же команду с `--verify-installed mods/cad-world-type-lock-1.2.1.jar`. Сборка не устанавливает и не публикует JAR. Canonical ZIP_STORED, фиксированные timestamps и платформа ZIP, отсортированные записи и LF ресурсов делают результат одинаковым на Windows и Linux. Выход: `artifacts/world-type-lock/cad-world-type-lock-1.2.1.jar`.
+
+`MultiplayerWarningMixin` выбирает штатную ветку `skipMultiplayerWarning` при нажатии разрешённой кнопки «Сетевая игра» в главном меню Forge 47.3.7. Значение в `Options` и файл `options.txt` сохраняются. Проверка доступности кнопки и остальные экраны остаются штатными.
 
 ## Стартовый бункер и Старый шахтёр
 

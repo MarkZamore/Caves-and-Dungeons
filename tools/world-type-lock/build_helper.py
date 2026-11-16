@@ -15,7 +15,7 @@ import urllib.request
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
-VERSION = '1.2.0'
+VERSION = '1.2.1'
 
 
 def sha(path):

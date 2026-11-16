@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "files": [
     {
-      "path": "mods/cad-world-type-lock-1.2.0.jar",
-      "sizeBytes": 70684,
-      "sha256": "75b6b52fbc5e248ea68a82a0b08e168e2d52616ed8097e741f09e19b50f5b658",
+      "path": "mods/cad-world-type-lock-1.2.1.jar",
+      "sizeBytes": 71765,
+      "sha256": "328070ed527e705931ab39f9ac8a32b3c077be3804e58f940a4358cad699458b",
       "modIds": [
         "cad_world_type_lock"
       ],

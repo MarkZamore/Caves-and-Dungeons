@@ -1410,7 +1410,7 @@
     {
       "path": ".github/workflows/publish.yml",
       "sizeBytes": 5731,
-      "sha256": "d2c652939638760c3c33a8a8ec1f9e211ad84ea1417ae4138016758f6feeaeec"
+      "sha256": "4149162fbd502ffb2578e909562db4b467e10d478c3926d50ae78fbd2bb95245"
     },
     {
       "path": "AGENTS.md",
@@ -1633,9 +1633,9 @@
       "sha256": "b8773c1bef92cb089a33a9ac319f81cf47fa4c739e350e2a7f4e2c72def0e4b5"
     },
     {
-      "path": "mods/cad-world-type-lock-1.2.0.jar",
-      "sizeBytes": 70684,
-      "sha256": "75b6b52fbc5e248ea68a82a0b08e168e2d52616ed8097e741f09e19b50f5b658"
+      "path": "mods/cad-world-type-lock-1.2.1.jar",
+      "sizeBytes": 71765,
+      "sha256": "328070ed527e705931ab39f9ac8a32b3c077be3804e58f940a4358cad699458b"
     },
     {
       "path": "portable-pack.json",
@@ -1659,23 +1659,23 @@
     },
     {
       "path": "tools/keybinds/stock.json",
-      "sha256": "7e7dbfc8946504174a5a8f269ad1e05837d67e219a9c638b0d08f471d2e54cb4",
+      "sha256": "cc87d0c624879c183774cdb19c4f21b31ea793ad9d9739bb4779b7a40b7d2a96",
       "sizeBytes": 24338
     },
     {
       "path": "tools/local-mods.json",
       "sizeBytes": 345,
-      "sha256": "0604aa5bb1ad4f31bfe945776177ce8987c2eb6be49f308c5bd9e13289fd0303"
+      "sha256": "c17693c028ca4caeb151b9e02507435de87707f1ac148e4d78aaef68e003c3f1"
     },
     {
       "path": "tools/public-server-policy-proof.json",
-      "sizeBytes": 650,
-      "sha256": "3226c57ce2e553cb775563dc5e4e134f4a81faf607686cf879f6a1475764e4ad"
+      "sizeBytes": 620,
+      "sha256": "77ca7e407742fb7dcb5c4151becc17782cbe2b02d2f35279056c7b421a2fdd13"
     },
     {
       "path": "tools/public-server-policy.json",
       "sizeBytes": 818,
-      "sha256": "85d60d0bb4fd7cdab41f9f946b01cd632da8c3a688102a008f851ee6b736d48c"
+      "sha256": "154bf21036993f643df8f6581df1c888af3c36b60d6f386a1ea9f42c727abd00"
     },
     {
       "path": "tools/public_server_policy.py",
@@ -1756,6 +1756,12 @@
       "sizeBytes": 54660,
       "sha256": "c3db76c6a78cdc9524759e2195fd99eee628ca1292476f91e0f63b48529a81d5",
       "reason": "Replaced by 1.2.0 world generation lifecycle fixes."
+    },
+    {
+      "path": "mods/cad-world-type-lock-1.2.0.jar",
+      "sizeBytes": 70684,
+      "sha256": "75b6b52fbc5e248ea68a82a0b08e168e2d52616ed8097e741f09e19b50f5b658",
+      "reason": "Replaced by 1.2.1 title-screen warning preference."
     }
   ]
 }

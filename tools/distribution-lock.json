@@ -1583,6 +1583,11 @@
       "sha256": "2569ad8647c7611df3dcb38a5af2d6b6979fd62dc2ccf52ccd26dcbc5afd9058"
     },
     {
+      "path": "config/lanminecraft/experimental-world-confirmation.jar",
+      "sizeBytes": 385299,
+      "sha256": "6db006392ebcfa6ce3cb5d21da8c8772eacfa388052e6e97bd5dd925734dd8bc"
+    },
+    {
       "path": "config/log4j2.xml",
       "sizeBytes": 4617,
       "sha256": "9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89"
@@ -1599,13 +1604,13 @@
     },
     {
       "path": "launcher/jvm-args.txt",
-      "sizeBytes": 44,
-      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
+      "sizeBytes": 111,
+      "sha256": "6d1dd3ea430f376463bda0836f9b2cdcb5ee6d032c17b1fdf9100b647d5323d2"
     },
     {
       "path": "launcher/pack-owned.txt",
-      "sizeBytes": 134,
-      "sha256": "24a3f8bb0ed837b8aed93c783c44643503c0a2e5a2dc97c3667fa5540fc69bac"
+      "sizeBytes": 190,
+      "sha256": "a128d896215a3efe8cb85ca7f8236bf1df9034cf96977cd6ab29a03499edd8cb"
     },
     {
       "path": "library/README.md",
@@ -1674,8 +1679,8 @@
     },
     {
       "path": "tools/public-server-policy.json",
-      "sizeBytes": 818,
-      "sha256": "154bf21036993f643df8f6581df1c888af3c36b60d6f386a1ea9f42c727abd00"
+      "sizeBytes": 1037,
+      "sha256": "d6d5dd02cf24693649d57bce5fe4656b1d96d0e3b4f9782a265c92f35af44641"
     },
     {
       "path": "tools/public_server_policy.py",
